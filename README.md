@@ -158,13 +158,13 @@ python main.py
 2. **Giao diện chính**
    ```
    ┌─────────────────────────────────────┐
-   │        🤖 RAG System               │
+   │            RAG System               │
    ├─────────────────────────────────────┤
    │                                     │
-   │  [Lịch sử chat hiển thị ở đây]    │
+   │  [Lịch sử chat hiển thị ở đây]      │
    │                                     │
    ├─────────────────────────────────────┤
-   │ [Nhập câu hỏi của bạn...]    [Gửi] │
+   │ [Nhập câu hỏi của bạn...]    [Gửi]  │
    └─────────────────────────────────────┘
    ```
 
@@ -299,12 +299,13 @@ rag-system/
 
 ### 📋 Mô tả files chính:
 
-| File | Mô tả | Khuyến nghị |
-|------|-------|-------------|
-| `test_simple.py` | 🌟 Phiên bản cơ bản, khởi động nhanh | Người mới bắt đầu |
-| `main_working.py` | 🧠 Phiên bản AI với embeddings | Sử dụng nâng cao |
-| `main.py` | 🚀 Phiên bản đầy đủ tính năng | Production |
-| `main_simplified.py` | ⚡ Phiên bản tối ưu | Development |
+| File               | Mô tả                               | Khuyến nghị         |
+|--------------------|--------------------------------------|---------------------|
+| `test_simple.py`   | 🌟 Phiên bản cơ bản, khởi động nhanh | Người mới bắt đầu   |
+| `main_working.py`  | 🧠 Phiên bản AI với embeddings       | Sử dụng nâng cao    |
+| `main.py`          | 🚀 Phiên bản đầy đủ tính năng        | Production          |
+| `main_simplified.py` | ⚡ Phiên bản tối ưu                 | Development         |
+
 
 ---
 
@@ -364,7 +365,7 @@ TOP_K_RETRIEVAL = 5
 
 ### 💬 Thảo luận:
 - 💭 [GitHub Discussions](https://github.com/J2TEAMNHQK/rag-system/discussions)
-- 📧 Email: support@j2team.dev
+- 📧 Email: j2teamnhqk@gmail.com
 
 ---
 
