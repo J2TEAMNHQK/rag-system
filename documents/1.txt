@@ -1,0 +1,1895 @@
+﻿Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chương 1:  
+Khái quát về hệ thống giao thông thông minh 
+1. Hệ thống giao thông  
+Hệ thống giao thông là một trong những hệ thống trọng yếu của xã hội hiện đại, có  trách nhiệm nhiệm đảm bảo sự di chuyển của người và hàng hóa từ nơi này đến nơi  khác. Nó tồn tại trong một môi trường gồm nhiều hệ thống khác nhau (ví dụ: hệ thống  thông tin liên lạc, hệ thống năng lượng, hệ thống các mối quan hệ kinh tế…) cùng kết  hợp vận hành hoạt động xã hội. Do vậy, hệ thống này sẽ tương tác và có thể kết hợp với  các hệ thống khác.  
+Hệ thống giao thông gồm nhiều thành phần chức năng mà mỗi thành phần đảm nhận  một nhiệm vụ vận tải cụ thể:  
++ Thành phần vật chất: bao gồm đường xá, cầu cống, đường sắt, nhà ga, cảng hàng  không, cảng sông biển, và hệ thống kênh rạch.  
++ Phương tiện giao thông: Xe, tàu, máy bay…  
++ Cơ sở vật chất: cơ sở bảo dưỡng phương tiện giao thông, văn phòng, tổ chức quản lý.  + Quy tắc vận hành: bao gồm định hướng luồng tuyến, kế hoạch vận tải và điều khịển  giao thông.  
+2. Các vấn đề của hệ thống giao thông  
+Hệ thống giao thông không chỉ có vai trò quan trọng trong vận tải con người hàng  hóa, phục vụ phát triển kinh tế mà còn là một hệ thống tiêu thụ rất nhiều năng lượng và  có tác động lớn đến môi trường sinh thái. Thống kê cho thấy giao thông vận tải tiêu thụ trên 1/2 lượng xăng dầu của thế giới và là yếu tố chính gây ra ô nhiễm không khí, tiếng  ồn, phá hoại tự nhiên.  
+Tuy nhiên, hệ thống giao thông ở nhiều nước, đặc biệt là các nước đang phát triển  đang rất khó khăn trong đáp ứng nhu cầu đi lại. Cơ sở hạ tầng đang chịu sức ép rất lớn  từ sự gia tăng đột biến các phương tiện giao thông cá nhân. Một số nước như Việt Nam,  Thái Lan, tỷ lệ sử dụng xe máy và xe ôtô chiếm phần lớn trong các chuyến đi lại của  người dân trong khi giao thông công cộng chưa được quan tâm đúng mức. Do đó, ùn tắc  giao thông chủ yếu là hệ quả của việc nhu cầu giao thông vượt quá cung ứng giao thông  (hạ tầng giao thông v.v…). Trong thực tế, cung ứng giao thông là hữu hạn do khả năng  hạn chế trong đầu tư xây dựng cơ sở hạ tầng.  
+Do vậy, nhiệm vụ đặt ra là bên cạnh xây dựng hạ tầng giao thông, chúng ta cần phải  khai thác hiệu quả cơ sở hạ tầng sẵn có. Theo đó, về cơ bản có 2 nhóm giải pháp để hướng tới mục tiêu này. Một nhóm giải pháp là giảm số lượng xe cơ giới cá nhân đồng  thời tăng lượng đi lại bằng giao thông công cộng thông qua các biện pháp thay đổi hành  vi giao thông. Nhóm giải pháp thứ hai hướng đến tổ chức và quản lý giao thông, nâng  cao độ an toàn và khả năng thông hành của cơ sở hạ tầng giao thông. Bài giảng này  phục vụ cho nhóm giải pháp thứ hai, đó là ứng dụng kỹ thuật giao thông và công nghệ thông tin để cải thiện dòng xe và tính an toàn của hệ thống giao thông.  
+3. Hệ thống giao thông thông minh – ITS  
+3.1 Khái niệm hệ thống giao thông thông minh  
+Ứng dụng của công nghệ mới đã tạo ra chuyển biến mạnh trong hệ thống giao thông.  Đầu tiên, phải kể đến những đột phá trong chế tạo phương tiện giao thông. So với 10-20  năm trước, các phương tiện giao thông ngày nay nhanh hơn và an toàn hơn; đặc biệt  ‘thông minh’ hơn với một số phương tiện có khả năng tự lái, tiết kiệm năng lượng.  Ngoài ra, công nghệ thông tin liên lạc còn giúp lái xe và xe có thể ‘giao tiếp’ với các 
+1 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+yếu tố môi trường xung quanh. Hệ thống đường, một yếu tố của môi trường, tương ứng  cũng được tích hợp các thiết bị điện tử để có thể nhận biết sự hiện diện của phương tiện  giao thông. Hệ thống đường và xe thông minh nêu trên cơ bản gọi là ITS (xem hình 1.1),  được chiến lược hóa nhằm mục đích cải thiện an toàn, giảm ùn tắc, làm cho việc đi lại  dễ dàng hơn, giảm tác động lên môi trường của hệ thống giao thông, tăng tính hiệu quả trong việc sử dụng năng lượng, và tăng hiệu suất vận chuyển. Theo đó, người ta sử dụng  hệ thống đèn tín hiệu nâng cấp, thực hiện các cải tiến việc cung cấp thông tin về hệ thống giao thông cho người lái xe, các chức năng tự động quản lý điều hành, hệ thống  cảnh báo nguy hiểm cho người lái xe, các hệ thống điều khiển xe tự động v.v… Khái  niệm “đường thông minh” được phát triển dựa trên kinh nghiệm của Nhật trong thực  hiện ITS. Nó bao gồm đường, phương tiện giao thông, hệ thống thông tin và hệ thống  xử lý.  
+Thông tin, liên  
+Con  
+lạc và kỹ thuật
+  
+người   Xe  
+  
+Đường 
+Định vị 
+Tìm đường  
+Thông tin  
+Hình 1.1: Khái niệm ITS (Nguồn: Ministry of Land, Infrastructure and Transport, Japan,  2007)  
+3.2. Phân loại hệ thống ITS  
+Ở Hoa Kỳ, người ta đưa ra một hệ thống phân loại hệ thống ITS bao gồm các nhóm  chức năng sau:  
++ Quản lý vận tải đi lại: Thông tin về đường đi cho lái xe, điều khiển giao thông, quản  lý sự cố, và kiểm tra và giảm khí thải.  
++ Quản lý nhu cầu giao thông: Thông tin trước chuyến đi, ghép nối chuyến đi và khai  thác và quản lý nhu cầu.  
++ Khai thác vận tải công cộng: quản lý giao thông công cộng, thông tin đường đi cho  giao thông công cộng, giao thông công cộng cá nhân và an ninh giao thông công cộng.  + Các dịch vụ thu phí tự động  
++ Khai thác xe thương mại: dọn dẹp xe bị sự cố, giám sát an toàn ven đường tự động,  giám sát an toàn trên xe, ứng phó sự cố tai nạn có vật liệu độc hại, quản lý đội xe  thương mại.  
++ Quản lý khẩn cấp: Thông báo khẩn cấp, quản lý xe cứu nạn và an toàn cá nhân.  + Các hệ thống an toàn và kiểm soát xe tự động: Tránh tông va quẹt trên đường và tại  giao lộ, các hệ thống đường tự động…  
+2 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Các kỹ thuật ITS cũng có thể được phân nhóm theo chức năng, chẳng hạn hệ thống  quản lý giao thông cao cấp (Advanced Traffic Management Systems-ATMS), hệ thống  thông tin cao cấp cho người đi đường (Advanced Traveler Information Systems-ATIS),  hệ thống kiểm soát xe cộ cao cấp (Advanced Vehicle Control Systems-AVCS). Trong  cách phân loại này, ATMS là những hệ thống nhằm quản lý dòng xe, chẳng hạn hệ 
+thống tín hiệu liên thông, hệ thống ramp metering, hệ thống quản lý sự cố; ATIS bao  gồm những hệ thống gửi thông tin đến người đi đường (thông tin về tình trạng đường,  hướng dẫn tuyến…); và AVCS hệ thống đường tự động và các hệ thống điều khiển gắn  trên xe để tăng tính an toàn (tránh va quẹt, tăng tầm nhìn…). Vì cả kỹ thuật ATMS và  ATIS đều dựa trên các dữ liệu giao thông được thu thập tự động (tốc độ, lưu lượng…),  chúng có thể được xem là một với tên gọi là hệ thống quản lý và thông tin cao cấp  (Advanced Traffic Management and Information Systems-ATMIS).  
+Ở giai đoạn đầu trong khai thác ứng dụng ITS, các nước tập trung vào 3 hệ thống  chính: hệ thống quan trắc giao thông, hệ thống thông tin và hệ thống tín hiệu giao thông.  Đối với hệ thống quan trắc và hệ thống tín hiệu giao thông, ITS chú trọng vào các thiết  bị phát hiện xe, và các thuật toán điều khiển đèn tín hiệu. Đối với hệ thống thông tin,  người ta chú trọng vào các hệ thống dùng chung như sóng radio, bảng tín hiệu điện tử,  Internet và điện thoại di động; và các hệ thống truyền tin riêng đến từng cá nhân lái xe,  chẳng hạn: hệ thống dẫn đường trên xe, hệ thống thông tin tình trạng giao thông từng  thời điểm và hệ thống hướng dẫn tuyến đường đi. Riêng đối với các hệ thống an toàn và  kiểm soát xe, người ta đang hướng đến phát triển các hệ thống cảnh báo nguy hiểm, hay  xa hơn nữa là hệ thống đường tự động (automated highway system).  
+3.3. Cấu trúc hệ thống ITS  
+Một yêu cầu quan trọng trọng ITS là các thành phần của hệ thống ITS phải tương  thích với nhau. Việc này sẽ tiết kiệm chi phí lắp đặt trên diện rộng, liên thông giữa các  khu vực, và thuận lợi trong đào tạo và sử dụng cán bộ quản lý hệ thống. Ngoài ra, cũng  có trường hợp, các phần cứng, phần mềm không thích hợp để áp dụng vào môi trường  khác với môi trường nó được thiết kế. Do đó, cần phải có một cấu trúc ITS thống nhất,  trong đó mô tả cách các thành phần hệ thống hoạt động và tương tác với nhau để đạt  được mục tiêu tổng thể của hệ thống. Một cấu trúc là cơ sở để quyết định nghi thức  chuẩn để trao đổi dữ liệu giữa các thành phần xác định của hệ thống. 
+3 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Hệ thống  
+trung tâm  Thông tin 
+Các trung  
+tâm khác  
+Liên thông 
+Yêu cầu  
+Người đi lại Truy cập từ 
+Yêu cầu dịch vụ 
+Yêu cầu  
+TT Quản Lý  
+Nhân viên  trung tâm  
+Trạng thái  
+xa  
+Đáp ứng 
+GT (TMC) 
+Trạng thái  
+Yêu cầu  
+Yêu cầu dữ liệu thăm dò  Thông tin 
+Nhận diện 
+Trạng thái  
+Điều khiển  
+Yêu cầu  
+Người lái xe Phương tiện  giao thông  
+Xác nhận 
+Trạm ven  đường  
+Nhân viên  trạm ven  
+Trạng thái  
+AHS  
+Điều khiển  
+Trạng thái  
+giao dịch  
+Trở ngại Chất lượng không khí 
+Điều khiển  
+Trạng thái  
+Trạng thái  
+đường 
+Người sử dụng  
+Người lái xe Hệ thống  
+Hệ thống  
+Hệ thống  
+Ph/tiện GT  
+Môi trường ngoài ITS  ven đường 
+Môi trường 
+Hệ thống  
+phụ khác  
+Hình 1.2: Cấu trúc khái quát của một hệ thống giao thông thông minh  
+Hình 1.2 là 1 lưu đồ mô tả cấu trúc khái quát của một ITS. Hình vẽ thể hiện các  đường đi có thể của thông tin giữa một trung tâm quản lý giao thông (transportation  management center – TMC) và các nguồn và người sử dụng thông tin (chú ý: loại thông  tin có thể được trao đổi được thể hiện bên dưới các mũi tên). Nó bao gồm: Các TMC  khác, người tham gia giao thông muốn biết thông tin về tình trạng giao thông, phương  tiện giao thông và người điều khiển, nhân viên ở các TMC và các thiết bị cảm biến mà  cung cấp thông tin về tình hình giao thông. Giao tiếp giữa TMC và môi trường đường  được thực hiện bởi các hệ thống thiết bị ven đường, chẳng hạn như các thiết bị đếm,  điều khiển tín hiệu, bảng báo hiệu điện tử, các hệ thống video, máy phát song radio,  cảm biến thời tiết. Giao tiếp với các người đi lại khác (mà không đang sử dụng hạ tầng  giao thông) có thể được thực hiện thông qua internet hay các thiết bị từ xa như trạm  thông tin. Giao tiếp cũng có thể là giữa các TCM với nhau.  
+Một cấu trúc của hệ thống giao thông cụ thể của Nhật Bản được trình bày ở hình 1.3.  
+4 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+  
+
+Hình 1.3: Cấu trúc hệ thống ITS của Nhật Bản.  
+3.4. Vai trò – Ý nghĩa của ITS  
+ITS đóng vai trò quan trọng hơn trong quản lý giao thông vì các lý do sau đây:  • Sự gia tăng nhận thức trong chính quyền rằng giải pháp quản lý giao thông  truyền thống như xây dựng thêm đường xa là không đủ.  
+• Sự gia tăng nhanh chóng các loại phương tiện và kỹ thuật phương tiện đi lại  • Thiệt hại gây ra bởi giao thông như kẹt xe, ô nhiễm môi trường ngày càng nhiều  và không thể chấp nhận được.  
+• Sự phát triển của kỹ thuật mới và khả năng ứng dụng rộng rãi trong đời sống  như GPS, hệ thống dẫn đường, sẽ góp phần tạo cho việc đi lại dễ dàng, thuận  tiện và an toàn hơn.  
+• Ngành công nghiệp chế tạo các thiết bị phục vụ ITS phát triển mạnh.  
+Về cơ bản, ITS sử dụng công nghệ thông tin, bao gồm: phần cứng, phần mềm, điện  tử, điều khiển và viễn thông. Người ta hy vọng rằng kỹ thuật điện tử tin học có thể làm  chuyển biến hoàn toàn hệ thống giao thông trên mặt đường. Tổ chức ITS của châu Âu  (ERTICO) tin rằng nếu được áp dụng hiệu quả, ITS có thể tiết kiệm thời gian, tiền của  và sinh mạng con người cũng như giảm tác động của giao thông đi lại lên môi  trường.Tuy nhiên, thực tế cho thấy những cải thiện giao thông có được từ hệ thống điều  khiển giao thông tự động và hệ thống cung cấp thông tin cho lái xe thực sự chưa thực sự rõ nét. Để có thể làm cho kẹt xe giảm đáng kể, có lẽ cần phải kết hợp thêm các giải pháp  khác về quản lý nhu cầu giao thông. 
+5 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chương 2:  
+HỆ THỐNG QUAN TRẮC GIAO THÔNG  (Traffic surveillance systems)  
+1. Giới thiệu  
+Quan trắc giao thông là liên tục theo dõi tình trạng của hệ thống giao thông. Chức  năng này là cơ sở cho tất cả các chức năng và ứng dụng khác trong ITS bởi vì ITS dựa  trên việc sử dụng thông tin tức thì về trạng thái của hệ thống giao thông. Hệ thống quan  trắc giao thông thu thập nhiều loại dữ liệu, trong số đó, quan trọng nhất là dữ liệu về 
+trạng thái hoạt động của hệ thống giao thông. Hoạt động của hệ thống giao thông được  đánh giá thông qua 3 thông số cơ bản, đó là: lưu lượng, tốc độ và mật độ. Các thông số này được thu thập bằng thiết bị quan trắc hiện đại. Bên cạnh đó, một số thông số khác  cũng được thu thập bởi kỹ thuật quan trắc. Đó là việc xử lý hình ảnh video về các hoạt  động của hệ thống giao thông, chiều dài chờ, thời gian di chuyển giữa 2 điểm, vị trí của  xe ứng cứu khẩn cấp, vị trí của xe buýt và GTCC, các dữ liệu về môi trường như nhiệt  độ, tốc độ gió, tình trạng mặt đường, mức độ khí thải và chất lượng không khí.  
+2. Các thành phần của hệ thống quan trắc  
+Một hệ thống quan trắc giao thông bao gồm 4 thành phần: Phương pháp (các thiết  bị) dò tìm; phần cứng; phần mềm; và thông tin. Các phương pháp dò tìm sử dụng  các kỹ thuật xâm nhập như vòng từ (inductive loop), ống hơi, cảm biến áp điện  (piezoelectric sensor); và sử dụng kỹ thuật không xâm nhập (được bố trí ngoài vùng mặt  đường) như cảm biến âm thanh, vi sóng, hồng ngoại, siêu âm, camera, TV tín hiệu cáp,  xử lý ảnh video. Ngoài ra còn có thể thu thập thông tin về giao thông từ các báo cáo từ xe thăm dò (probe vehicle), người dân và cảnh sát, hoặc dữ liệu từ cảm biến môi trường  theo dõi chỉ số chất lượng không khí. Phần cứng hardware bao gồm: máy tính, màn hình  hiển thị, điều khiển và biển tín hiệu. Phần mềm software được dùng để chuyển đổi dữ 
+liệu thu thập bởi các thiết bị dò tìm để giao tiếp và truyền tin với các thiết bị hiện trường  (như các hộp nhận, phân tích, chuyển đổi dữ liệu, biển báo, đèn tín hiệu). Hệ thống  thông tin kết nối các thành phần ở trung tâm điều khiển với các thiết bị hiện trường.  
+2.1 Các phương pháp dò tìm  
+Các phương pháp dò tìm được thực hiện bằng ba kỹ thuật chính, đó là kỹ thuật xâm  nhập (instrusive), kỹ thuật không xâm nhập (non-intrusive) và kỹ thuật tách khỏi  đường (off-roadway). Các thiết bị cảm biến xâm nhập được lắp đặt trong phạm vi dành  cho xe chạy. Các thiết bị cảm biến không xâm nhập được lắp đặt phía trên lòng đường  hoặc trên lề đường và ít gây cản trở giao thông khi lắp đặt. Trong khi đó, kỹ thuật tách  khỏi đường không cần phải lắp đặt thiết bị tại nơi cần quan trắc, ví dụ xe thăm dò  (probe vehicle).  
+Vòng từ là thiết bị dò tìm phổ biến nhất trong việc quan trắc giao thông và thu thập  các thông tin đếm xe. Các thiết bị quan trắc không xâm nhập được phát minh nhằm mục  đích thay thế vòng từ vì những thiết bị này lắp đặt thuận tiện, không cản trở giao thông  và không bị tác động bởi tải trọng của xe cộ. Tuy nhiên về cơ bản, nhiều thiết bị dò  tìm không xâm nhập có nguyên lý làm việc tương tự như nguyên lý làm việc của  vòng từ. Bên dưới là mô tả về các phương pháp dò tìm giao thông hiện có.  
+2.1.1. Kỹ thuật xâm nhập: 
+1 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
++ Vòng từ (Inductive loop detector - ILD): được sử dụng rộng rãi trong việc dò tìm  nhận biết xe. Nó được sử dụng chủ yếu tại các giao lộ có gắn hệ thống điều khiển hiện  đại và trên đường cao tốc để phát hiện sự cố giao thông và theo dõi giao thông. Vòng từ được làm bằng một vài vòng dây cách ly được chôn dưới mặt đường. Vòng từ được nối  với nguồn điện và với 1 bộ dò tìm. Dòng điện này có tần số khoảng 10-50 kHz và được  kiểm soát bởi bộ dò tìm, thực chất là 1 điện kế (electrical meter). Vì có điện, vòng từ này sinh ra 1 vùng từ trường và khi có 1 xe (vật thể có thân bằng kim loại dẫn điện)  chạy ngang qua vòng dây, nó sẽ làm nhiễu loạn vùng từ trường này. Từ trường thay đổi  sẽ sinh ra một sự thay đổi độ tự cảm của vòng dây tức là sự dao động về tần số. Thiết bị đo (bộ dò tìm) sẽ cảm nhận được những thay đổi này. Nếu sự thay đổi về tần số lớn hơn  1 giá trị ngưỡng định sẵn, 1 tín hiệu sẽ được gửi đến controller là hệ thống máy tính  nhận diện là có xe đi qua (xem hình 2.1).  
+  
+
+Hình 2.1: Nguyên lý làm việc của vòng từ (Photo của HowStuffWorks)  
+Vòng từ có thể hoạt động ở chế độ nhận biết xung (pulse mode) hoặc chế độ nhận  biết hiện diện (presence mode). Trong chế độ nhận biết xung, vòng dây gửi một tín hiệu  ngắn (trong khoảng 0.125s) đến bộ dò tìm và hệ thống do đó dùng để đếm lưu lượng.  Trong chế độ nhận biết hiện diện, tín hiệu từ vòng dây được duy trì liên tục khi một xe  choáng chỗ trong khu vực phát hiện của vòng dây. Do vậy, chế độ nhận biết có thể 
+cung cấp thông tin về lưu lượng và thời gian một xe choáng chỗ trong vòng dây. Việc  lắp đặt vòng từ có nhược điểm là phải dừng giao thông để cưa đào mặt đường lắp đặt.  Hình bên dưới mô tả quá trình lắp đặt vòng từ. Bên cạnh đó, vòng từ không phải lúc nào  cũng đạt được độ tin cậy như mong muốn và có thể bị hỏng do lắp đặt, do tải trọng xe  và do thay đổi thủy nhiệt nền mặt đường. Ở Mỹ, luôn có khoảng 30% vòng từ đang lắp  đặt không hoạt động được do hư hỏng.  
+Về cơ bản có hai dạng bố trí vòng từ: Vòng từ đơn (single loop) và vòng từ kép  (dual loop). Vòng từ đơn là loại chỉ có một vòng thép cảm ứng bố trí riêng rẽ để nhận  biết tín hiệu việc choáng chỗ của xe. Trong khi đó, vòng từ kép bao gồm 2 vòng thép bố trí kề liền nhau, cùng làm việc để chuyển các tín hiệu nhận được từ việc cảm ứng xe đến  bộ xử lý dò tìm. 
+2 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+  
+
+	  
+
+	  
+
+	
+
+	
+
+
+
+Hình 2.2: Lắp đặt vòng từ (Photo của:www.ecn.purdue.edu/~darcy)  
+Do có cấu tạo như mô tả mà vòng từ đơn và vòng từ kép có chi phí lắp đặt và công  năng sử dụng khác nhau. Vòng từ đơn chỉ có thể đo trực tiếp thời gian xe choáng chỗ trong vòng từ, do đó, nó chỉ được sử dụng chủ yếu để đếm xe. nếu muốn ước lượng vận  tốc, ta cần phải có thêm một số phép thống kê. Trong khi đó, vòng từ kép có thể đo  thêm vận tốc xe từ tỷ số giữa khoảng cách giữa 2 vòng từ và thời gian lệch giữa hai thời  điểm phát hiện xe của hai vòng. Do vậy, bên cạnh việc đếm xe, người ta còn dùng vòng  từ kép để phân loại xe dựa trên chiều dài tính toán từ giá trị vận tốc này.  
+Về chi phí lắp đặt, rõ ràng vòng từ kép tốn kém nhiều hơn. Bên cạnh đó, hiện tại ở nhiều nước, vòng từ đơn và bộ xử lý dò tìm đã được triển khai khá phổ biến. Các nghiên  cứu gần đây hướng đến việc mở rộng công năng của vòng từ đơn bằng các phương pháp  ước lượng vận tốc từ dữ liệu thu thập được của vòng từ đơn. Chi tiết về sự làm việc của  hai dạng vòng từ và phương pháp ước lượng được trình bày ở mục 3.  
++ Ống hơi (Pneumatic tube):  
+Ống hơi được lắp đặt bằng cách dán một ống hơi ngang trên mặt đường, vuông góc  hướng xe chạy. Khi một xe chạy cán qua, ống hơi, một xung khí áp sẽ truyền dọc ống.  Xung khí này sẽ làm đóng bật một công tắc khí, gây ra một tín hiệu điện nhận diện có  thêm một trục vừa qua. Thiết bị này đơn giản, lắp đặt nhanh, ít tốn kém chi phí vận  hành nên thường được dùng để đếm xe. Tuy nhiên khi dòng xe đông thì thiết bị này  kém chính xác. Mặc khác, nhiệt độ cũng làm ảnh hưởng sự hoạt động của công tắc khí  và ống hơi có thể bị bong tróc, nứt vỡ do bánh xe gây ra. Ống hơi cũng không thể sử dụng cho dòng xe hỗn hợp không phân làn như ở VN. Do vậy, ống hơi chỉ được dùng  để đếm dòng xe ô tô và ít được dùng để dò tìm quan trắc trong thời gian dài. 
+3 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+  
+
+Hình 2.3: Bố trí ống hơi trên đường để đếm xe  
++ Cảm biến áp điện (Piezoelectric sensor):  
+Cảm biến áp điện có kiểu lắp đặt và hoạt động bên dưới làn xe chạy tương tự vòng  cảm biến. Nó được cấu tạo bằng một loại vật liệu chế tạo đặc biệt (thạch anh nhân tạo).  Loại vật liệu này sẽ sinh ra điện khi nó chịu tác động bởi xung ngoại lực. Giá trị điện áp tùy thuộc vào độ lớn lực hay tải trọng xe, tuy nhiên điện áp sẽ giảm xuống bằng  0 nếu lực tác dụng không thay đổi. Điều này có nghĩa là nếu xe dừng yên trên thiết bị thì  điện áp đo được sẽ giảm xuống zero. Ngoài khả năng phát hiện xe, thiết bị có thể phân  loại xe bằng cách đếm số trục, khoảng cách và trọng lượng trục xe.  
+Việc sử dụng cảm biến điện áp có những hạn chế tương tự như vòng từ, đó là việc  lắp đặt và sửa chữa cảm biến sẽ gây cản trở giao thông, những hư hỏng do tải trọng giao  thông và do sửa chữa mặt đường. Độ nhạy của cảm biến cũng phụ thuộc vào nhiệt độ và  tốc độ dòng xe quan trắc.  
+  
+
+Hình 2.3: Cảm biến áp điện và nguyên lý làm việc trên đường  
+2.1.2. Kỹ thuật không xâm nhập:  
+Bao gồm các loại thiết bị không xâm nhập vào đường vì lắp đặt và bảo trì không cần  chặn xe và sửa chữa mặt đường. Nó có thể được lắp trên vỉa hè, gắn trên giá treo giữa  làn xe chạy. Vị dụ cho loại kỹ thuật này bao gồm microwave radar detector, infared,  Video Image Processing, ultrasonic và passive acoustic array. 
++ Thiết bị dò tìm bằng vi sóng radar (Microwave radar detector):  Loại dữ liệu thu thập bởi cảm biến tuỳ thuộc vào dạng của sóng điện từ được truyền  đi (vd. để giao tiếp hay để phát hiện). Loại sóng này có bước sóng khoảng 1-30cm, tần  số từ 1-30 GHz. Phần lớn các cảm biến vi sóng radar sử dụng cho thiết bị dò tìm trên  đường phát ra năng lượng điện từ có tần số khoảng 10.525 GHz. Hình 2.4 trình bày một 
+4 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+hệ thống dò tìm phát vi sóng radar về một vùng phía trước nó trên đường. Bề rộng của  tia hay vùng tập trung năng lượng radar được kiểm soát bởi kích thước và phân bố của  năng lượng phát từ chảo ăngten. Có hai loại vi sóng radar tương ứng dùng cho 2 loại  cảm biến radar:  
+Loại sóng liên tục: Radar Doppler truyền 1 tín hiệu có tần số là hằng số (dạng sóng  Doppler). Khi có xe đi qua khu vực dò tìm, một sự thay đổi tần số (còn gọi là hiệu ứng  thay đổi Doppler) sẽ sinh ra trong sóng truyền lại. Sự phát hiện xe và ước lượng vận tốc  của nó có thể đo từ sự thay đổi này. Tuy nhiên, loại sóng radar liên tục này không thể dò  tìm được xe đứng yên và vì thế loại thiết bị dùng loại sóng liên tục không thể được xem  là thiết bị dò tìm ở chế độ hiện diện.  
+Loại sóng điều chỉnh tần số liên tục (frequency modulated continuous wave):  Radar phát 1 tín hiệu có tần số thay đổi đều. Người ta xác định khoảng cách giữa xe đối  tượng và bộ nhận tín hiệu bằng cách đo thời gian chênh lệch giữa phát và nhận tín hiệu.  Như vậy, cả xe di động lẫn xe đứng yên đều có thể phát hiện được. Các thông số như 
+mật độ làn, số lượng xe, chiều dài xe có thể thu được từ loại thiết bị loại này. Tuy nhiên,  để xác định vận tốc xe thì cần phải sử dụng hai vùng dò tìm bằng loại thiết bị này.  Điểm thuận lợi của cảm biến vi sóng là khả năng hoạt động ổn định trong mọi điều  kiện thời tiết, tránh được tác động của nước thấm từ mặt đường như đối với vòng cảm  biến. Thiết bị này được dùng cho loại đèn tín hiệu kích hoạt ở đô thị và trong ứng dụng  hệ thống tự động trên đường cao tốc.  
+  
+
+Hình 2.4: Cách bố trí 1 hệ thống vi sóng quan trắc dòng xe  
+  
+
++ Cảm biến hồng ngoại (Infared sensors):  
+Bức xạ hồng ngoại là loại bức xạ điện từ có bước song dài hơn ánh sáng thường,  nhưng ngắn hơn sóng radio. Các hệ thống quan trắc giao thông thông dụng sử dụng  sóng có bước khoảng 100 đến 105 GHz.  
+Có hai loại cảm biến hồng ngoại, bao gồm loại hoạt động dưới dạng chủ động và  loại hoạt động dạng thụ động. Dạng thụ động không phát ra năng lượng mà nhận nặng 
+5 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+lượng được phát ra từ hoặc phản xạ từ xe cộ, mặt đường và các vật thể khác. Lượng  năng lượng phát ra là 1 hàm của nhiệt độ bề mặt, kích thước và cấu trúc. Khi một xe vào  vùng dò tìm, nó tạo ra 1 sự gia tăng năng lượng phát ra so với mặt đường lúc không có  xe. Cảm biến hồng ngoại thụ động có thể đo tốc độ, chiều dài xe, lưu lượng xe, và thời  gian choáng chỗ trong khu vực cảm biến. Tuy nhiên, vì độ chính xác của thiết bị này có  thể bị ảnh hưởng bởi điều kiện thời tiết xấu, nó không cho độ tin cậy ổn định.  
+  
+
+Hình 2.5: Hệ thống cảm biến hồng ngoại  
+Cảm biến hồng ngoại dạng chủ động có nguyên lý tương tự như cảm biến bằng vi  sóng rada, đó là nó phát ra 1 tia năng lượng hẹp về mặt đường, và nhận lại tia phản xạ.  Máy nhận ra xe khi có sự thay đổi về thời gian lan truyền của tia hồng ngoại. Năng  lượng thu được từ các cám biến được tập trung lại bằng 1 hệ thống thấu kính để đến  được một loại vật liệu nhạy cảm với biến đổi năng lượng hồng ngoại.  
+Cảm biến hồng ngoại dạng chủ động đo lượng xe đi qua, thời gian choáng chỗ và  tốc độ. Tốc độ của xe được đo bằng thời gian mà xe cắt ngang qua 2 tia hồng ngoại  chiếu ngang qua đường và cách nhau 1 khoảng cố định. Một số cảm biến hồng ngoại có  thể phân loại xe bằng cách đo chiều dài xe. Tuy nhiên, cũng giống như dạng thụ động,  độ chính xác của cảm biến hồng ngoại dạng chủ động cũng phụ thuộc vào điều kiện thời  tiết như mưa và sương khói.  
++ Cảm biến siêu âm (Ultrasonic detector):  
+Thiết bị này có nguyên lý làm việc tương tự như cảm biến vi sóng rada, đó là nó chủ động phát ra các sóng siêu âm (tần số khoảng 20-50 kHz, tai người không nghe được).  Sóng có thể hoặc liên tục hoặc theo xung. Các cảm biến dạng dùng sóng liên tục phát  hiện xe dựa trên nguyên lý Doppler. Chúng có thể đo lưu lượng, thời gian choáng chỗ,  và tốc độ. Các cảm biến dạng dùng xung còn có thể phân loại xe. Vì các cảm biến siêu  âm nhạy với điều kiện môi trường, chúng cần phải được bảo trì nghiêm ngặt.  
++ Cảm biến âm thanh (Acoustic detectors): Loại này đo năng lượng âm hoặc tiếng  động phát ra từ các nguồn khác nhau, cả từ bản thân xe và từ va chạm lăn giữa bánh xe  và mặt đường. Cảm biến âm thanh sử dụng 1 dãy các micro để dò tìm các âm phát ra từ 1 làn xe. Khi 1 xe chạy ngang qua vùng dò tìm của cảm biến, thuật toán xử lý tín hiệu  âm sẽ phát hiện ra sự gia tăng năng lượng âm thanh và do đó 1 tín hiệu về sự có mặt của  xe được ghi nhận. Khi xe ra khỏi vùng dò tìm của cảm biến dẫn đến năng lượng âm  giảm xuống dưới một ngưỡng xác định, tín hiệu về sự hiện diện của xe sẽ tắt. 
+6 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Cảm biến âm thanh có thể dùng để đo tốc độ, lưu lượng, thời gian choáng chỗ và sự hiện diện. Nó có thể phân loại xe bằng cách so sánh giữa âm sắc của xe đó với 1 bảng  chuẩn các âm sắc của các loại xe khác nhau. Tốc độ được đo bằng cách sử dụng 1 dãy  các micro trên cơ sở độ trễ về thời gian đến sẽ khác nhau đối với từng micro. Lợi điểm  của cảm biến âm thanh là nó có thể sử dụng trong mọi điều kiện thời tiết và ánh sáng.  
++ Xử lý ảnh video (Video image processing – VIP):  
+Là kỹ thuật phát hiện giao thông nhằm mục đích đáp ứng nhu cầu quản lý và điều  khiển giao thông. Thiết bị dò tìm dạng VIP xác định xe và các tham số của dòng xe  bằng cách phân tích hình ảnh thu được từ video camera. Các hình ảnh được số hoá và  chạy qua một loạt các thuật toán phân tích những thay đổi của hình nền. Các thiết kế 
+mới bao gồm một bộ xử lý hình ảnh tích hợp, camera màu và các ống kính.    
+Về cơ bản, máy tính sẽ theo dõi sự thay đổi giữa các khung hình kế tiếp nhau. Thuật  toán đơn giản nhất là phân tích sự biến đổi về mức màu xám giữa các nhóm pixel sinh  ra khi một xe di chuyển ngang qua vùng dò tìm.  
+Dòng xe quan  trắc  
+Camera Số hóa ảnh và  lưu trữ 
+Dò tìm Phân đoạn  hình 
+Trích lọc đặc  điểm 
+Phân loại và xác  định xe 
+Theo dõi quỹ đạo xe
+Hình 2.6: Lưu đồ hệ thống VIP điển hình trong phát hiện, phân loại, và theo dõi quỹ đạo  xe.  
+Hình 2.6 trình bày một hệ thống VIP điển hình. Các hình ảnh được chụp bởi camera  sẽ được số hóa và lưu trữ trong máy tính. Sự dò tìm xe được thực hiện bằng cách so  sánh hàng loạt các ảnh kế cận nhau. Phân đoạn hình ảnh tức là chia hình ảnh thành  những vùng nhỏ hơn để máy tính có thể trích lọc các đặc điểm dễ dàng hơn. Các đặc  điểm được trích lọc sẽ được dùng để phân loại xe và theo dõi xe. Ta sẽ có được quỹ đạo  của một xe từ việc theo dõi xe này. Việc này cho phép chúng ta thiết kế chuyển làn,  thống kê lối vào và lối ra nút giao thông.  
+7 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Khả năng làm việc của 1 hệ thống VIP có thể bị ảnh hưởng bởi các yếu tố môi  trường như điều kiện ánh sang (ban ngày hoặc ánh sang đèn xe). Việc phát hiện sai xe  có thể do các xe chạy quá sát nhau hoặc ảnh bóng của xe in lên làn đường bên cạnh.  Bên cạnh đó, việc camera bị rung do gió mạnh, và yêu cầu phải lắp cao hơn 18m để có  thể quan sát rộng là những yếu tố cần phải quan tâm khi sử dụng VIP. Do vậy, việc lắp  đặt VIP tương đối tốn kém và hệ thống VIP chỉ phát huy hiệu quả nếu chúng ta có thể 
+thiết lập nhiều vùng quan trắc trong phạm vi ‘nhìn thấy’ của camera.  
++ Thăm dò bằng xe (Vehicle probes)  
+Đó là việc sử dụng xe thăm dò (probe vehicle) có gắn các thiết bị định vị và liên lạc.  Người ta sẽ liên tục liên lạc gửi vị trí của xe thăm dò về 1 trung tâm máy tính, nơi mà  tập trung và chia sẻ tất cả thông tin từ các xe thăm dò và các nguồn. Xe thăm dò gửi  thông tin thông qua hệ thống giao tiếp khoảng cách ngắn chuyên dụng (dedicated short  range communication systems, DSRC) đến các trạm tín hiệu giao tiếp bằng sóng radio  có tần số khoảng 5.8 GHz. Phương pháp xử lý dữ liệu từ xe thăm dò để đánh giá các  thông số dòng xe quan trắc được trình bày ở mục 3.5.  
++ So sánh ưu nhược điểm của các phương pháp dò tìm 
+8 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+
+2.2. Phần cứng (Hardware)  
+Phần cứng máy tính là thành phần thứ 2 của một hệ thống quan trắc giao thông. Máy  tính nhận thông tin từ những thiết bị trên đường và từ các cảm biến. Truyền dữ liệu từ trung tâm kiểm soát đến các thiết bị trên đường (ví dụ: kiểm soát dữ liệu để yêu cầu 1  CCTV camera xoay/lia qua lại, thu phóng); lấy và xử lý dữ liệu từ các cảm biến để có  được thông số hợp lý của dòng giao thông.  
+Bên cạnh phần cứng máy tính, một hệ thống quan trắc giao thông thông thường có  các màn hình hiển thị tại các TMC, cung cấp cho người điều khiển hình ảnh trực quan  về hoạt động của hệ thống giao thông thu thập từ các camera bố trí trên đường. Màn  hình thường được bố trí tạo thành một mảng các màn hình bố trí dọc ngang theo 1 trật  tự quan sát các khu vực có liên quan với nhau.  
+2.3. Phần mềm (Software)  
+Phần mềm máy tính cấu thành thành phần thứ 3 của hệ thống quan trắc giao thông.  Các ví dụ về phần mềm bao gồm: thuật toán phân loại xe và ước lượng vận tốc xe phát  hiện bởi vòng từ, thuật toán kiểm soát đèn tín hiệu động, thuật toán thuật toán phát hiện  tai nạn, thuật toán hỗ trợ ra quyết định trong xử lý tai nạn giao thông, và các phần mềm  để kiểm soát thiết bị quan trắc lắp trên đường.  
+2.4. Hệ thống thông tin  
+Hệ thống thông tin có vai trò kết nối thộng tin giữa các bộ phận của TMC và giữa  TMC với các thiết bị quan trắc lắp trên đường. Thông tin nội bộ TMC thường dùng hệ thống LAN, trong khi thông tin giữa trung tâm và các thiết bị trên đường thường được  thực hiện hệ thống cáp (vd: cáp quang hoặc cáp đồng) hoặc hệ thống mạng không dây  wireless. Việc chọn lựa giữa cáp quang hay cáp đồng tùy thuộc vào băng thông yêu cầu  để truyền dữ liệu. Ví dụ như truyền hình ảnh đòi hỏi băng thông rộng hơn nên có thể phải sử dụng cáp quang.  
+3. Tính toán xử lý các giá trị liên quan đến thiết bị dò  
+3.1. Tỷ lệ thời gian choáng chỗ (Occupancy) trong thiết bị dò  
+Trong việc đo tỷ lệ thời gian choáng chỗ, chiều dài có hiệu của thiết bị dò (Leff) về cơ bản lớn hơn chiều dài thực tế của thiết bị dò (chẳng hạn, của vòng dây) vì xe sẽ bị phát hiện trước và sau khi xe nằm hoàn toàn trong vòng dây (xem hình 2.7). Khi vòng  từ ở chế độ hiện diện được sử dụng, ta có thể đo được tỷ lệ thời gian choáng chỗ Occ,  được định nghĩa là tỷ lệ của tổng thời gian mà thiết bị dò tìm bị choáng bởi các xe so 
+9 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+với một khoảng thời gian xác định. Đây là đại lượng được dùng để tính toán mật độ giao thông như trình bày ở mục 3.4.  
+Chiều dài của xe  
+Hình 2.7: Đo thời gian choáng chỗ 3.2. Tính chiều dài xe 
+Chiều dài của  
+thiết bị dò  
+Chiều dài có hiệu của  thiết bị dò  
+Quan trắc hoạt động của các xe lớn (ví dụ xe tải nặng, kéo moóc) có ý nghĩa đặc biệt  quan trọng đối với thời gian sử dụng khai thác đường. Người ta phân loại xe dựa trên  chiều dài xe quan trắc được từ thiết bị dò. Nếu xác định được vận tốc xe, chiều dài xe  được tính bởi công thức sau:  
+v on Leff L = v ⋅ − (vì Lv +Leff = v ⋅ on ) (2.1)  trong đó:  
+v: vận tốc xe (m/s)  
+on: thời gian choáng chỗ trong thiết bị dò (s)  
+Leff: chiều dài có hiệu của thiết bị dò (m)  
+Giá trị chiều dài (Lv + Leff) từ công thức (2.1) có thể được gọi là chiều dài xe có hiệu được thiết bị dò tìm ‘nhận thấy’.  
+3.3. Xác định và ước lượng vận tốc xe  
+3.3.1. Xác định vận tốc dòng xe bằng vòng từ kép  
+Để xác định vận tốc xe, thông thường người ta sử dụng vòng từ kép vì nó cho phép  xác định chính xác giá trị vận tốc. Vòng từ kép là dạng duplicate của vòng từ đơn khi  người ta bố trí hai vòng dây cách nhau một khoảng xác định và cùng nối vào 1 pull box.  Hình 2.8 mô tả cách bố trí vòng từ kép và cách xác định vận tốc xe.  
+T1 T２
+Chiều dài của xe  
+Chiều dài có hiệu của  vòng từ 1  
+Khoảng cách 2 vòng  
+Chiều dài có hiệu của  vòng từ 2  
+Hình 2.8: Đo vận tốc xe bằng vòng từ kép  
+10 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Theo đó, vận tốc xe được tính bằng công thức tỷ số giữa khoảng cách 2 vòng từ và  gián cách thời gian (T2 – T1) xe bị phát hiện bởi 2 vòng từ:  
+D 
+v loop 
+− = (2.2) 
+( ) T2 T1 
+Ví dụ:  
+Có 2 vòng từ như hình dưới, chiều dài có hiệu của vòng từ là 3m, khoảng cách giữa hai  cảm biến áp điện là 1m. Có các giá trị quan trắc được như sau:  
+t6 = 7.1s, t5 = 6.8s, t4 = 6.5s, t3 = 6.1, t2 = 5.8s, t1 = 5.4s  
+Xác định tốc độ xe, chiều dài xe, khoảng cách trục xe.  
+1 2 
+1 2 
+Cảm biến áp điện 2 
+Cảm biến áp điện 2 
+Cảm biến áp điện 1 
+Cảm biến áp điện 1 
+Analogue 
+Analogue 
+Digital 
+Digital 
+Thời gian 
+Giải đáp:  
+t1 t2 t3 t4 t5 t6 t1 t2 t3 t4 t5 t6 
+Thời gian 
+- Tốc độ xe = Khoảng cách giữa 2 cảm biến áp điện / (t3 - t2) = 3.3 m/s = 11.9 km/h  - Chiều dài xe = Tốc độ xe.(t6 - t1) – Chiều dài có hiệu của vòng từ (detection zone)   = 2.6 m  
+- Khoảng cách trục xe = Tốc độ xe .(t4 - t2) = 2.3 m  
+3.3.2. Ước lượng vận tốc dòng xe bằng vòng từ đơn  
+3.3.2.1. Phương pháp truyền thống (Cách 1)  
+Sử dụng các dữ liệu thu được từ vòng từ đơn, bao gồm lưu lượng, và tỷ lệ thời gian  vòng từ bị choáng chỗ Occupancy, người ta có thể ước lượng vận tốc trung bình theo  không gian của dòng xe. Theo đó, vận tốc trung bình không gian được ước lượng bằng  . ≈ khi sử dụng thêm giá chiều dài có hiệu trung bình giả định của  
+q L 
+v A 
+công thức Occ 
+space 
+các xe trong dòng quan trắc, LA. Công thức này được chứng minh như sau.  
+Chứng minh: 
+Ta có quan hệ sau từ định nghĩa của Occupancy:  
+∑ ∑ ∑ + = = = 
+OccThoi gian choang cho 1 ( ) (2.3)  
+on 
+L L 
+i vi eff 
+T 
+T T 
+v 
+i 
+Bằng cách xấp xỉ tổng chiều dài xe và chiều dài có hiệu của vòng từ trong công thức  (2.3) bởi chiều dài có hiệu trung bình giả định của các xe trong dòng quan trắc LA,  Occupancy có thể được tính như sau: 
+11 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Occ 1 . 1 (1/ ) 1 . . ≈ ∑ = ∑ = (2.4)  
+T 
+L 
+A 
+v 
+v 
+n L T 
+A 
+n 
+q L 
+v 
+A 
+space 
+i 
+q L 
+i 
+. ≈ (2.5)  
+v A 
+Do đó, Occ 
+space 
+Công thức (2.5) thực chất là hình thức mở rộng của công thức (2.1) vì  Occ i . . = = = ∑  
+on T 
+n on T 
+q on 
+space . .. ≈ = ≈ (2.6)  
+q L 
+L 
+A A 
+⮴ hay L v on v space A 
+q on 
+on 
+Công thức (2.5) cho thấy, trong điều kiện chiều dài xe và vận tốc xe không có quan  hệ, và nếu ta có giá trị LA của dòng xe, ta có thể xác định vận tốc trung bình theo không  gian của dòng xe vspace . Thông thường, các trạm quan trắc sẽ lấy 1 giá trị LA xác định và  dùng nó để ước lượng vspace . Có được vận tốc trung bình của dòng xe, ta có thể tính  ra chiều dài của từng xe quan trắc dựa trên thời gian xe đó choáng chỗ trong thiết  bị dò. 
+Cách ước lượng này đơn giản và cho độ chính xác thấp vì nó không xét đến yếu tố tỷ lệ các xe dài có thể thay đổi theo các thời điểm khác nhau. Khi lưu lượng lưu thông  thấp, một xe dài có thể làm lệch giá trị occupancy vì xe đó sẽ choáng thời gian lâu hơn  trong thiết bị dò. Rõ ràng, việc ước lượng vận tốc trung bình sẽ gặp bất lợi nếu chiều dài  các xe trong dòng xe quan trắc biến động lớn. Hơn nữa, việc chọn giá trị LA cho tính  toán cũng là một yếu tố sai số.  
+3.3.2.2. Phương pháp dùng median (Cách 2)  
+Một nghiên cứu của Coifman et al. (2003) dùng vòng từ kép quan trắc dòng xe trong  24 giờ (10 làn xe 2 chiều). Sau đó, theo cách phân đoạn thời gian thành 3 tiếng một,  Coifman et al. chia dữ liệu thu thập được làm 80 tập dữ liệu nhỏ và chọn ra 1 tập dữ liệu  có độ biến động chiều dài xe quan trắc được trong 3 giờ là lớn nhất. Rõ ràng, giá trị 
+trung bình (mean) của chiều dài xe sẽ lệch về phía các xe dài trong khi giá trị điểm giữa  (median) ít bị tác động bởi các xe dài đột biến. Từ tập dữ liệu này, Coifman dùng mô  phỏng Monte Carlo để chọn ngẫu nhiên ra 24.640 mẫu gồm 10 xe liên tục với giá trị trung bình và giá trị điểm giữa của chiều dài xe được tính cho từng mẫu. Người ta thấy  rằng khoảng tin cậy 99% của giá trị điểm giữa (median) của mẫu 24.640 giá trị luôn hẹp  hơn so với khoảng tin cậy của giá trị trung bình (mean). Điều này cho thấy triển vọng sử dụng giá trị median của chiều dài xe để ước lượng vận tốc dòng xe, theo quan hệ tương  tự như công thức (2.6):  
+L 
+A 
+v ≈ (2.7)  
+medianon 
+median 
+Nghiên cứu của Coifman et al. (2003) cho thấy với một giá trị LA cố định (20 ft) và  với giả định vận tốc xe không có quan hệ với chiều dài xe, ta có quan hệ sít sao giữa giá  trị ước lượng của vận tốc median (trục tung) với giá trị quan trắc của median vận tốc  (trục hoành) ở hình 2.9b. Trong khi đó, ở hình 2.9a, quan hệ giữa giá trị ước lượng của  vận tốc trung bình và giá trị quan trắc của vận tốc trung bình có hai vùng noise khá lớn.  Ngay cả sử dụng 2870 mẫu quan trắc liên tục trong 5 phút, Coilman cũng có kết quả tương tự như ta thấy ở hình 2.10a và 2.10b. 
+12 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+
+Hình 2.9: Quan hệ vận tốc ước lượng và quan trắc (mean và median) quan sát bởi  Coifman et al.(2003)  
+Hình 2.10: Quan hệ vận tốc ước lượng và quan trắc (mean và median) quan sát trong 5  phút bởi Coifman et al.(2003)  
+Nếu quan trắc trên một làn giá trị trung bình và giá trị median của vận tốc của các  mẫu lấy trong mỗi 5 phút, Coilman et al.(2003) cho thấy không có sự khác biệt lớn giữa  mean và median vận tốc bởi vì chúng đều là số đo của tâm của mẫu. Tuy nhiên, hình  2.11b bên dưới cho thấy giá trị ước lượng của median đánh giá khá chính xác giá trị vận  tốc quan trắc.  
+
+Hình 2.11: Giá trị trung bình và median của vận tốc đo được (A) và ước lượng được (B)  trong 24 giờ. (Coifman et al. 2003) (Lưu ý: Mẫu lấy cứ 5 phút một lần của một làn xe) 
+13 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Theo đó, Coifman et al. (2003) kết luận có thể sử dụng mẫu N = 10 xe liên tục để ước lượng median vận tốc theo công thức (2.7) từ onmedian. Nếu lấy mẫu theo lượng thời  gian, thì thời gian lấy mẫu trong 30s (T = 30s) yêu cầu lưu lượng xe phải lớn hơn 1200  xe/h trong mọi thời điểm trong ngày. Nếu lấy T = 5 min, thì lưu lượng xe yêu cầu chỉ khoảng 120 xe/h. Việc tăng thời lượng lấy mẫu có thể làm chậm việc cập nhật giá trị vận tốc ước lượng của mẫu đó, do vậy, ta có thể tăng N và giảm T trong lấy mẫu bằng  cách lấy mẫu cho nhiều làn trên một hướng trong khoảng thời gian T = 30s chẳng hạn.  Ví dụ ta có kết quả như hình 2.12 sau khi quan trắc lấy mẫu 4 làn xe trong 30s:  .  Hình 2.12: Quan hệ vận tốc ước lượng và quan trắc (mean và median) quan sát trong  30s bởi Coifman et al.(2003)  
+Việc xác định chiều dài các xe theo được thực hiện theo quan hệ sau:  j i on j L = vˆ ⋅ (2.8)  trong đó: Lj là chiều dài ước lượng của xe thứ j trong mẫu i, i vˆ là ước lượng của giá trị median vận tốc của mẫu thứ i và onj là thời gian choáng chỗ trong thiết bị dò của xe thứ j trong mẫu i.  
+3.3.2.3. Phương pháp ‘median di chuyển’ (Cách 3)  
+Phương pháp này sử dụng một cửa sổ cố định để xác định bộ mẫu trong tính  toán median của thời gian choáng chỗ on-time và vận tốc. Bộ mẫu gồm N=33 xe  quan trắc liên tục, với xe đang xét nằm chính giữa (xem hình 2.13).  Cửa sổ cố định di chuyển 
+…. ….  
+Mẫu 33 xe  
+Hình 2.13: Cửa sổ di chuyển trong phương pháp ‘median di chuyển’  
+Khi có được mẫu, ta tiến hành tính onmedian, rồi ước lượng giá trị median của vận tốc  như công thức (2.7). Sau đó, xác định chiều dài các xe trong mẫu bằng công thức (2.8).  
+3.3.2.4. Phương pháp dãy nối tiếp (Cách 4)(áp dụng khi chiều dài xe biến động lớn)  Trong cách 3, nếu thành phần xe dài có biến động lớn giữa các mẫu, khi đó, giá trị chiều dài trung bình thực tế L sẽ thay đổi, dẫn đến việc sử dụng 1 giá trị LA giả định  
+14 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+chung là không hợp lý. Theo nghiên cứu của Neekisetty và Coifman (2004), ta có thể dùng phương pháp sau để ước lượng vận tốc xe trong 1 dòng xe đặc trưng.  Phương pháp dựa trên cơ sở lý thuyết sau: Tỷ lệ thời gian on-time của 2 xe chạy kế tiếp nhau là tương ứng với tỷ lệ chiều dài của chúng. Thực tế, ta không biết tỷ lệ thời  gian on-time là của xe nào, nhưng nếu đó là cặp xe dài nhất và ngắn nhất trong dòng xe,  ta có thể xác định được trực tiếp chiều dài của chúng từ các cặp on-time liền kề.  Ví dụ:  
+Hình 2.14 là ví dụ thống kê toàn cục của 1 dòng xe. Ta biết được có hai loại xe ưu thế trong dòng xe này: Loại xe dài 20 feet và loại xe dài 70 feet. Tỷ lệ on-time của hai xe  này là khoảng 3.5 lần. Do vậy, nếu trong mẫu quan trắc, ta tìm được 2 on-times kế tiếp  nhau chênh nhau khoảng 3.0-4.5 lần (ngưỡng dao động quanh 3.5 để xét đến biến động)  thì ta có thể biết chắc được 1 chiếc dài 20 feet và 1 chiếc dài 70 feet. Có được chiều dài  của từng xe và thời gian on-time của từng xe, vận tốc của chúng dễ dàng được xác định  bởi công thức:  
+l 
+vehicle 
+vˆ = (2.9)  
+vehicleon 
+vehicle 
+Hình 2.14: Ví dụ về thống kê chiều dài xe trong một loạt quan sát.  
+Thuật toán trong ví dụ trên như sau:  
+- Lấy mẫu on-times của 33 xe quan trắc liên tục trong dòng xe.  
+- Tìm trong 32 cặp tỷ số 2 on-times kề liền có giá trị nào xấp xỉ 3.0-4.5  - Nếu không có, quay lại phương pháp “median di chuyển”  
+- Nếu có, xác định (các) vận tốc ước lượng cho từng xe trong cặp xe đó.  - Nếu có nhiều hơn 1 cặp xe, tính giá trị median vận tốc của mẫu từ các cặp xe có được.  Từ vận tốc median, ta có thể xác định chiều dài của từng xe trong mẫu bằng công thức  (2.8).  
+3.3.2.5. Phương pháp phân bố (Cách 5)  
+Trong các phương pháp trên, giả thiết rằng hai xe kế tiếp nhau có vận tốc như nhau  là kém hợp lý khi vận tốc dòng xe thấp. Đó là vì khi vận tốc < 20 km/h, chúng ta không  thể bỏ qua sự tăng tốc trong trường hợp xe dừng và đi.  
+Ngoài ra, nếu có quá ít xe lớn, dài như xe tải trong dòng xe, phương pháp dãy nối  tiếp chỉ có thể ứng dụng được cho rất ít trường hợp trong một mẫu 33 xe. Và nhiều khi  cặp xe dùng để ước lượng vận tốc lại nằm xa so với vận tốc xe đang xét dẫn đến việc  median vận tốc được ước lượng không chính xác.  
+Phương pháp phân bố được đề nghị bởi Coifman & Kim (2009). Phương pháp này  xem xét toàn bộ phân bố của các on-times quan trắc được của một mẫu 33 xe. Nếu phân 
+15 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+bố của mẫu và cả dòng xe quan trắc có dạng 2 đỉnh (như hình 2.14 trên), ta có thể xác  định vị trí hai đỉnh và vận tốc khi ấy có thể ước lượng theo công thức (2.9).  
+Ví dụ:  
+Ta có trình tự thuật toán như sau:  
+(1) Tìm on-time của loại xe chiếm ưu thế (đỉnh lớn nhất của hình 2.14b)  (2) Tìm các quan trắc on-time lớn hơn 3-4.5 lần on-time của loại xe chiếm ưu thế.  (3) Tìm các quan trắc on-time nhỏ hơn 3-4.5 lần on-time của loại xe chiếm ưu thế.  (Lưu ý, 3-4.5 lần ở đây là số sử dụng trong nghiên cứu của Coifman & Kim (2004))  (4) So sánh số lượng quan trắc on-time tìm được ở (2) và (3), xác định on-time nào có  số lượng nhiều hơn.  
+(5) + Nếu căn cứ vào (4) ta thấy rõ ràng có 1 đỉnh phụ nữa với khoảng trên 3 xe, thì mẫu  đang xét có thể xem là có hai đỉnh ưu thế, và việc phân tích giống như phương pháp 4,  chuyển tiếp sang bước (6).  
++ Nếu không được như vậy, mẫu được xem là có một đỉnh và phải xử lý theo cách  sẽ đề cập sau.  
+(6) Gán một chiều dài trung bình cho xe chiếm ưu thế, dựa trên vị trí của đỉnh phụ xác  định từ (4) (xe dài hay ngắn), và ước lượng vận tốc từ công thức (2.9). Dùng vận tốc  median của xe ưu thế để xác định chiều dài các xe khác theo (2.8)  
++ Cách xử lý khi mẫu có 1 đỉnh (không biết xe đặc trưng là xe ngắn hay dài):  Giả thiết 70 km/h là ngưỡng dưới của dòng xe tự do (free flow). Sử dụng công thức  l = v.on, ta có thể xác định on-times của các xe dài và xe ngắn đặc trưng dưới các điều  kiện giao thông khác nhau. On-time của xe 20 feet có vận tốc 140km/h sẽ là 0.16s, có  vận tốc 70 km/h vào khoảng 0.3s. Tương tự, on-time của xe 70 feet với vận tốc 140  km/h sẽ khoảng 0.6s và ở vận tốc 70km/h sẽ là 1.1s. Các giới hạn này tạo ra 4 vùng  riêng rẽ mà đỉnh on-time của xe ưu thế có thể nằm trong.  
+Vùng 1: Nếu đỉnh on-time ∈ (0.16, 0.30) thì đó là xe 20 feet chạy với vận tốc > 70  km/h (dòng tự do)  
+Vùng 2: Nếu đỉnh on-time ∈ (0.30, 0.60) thì đó là xe 20 feet chuyển động dưới  70km/h (dòng bão hòa)  
+Vùng 3: Nếu đỉnh on-time ∈ (0.60, 1.10) thì đó hoặc là xe 20 feet di chuyển dưới 70  km/h (20 feet chạy chậm) hoặc là xe 70 feet di chuyển nhanh trên 70 km/h.  Vùng 4: Nếu đỉnh > 1.1 thì đó hoặc là xe 20 chạy rất rất chậm hoặc là xe 70 feet di  chuyển dưới 70 km/h. (dòng bão hòa)  
+Trường hợp on-time của xe ưu thế thuộc vùng 1 hoặc vùng 2 thì khá đơn giản, ta  xác định ngay được chiều dài xe ưu thế và từ đó ước lượng được vận tốc của mẫu từ (2.9). Nếu on-time của xe ưu thế thuộc vùng 3, ta không xác định được liệu đó là đỉnh  của dòng xe 20 feet bão hòa hay liệu đó là đỉnh của dòng xe 60 feet tự do. Do vậy, ta  cần áp dụng các kiểm tra sau:  
+- Kiểm tra occupancy: Thông thường, occupancy thấp là kết quả của dòng tự do với ít  xe. Do vậy, nếu occupancy của mẫu xem xét nhỏ hơn 1 ngưỡng xác định (khoảng  15%) thì vận tốc có thể ước lượng từ phương trình (2.9) và xem đó là on-time của  xe dài 70 feet.  
+- Xem xét biến động của on-time: Thông thường, ở trạng thái vận tốc tự do, on-time  thường ổn định hơn so với ở dòng bão hòa (đặc trưng của hiện tượng kẹt xe là các  sóng tăng tốc và giảm tốc). Vì thế, với cùng một sự biến động vận tốc, sự biến động  on-time khi dòng tự do sẽ nhỏ hơn so với khi dòng bão hòa. Và phương sai on-time  khoảng 0.11 (s2) được xem là ngưỡng giữa dòng tự do và dòng bão hòa. 
+16 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+- Ước lượng vận tốc từ mẫu trước đó: Thực tế 2 mẫu (33 xe) kề liền thường có vận  tốc tương tự vì sự chuyển tiếp từ dòng tự do sang dòng bão hòa chỉ xảy ra 1 vài lẩn  trong ngày. Do vậy, nếu on-time của xe ưu thế trong 1 mẫu nằm ở vùng 3, ta có thể tham khảo vận tốc của mẫu trước đó.  
+  
+Nếu on-time của xe ưu thế nằm ở vùng 4, ta biết chắc rằng dòng xe bão hòa hoặc ùn  tắc, nhưng không biết xe ưu thế là xe dài hay xe ngắn. Do vậy, giải pháp trong trường  hợp này là tăng mẫu lên 51 xe và kiểm tra liệu mẫu mới đã chuyển thành dạng có 2  đỉnh hay chưa. Nếu đúng, thì thực hiện như đã nêu trên, nếu sai thì mẫu được xem là  ngoại lệ. Thực tế cho thấy các mẫu ngoại lệ như vậy là khá hiếm chỉ chiếm chưa đầy  1% số mẫu quan trắc.  
+3.4. Tính mật độ giao thông dùng vòng từ 
+Ta có thể tính mật độ giao thông bằng cách kết hợp sử dụng giá trị ước lượng về chiều dài trung bình của các xe trong dòng xe ( Lv ) và giá trị Occ của vòng từ dựa trên  công thức:  
+Occ k+⋅ = 5280 (2.10)  
+Lv Leff 
+trong đó:  
+k: mật độ giao thông, xe/mile (tính cho 1 làn xe)  
+Occ: tỷ lệ thời gian vòng từ bị choáng chỗ, occupancy  
+Lv : Chiều dài trung bình của các xe, feet  
+Leff: Chiều dài có hiệu của thiết bị dò tìm, feet  
+(Lưu ý: 1 mile bằng 5280 feet)  
+Công thức (2.10) được chứng minh như sau:  
+Từ quan hệ cơ bản trong lý thuyết dòng xe, q = k.vspace  
+q k+ = = = 
+⮴ 
+Occ 
+Occ 
+v 
+Ví dụ:  
+v eff space space L L onv 
+Trên quốc lộ 6 làn xe (3 làn/chiều), một trạm quan trắc  có các giá trị Occupancy như bảng bên. Chiều dài trung  bình của xe là 20 ft cho làn 1, 18 ft cho làn 2 và 16 ft  cho làn 3. Chiều dài có hiệu của mỗi vòng từ là 8 ft.  Xác định mật độ giao thông cho mỗi làn và cho cả đường.  
+Giải đáp:  
+Làn 
+	Occupancy % 
+	Làn 1 
+	22 
+	Làn 2 
+	15 
+	Làn 3 
+	12 
+	
+
+
+
+a/ Mật độ giao thông của mỗi làn được xác định từ công thức (2.10). Kết quả cho trong  bảng bên dưới: 
+Làn 
+	Occupancy  % 
+	Chiều dài xe  trung bình 
+	Mật độ 
+(xe/mile/làn) 
+	Làn 1 
+	22 
+	20 
+	41.5 
+	Làn 2 
+	15 
+	18 
+	30.5 
+	Làn 3 
+	12 
+	16 
+	26.4 
+	
+
+
+
+17 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+b/ Mật độ giao thông tổng của cả đường được tính bằng tổng mật độ làn của tất cả các  làn:  
+- Mật độ tổng = 41.5 + 30.5 + 26.4 = 98.4 xe/mile = 61.1 xe/km.  
+3.5. Phương pháp moving observer trong tính toán quan trắc giao thông  Phương pháp moving observer được phát triển để thu thập các dữ liệu tức thời về dòng xe. Phương pháp này dùng xe thăm dò (probe vehicle) ghi lại các giá trị của dòng  xe trong khi di chuyển cùng với dòng xe cần đo. Phương pháp này dựa trên các thông số về chuyển động tương đối giữa xe thăm dò và các xe khác trong dòng xe. Ta xem xét 2  trường hợp chuyển động tương đối giữa xe thăm dò và các xe khác của dòng xe.  +Trường hợp 1:  
+Giả sử có một xe thăm dò đứng yên và một dòng xe đang chuyển động. Nếu có No xe vượt qua xe thăm dò trong thời gian quan sát T, thì lưu lượng dòng quan sát sẽ là:  N 
+o = or = . (2.11)  q o 
+T 
++Trường hợp 2:  
+N q T 
+Giả sử chỉ có xe thăm dò di chuyển, và toàn bộ các xe khác thì đứng yên. Nếu di  chuyển 1 quãng đường L trong thời gian T với vận tốc trung bình vobs và vượt qua Np xe  thì mật độ của dòng xe sẽ là:  
+N 
+p = (2.12) or = k p obs 
+L 
+-  
+N kv T 
+Bây giờ ta xét trường hợp thực tế, đó là xe thăm dò di chuyển cùng với dòng xe  đang được quan trắc. Trong trường hợp này, sẽ có Mo xe sẽ vượt xe thăm dò và Mp xe  sẽ bị xe thăm dò vượt. Hai giá trị này lớn nhỏ tùy thuộc vào vận tốc tương đối của xe  thăm dò và dòng xe quan trắc: Nếu xe thăm dò di chuyển nhanh hơn trung bình, nó sẽ 
+vượt qua nhiều xe hơn số xe vượt qua nó và ngược lại. Sự chênh lệch của hai giá trị này  bằng:  
+M = Mo − M p = qT − kvobsT (2.13)  hay  
+
+
+M = −
+obs q kv 
+T 
+	
+
+
+
+ (2.14)  
+Phương trình (2.14) chính là phương trình cơ bản của phương pháp moving observer thể hiện mối quan hệ giữa lưu lượng dòng xe q, mật độ dòng xe k và các thông xe M, T,  vobs thu thập từ xe thăm dò. Lưu ý, trong phương trình này, cần tránh nhầm lẫn giữa  mean speed vs của dòng xe và vobs của xe thăm dò  
+Khi thay giá trị M, T, vobs của một lần chạy quan sát, ta sẽ được phương trình (2.14)  có quan hệ q và k. Để giải tìm được hai biến này, ta cần 2 phương trình. Như vậy, ta cần  hai lần chạy quan sát với 2 vận tốc chạy khác nhau. Thường thì lần chạy quan sát đầu sẽ chạy cùng chiều với dòng xe quan trắc. Lần chạy quan sát thứ sát thứ 2 sẽ ngược chiều  với dòng xe quan trắc. Khi xe thăm dò di chuyển ngược dòng xe quan trắc, ta xem  như xe thăm dò không vượt được xe nào cả (Mp = 0) mà chỉ bị Mo (=Ma) xe vượt.  Mo chính là số xe mà xe tham dò đối diện khi chạy ngược chiều. Sau hai lần chạy  quan sát, ta sẽ thu được 2 bộ giá trị Mo và Mp. Thay hai bộ giá trị này vào công thức  (2.14) ta được:  
+M = − (Khi đi cùng dòng xe, with) (2.15) 
+T 
+w q kv 
+w 
+w 
+18 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+M = + (Khi đi ngược dòng xe, against) (2.16) 
+T 
+a q kv 
+a 
+a 
+Dấu cộng cho va (vận tốc chạy ngược chiều) ở phương trình (2.16) cho biết xe thăm  dò di chuyển ngược chiều với dòng xe. Từ 2 phương trình này, ta sẽ xác định được q và  k của dòng xe (giả sử lưu lượng và mật độ dòng xe duy trì không đổi ở hai lần quan  trắc). Trường hợp đặc biệt khi xe thăm dò chạy cùng vận tốc trong cả hai lần chạy quan  sát (vw = va), ta sẽ có:  
+M M 
+q 2+ = (2.17)  
+a w 
+T 
+obs 
+và  
+M M k+ 
+− = (2.18)  
+a w 
+T v v 
+( ) obs a w 
+Để tính toán giá trị vận tốc trung bình không gian (space mean speed) của dòng xe,  ta viết lại phương trình (2.15) thành:  
+⎜⎜⎝⎛ = − 
+⎟⎟⎠⎞ 
+q q TM ⮴ ave 
+w 
+v 
+L 
+T 
+q q TM = −  w T 
+w s w 
+T 
+w w 
+⎜⎜⎝⎛ = − + ⮴qM T T w ave ⎟⎟⎠⎞ 
+⮴qT 
+q TM T w 
+w 
+ave = w − (2.19)  
+w 
+trong đó:  
+• Tw = thời gian di chuyển của xe thăm dò khi di chuyển cùng chiều với dòng xe  quan trắc  
+• Mw = hiệu số giữa xe vượt và xe bị vượt bởi xe thăm dò  
+• q = lưu lượng dòng xe tính theo phương trình (2.17)  
+• Tave = Thời gian di chuyển trung bình của các xe trong dòng xe trên quãng  đường L mà xe thăm dò đã đi.  
+Nếu xe thăm dò di chuyển chậm hơn dòng xe, nó sẽ vượt qua ít xe hơn số xe vượt  qua nó, và Mw sẽ dương, điều này dẫn đến thời gian di chuyển trung bình của các xe  trong dòng xe sẽ nhỏ hơn của xe thăm dò.  
+Khi có được Tw, ta suy ra được vận tốc trung bình không gian (space mean speed)  của dòng xe từ Tave 
+v = hoặc kq vs = (2.20)  
+L 
+s T 
+ave 
+Lưu ý:  
+-Thường thì để đảm bảo độ tin cậy thống kê, xe thăm dò sẽ chạy một số lượt (~ hơn 6),  và kết quả trung bình sẽ được sử dụng để tính toán. Cần xem xét thêm độ lệch chuẩn  của mẫu trước khi quyết định dùng kết quả khảo sát để tính toán.  
+-Các dòng xe tách dòng hoặc nhập dòng sẽ làm sai kết quả quan trắc. Do vậy, tuyến  đường khảo sát cần tránh các giao lộ lớn (uninterrupted flow).  
+- Phương pháp này ít sử dụng cho đường phố chính đô thị mà thường sử dụng cho  những đường ngoài đô thị chưa có hệ thống quan trắc tự động. 
+19 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Ví dụ:  
+Một xe quan trắc di chuyển 0.8 km đoạn đường quan trắc, có dòng xe liên tục  (uninterrupted flow). Xe di chuyển với vận tốc tương đối đều, trung bình là 32 km/h.  Khi di chuyển, xe thăm do quan sát thấy có Mp xe bị vượt bởi xe thăm dò, số xe vượt xe  thăm dò Mo. Trong cùng thời gian đó, thông tin từ 1 xe quan trắc khác đi cùng vận tốc  theo chiều ngược lại đếm được có Ma xe đối diện. Thời gian quan trắc được ghi lại bảng  sau:  
+Thời gian 
+	Ma 
+	Mo 
+	Mp
+	08:00-09:00 
+	107 
+	10 
+	74 
+	09:00-10:00 
+	113 
+	25 
+	41 
+	10:00-11:00 
+	30 
+	15 
+	5 
+	11:00-12:00 
+	79 
+	18 
+	9 
+	
+
+
+
+Yêu cầu xác định:  
+a/ Xác định tình trạng dòng xe của các thời đoạn  
+b/ Giả định quan hệ giữa tốc độ và mật độ là tuyến tính, xác định tốc độ trung bình của  dòng tự do, mật độ dòng bão hòa, và vẽ đường quan hệ v-k, q-k  
+c/ Ước lượng năng lực thông hành của đường qmax 
+Giải đáp:  
+a/  
+- Giá trị Mw được tính bằng: Mw = Mo – Mp 
+- Thời gian quan trắc tính bằng cách  
+Tobs= Ta = Tw= L/vobs = 0.8km/32km/h = 0.025h  
+- Vì cả hai chiều, 2 xe quan trắc đều có cùng vận tốc, ta có thể tính q dùng công thức  M M 
+q 2+ = 
+(2.17):  
+a w T 
+obs 
++ Thời đoạn từ 8:00 – 9:00:  
+- Lưu lượng xe chạy quan trắc được bằng:  
+q1 = (Ma+Mo-Mp)/(Ta+Tw)=(107+10-74)/(0.025+0.025)= 860xe/h  
+- Thời gian di chuyển trung bình của các xe trong dòng xe trên quãng đường L mà xe  thăm dò đã đi cho bởi công thức (2.19)  
+M T T w 
+ave = w − 
+q 
+- Suy ra, vận tốc trung bình không gian, vspace: vs=L/Tave 
+Thế số vào, ta được: vs = 0.8 km / [0.025-(10-74)/860] = 8 km/h  
+- Suy ra k1 = q/v = 860/8 =107 xe/km  
++ Đối với các thời đoạn còn lại, thực hiện tương tự ta được:  
+q2 = 1940 xe/h; v2 = 24 km/h; k2 = 81 xe/km  
+q3 = 800 xe/h; v3 = 64 km/h; k3 = 13 xe/km  
+q4 = 1760 xe/h; v4 = 40 km/h; k4 = 44 xe/km  
+b/ Vẽ đường quan hệ k–v xấp xỉ qua quan sát q, k, v của 4 thời đoạn ta được hình 2.15: 
+20 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Hệ số giải thích R2 rất lớn (0.987) cho thấy xấp xỉ tuyến tính quan hệ k-v là phù hợp.  - Theo hình 2.15 phương trình xấp xỉ cho ta v = -0.575k + 69.224 hay k = -1.716v  +119.6  
+- Vì q = k.v nên quan hệ q-k như sau: q = -0.575k2 + 69.224.k  
+(hay q = -1.716v2 +119.6v)  
+70 
+v 
+60 
+50 
+40 
+30 
+q = -0,575k2 + 69,224k 
+20 
+q 
+v = -0,575k + 69,224 
+R2 = 0,9869 
+2500 2000 1500 1000 
+10 
+0 
+0 20 40 60 80 100 120 k 
+500 
+0 
+0 20 40 60 80 100 120 k 
+Hình 2.15: Biểu đồ quan hệ cơ bản vận tốc-mật độ - lưu lượng  
+- Vận tốc dòng tự do là vận tốc khi không có xe trên đường, tức khi k = 0  ⮴ vf = 69.2 km/h  
+- Mật độ dòng bão hòa (khi vs ~ 0): kj = 119.6 xe/km  
+c/ Năng lực thông hành của dòng xe:  
+Từ quan hệ q-v, ta có dq / dv = -3.432v + 119.6 = 0  
+- Suy ra vo ứng với qmax, vo = 119.6 / 3.432 = 34.85 km/h, khi đó ko = 60 xe/km  - Vậy qmax = -1.716 x 34.852 + 119.6 x 34.85 = 2084 xe/h  
+Tài liệu tham khảo  
+- Coifman, B., Dhoorjaty, S., and Lee, Z. (2003). Estimating median velocity instead of  mean velocity at single loop detectors. Transportation Research: Part C 11 (3–4), 211– 222.  
+- Coifman, B. and Kim, S.B. (2009) Speed estimation and length based vehicle  classification from freeway single-loop detectors. Transportation Research Part C.  - Hostel, L.A., Garber, N.J., and Sadek, A.W. (2008) Transportation Infrastructure  Engineering, Nelson, Thomson Canada.  
+- Neelisetty, S., and Coifman, B. (2004) Improved single loop velocity estimation in the  presence of heavy truck traffic. In: Proceedings of the 83rd Annual Meeting of the  Transportation Research Board.  
+- Roess R.P., Prassas E.S., and McShane W.R. (2004) Traffic Engineering, 3rd Ed,  Prentice Hall. 
+21 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chương 3:  
+TÍNH TOÁN THIẾT KẾ VÒNG TỪ 
+3.1. Cấu tạo bộ thiết bị vòng từ 
+Vòng từ được phát minh vào thập niên 60 và đã trở thành cảm biến sử dụng rộng rãi  nhất trong các hệ thống quản lý giao thông. Thành phần chính của hệ thống vòng từ bao  gồm:  
+- Một hay nhiều vòng dây điện cách ly được chôn trong một khe cạn cắt trên mặt đường  - Một sợi cáp đầu vào nối từ tủ điện bên vỉa hè đến hộp điều khiển  - Một thiết bị điện tử trong 1 hộp điều khiển khác  
+Hình 3.1: Sơ đồ đấu nối, nguyên lý cấu tạo vòng từ và hệ thống điều khiển  Sợi dây của vòng từ, sợi dây dẫn đầu vào và sợi cáp đầu vào có các thông số chuyên  
+dụng về số sợi, tiết diện, điện trở/đơn vị dài được chỉ dẫn bởi nhà sản xuất. Xem bảng  bên dưới.  
+Bảng 3.1: Thông số chuyên dụng về điện trở dây dẫn và dây cáp dùng cho vòng từ1 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+3.2 Nguyên lý điện trong tính toán thiết kế vòng từ 
+3.2.1. Các kiến thức cơ sở 
+3.2.1.1. Độ tự cảm của vòng dây  
+Mọi dây dẫn mang điện đều sinh ra từ trường bao quanh dòng điện. Từ trường này  sinh ra cái gọi là tự cảm của cuộn dây, đơn vị đo là Henry. Hình 3.2 bên dưới vẽ từ trường bao quanh dòng điện qua một vòng dây đơn. Cường độ từ trường sinh ra được  tính bằng công thức:  
+NI H = (Amper.vòng/m) (3.1)  l 
+trong đó  
+N: Số vòng dây  
+I: Cường độ dòng điện qua vòng dây (amper)  
+l: chiều dài vòng dây (m)  
+Hình 3.2: Từ trường qua 1 vòng dây và qua 1 cuộn dây  
+Từ thông qua một cuộn dây được xác định bằng công thức:  
+φ = B.A (3.2)  trong đó:  
+φ: Từ thông (weber)  
+B: Cường độ cảm ứng từ 
+A: Tiết diện ngang của cuộn dây (m2).  
+Mật độ từ thông B được xác định từ mật đồ từ trường H:  
+ B = μr μo H (3.3)  trong đó:  
+μr: độ từ thấm tương đối của vật liệu  
+μo: 4π x 10-7 henry /m  
+Như vậy, độ tự cảm của một cuộn dây được tính bằng:  
+N L = = φ (3.4)  NBA 
+I 
+trong đó:  
+I 
+ L: Độ tự cảm (henry)  
+ N: Số vòng dây  
+ I: Cường độ dòng điện qua vòng dây  
+Khi chiều dài vòng dây lớn, từ thông qua cuộn dây là đều tại mọi điểm, khi đó, độ tự cảm của cuộn dây trong công thức (3.4) có thể viết lại thành:  
+L r o r o2 μ μ μ μ = = (3.5)  
+N HA I 
+N A l 
+Đối với vòng từ lắp đặt trên đường, hệ số F’ được thêm vào để xét đến việc từ trường  không hoàn toàn đồng nhất trong cuộn dây của vòng từ. 
+2 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+L r o . ' 2 μ μ = (3.6)  
+N A F 
+l 
+3.2.1.2. Hiệu ứng từ và việc phát hiện xe  
+Khi một lõi sắt (ví dụ động cơ xe) được cho vào giữa vòng từ, nó sẽ làm giảm sức  kháng của đường sức từ, dẫn đến làm tăng độ tự cảm của cuộn dây. Tuy nhiên, khung  xe khi vào vòng dây lại làm giảm rất nhiều độ tự cảm của cuộn dây do hiệu ứng dòng  Eddy sinh ra quanh mép của khung xe. Kết quả tổng hợp là khi xe ô tô đi vào vòng từ,  độ tự cảm của cuộn dây sẽ bị giảm.  
+Toàn bộ vòng dây, dây dẫn và dây cáp đầu vào phải tạo được một giá trị độ tự cảm  nhất định phù hợp với vùng điều chỉnh của bộ điều khiển và với các đòi hỏi khác về độ nhạy được tính toán bởi kỹ sư giao thông. Xem ví dụ bảng bên dưới.  Bảng 3.2: Ví dụ về độ tự cảm vòng từ sử dụng dây AWG  
+3.2.2. Cấu tạo cuộn dây của một vòng từ 
+Các vòng từ phải gồm nhiều lớp vòng dây để đảm bảo độ tự cảm bản thân mỗi vòng  phải lớn hơn 1 giá trị tối thiểu (xem hình 3.3 cách các lớp vòng dây xếp nối với nhau).  Yêu cầu này có thể đơn giản hóa bằng quy tắc sau đây:  
+• Nếu chu vi vòng từ nhỏ hơn 3.6m, thì bố trí cuốn 5 lớp  
+• Nếu chu vi vòng từ từ 7m đến 9m, thì bố trí cuốn 3 lớp.  
+• Nếu chu vi vòng từ khoảng 16m, thì bố trí cuốn 2 lớp.  
+• Nếu chu vi vòng từ lớn hơn 16m cho đến 33m, thì bố trí cuốn 1 lớp.  Chiều dài của cuộn dây (hướng xe chạy) yêu cầu không được ngắn hơn chiều rộng  của cuộn dây để không làm giảm độ nhạy cảm trong phát hiện xe.  
+
+Hình 3.3: Bố trí cuốn và nối điện của vòng từ có 2 lớp 
+3.2.3. Tính toán độ tự cảm của hệ thống vòng từ 
+Vì vòng từ có thể bị ảnh hưởng làm giảm phần cảm điện do hiện tượng cộng hưởng  của một mạch điện. Ngoài ra, các vòng dây đặt khi chôn xuống đất có nước, lại đặt cách  nhau theo chiều đứng, ngang nên tạo thành 1 dạng tụ điện, có một điện dung nhất định.  Điện dung thay đổi do môi trường xung quanh dây điện thay đổi độ ẩm cũng gây ảnh  hưởng đến độ tự cảm của cuộn dây. Có thể dùng công thức để tính toán gần đúng độ tự cảm của một tổ hợp vòng từ (gồm n lớp): 
+3 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+L = P x (n2 + n) / 4  
+Trong đó:  
+ L: Độ tự cảm của vòng từ (henry)  
+ P: Chu vi của cuộn dây vòng từ do trên mặt đường(ft)  
+ n: Số lớp vòng dây.  
+Tuy nhiên công thức là khá phức tạp do vòng từ bao giờ cũng có điện trở và điện  dung. Người ta tính toán lập bảng sẵn giá trị độ tự cảm của 1 số vòng từ chuẩn (xem ví  dụ bảng 3.3)  
+Bảng 3.3: Độ tự cảm của vòng từ chữ nhật (μH) rộng 1.8m, khi tần số điện là 60kHz  
+Độ tự cảm tổng của hệ thống vòng từ sẽ bằng độ tự cảm của tổ hợp vòng từ cộng  với độ tự cảm sinh ra do cáp đầu vào, ví dụ cáp đầu vào loại #14 AWG thì độ tự cảm  vào khoảng 21μH /30m. Ví dụ, một hệ thống vòng từ chữ nhật 1.8m x 1.8m có 3 lớp,  theo bảng trên thì sẽ có độ tự cảm là 74.25 μH, chiều dài dây cáp đầu vào là 61m, thì  tổng độ tự cảm của hệ thống vòng dây này bằng:  
+L = 74.25 + (61/30).(21) = 74.25 + 42.7 = 117 μH  
+Nếu hai hay nhiều vòng từ được mắc nối tiếp thì độ tự cảm tổng sẽ bằng tổng độ tự cảm của mỗi vòng từ L = L1 + L2. Nếu chúng mắc song song, độ tự cảm tổng sẽ được  tính bằng 1/L = 1/L1 + 1/L2 + ... Vì vậy, mắc song song sẽ làm giảm độ tự cảm. Một 
+4 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+thiết kế tốt yêu cầu độ tự cảm tổng phải lớn hơn hoặc bằng 50 μH. Có thể kết hợp cách  mắc nối tiếp và song song để tạo ra độ tự cảm thích hợp.  
+Mắc nối tiếp thường được sử dụng hơn so với mắc song song. Bộ các vòng từ mắc  nối tiếp sẽ nối chung với một bộ điều khiển điện tử. Mục đích của việc lắp nối tiếp là để mở rộng vùng dò tìm và để phát hiện nhiều lần một xe đi qua một làn (ví dụ: để đo vận  tốc hoặc để mở rồi đóng cửa chẳng hạn).  
+Ví dụ: Để phát hiện dòng xe rẽ trái, nếu dùng 4 vòng từ 1.8mx1.8m 3 lớp, ta có thể có 3 cách kết hợp: Nếu mắc 4 vòng nối tiếp thì ta sẽ được độ tự cảm tổng là 296 μH,  nếu mắc song song thì được độ tự cảm tổng bằng 18.5 μH, trong khi kết hợp mắc nối  tiếp và song song ta tạo được bộ vòng từ có độ tự cảm tổng bằng 74 μH (xem hình 3.4)  
+ Mắc nối tiếp Mắc nối tiếp song song Mắc song song  
+Hình 3.4: Bốn vòng 1.8mx1.8m 3 lớp mắc nối tiếp, song song, và nối tiếp song song  
+3.2.4. Độ tự cảm tương ngẫu  
+Một khung xe ô tô sẽ được xem như một tấm dẫn điện có chiều rộng và chiều dài  bằng kích thước xe. Tấm dẫn điện này có thể được xấp xỉ bằng một lưới các tấm dẫn  điện nhỏ hơn. Khi xe ô tô nằm ngang, trên giữa vòng từ, các dòng điện sinh ra chạy  quanh các mép của các tấm dẫn điện nhỏ triệt tiêu lẫn nhau, chỉ còn dòng diện chạy  quanh mép ngoài cùng của khung xe. Ta có thể xem đây cũng là 1 vòng dây có một  dòng điện kín (xem hình 3.5). Vòng từ và vòng dây (khung xe) này có thể xem như hai  vòng dây đặt đối diện gần nhau, sẽ sinh ra một từ trường kết hợp. Từ trường kết hợp  giữa hai vòng dây sẽ định nghĩa độ tự cảm tương ngẫu giữa hai cuộn dây, được tính như sau:  
+N M φ = (3.7)  2 21 
+21 I 
+1 
+trong đó:  
+ M21: Độ tự cảm tương ngẫu giữa 2 cuộn dây (henry)   N2: Số vòng dây 
+5 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+φ21 = Từ thông qua vùng khung xe (weber)  
+ I1: Cường độ dòng điện qua vòng từ (amper)  
+Độ tự cảm tương ngẫu sẽ quyết định độ nhạy trong khả năng phát hiện xe của vòng  từ. Nếu khung (gầm) xe quá cao, tức 2 vòng dây đặt xa nhau nhiều, khả năng phát hiện  xe sẽ giảm xuống.  
+Hình 3.5: Mô hình khung xe và độ tự cảm tương ngẫu  
+3.2.5. Độ nhạy của vòng từ 
+Độ nhạy của vòng từ được định nghĩa bằng:  
+L L S 
+Δ = ⋅ − = 100⋅ 100 (3.8)  
+L 
+trong đó  
+NV V L 
+NV 
+L 
+L 
+LNV: Độ tự cảm vòng từ khi không có xe (henry)  
+LV: Độ tự cảm vòng từ khi có xe (henry)  
+Độ nhạy vòng từ trong trường hợp hai vòng dây đặt đối diện nhau như trường hợp hình  3.5 được tính bằng công thức:  
+2 
+M S L = (3.9)  
+21 
+L .L 
+11 22 
+trong đó:  
+ L11 và L22 lần lượt là độ tự cảm của vòng từ và của khung xe (henry)  
+Nếu μr = 1 (cho không khí) khi bỏ qua hiệu ứng của vỏ, Li công thức (3.6) được viết lại  thành:  
+L μ o = 
+2 
+N A F 
+và  
+11 
+1 
+l 
+1 
+2 
+. 
+1 
+L μ o V = (N2 = 1)  N A F 
+2 
+22 
+. 
+l 
+2 
+2 
+Như vậy, độ tự cảm tương ngẫu giữa 2 cuộn dây là:  
+M μ o V = (3.10) 
+N A F 
+1 1 
+21 d 
+21 
+6 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+trong đó:  
+ AV: Diện tích của khung xe (m2)  
+ｄ21: khoảng cách giữa vòng từ và khung xe.  
+Độ nhạy cảm của vòng từ do vật có thể được biểu diễn như sau:  . . . 
+A l l F S V 
+1 2 1 
+L = (3.11)  
+.( ) 
+2 
+A d F 
+21 
+2 
+Công thức (3.11) khái quát cho thấy độ nhạy của vòng từ giảm trong trường hợp  diện tích của vòng từ lớn hơn diện tích khung xe. Độ nhạy cảm giảm bậc hai theo độ tăng khoảng cách giữa vòng từ và khung xe. Ngoài ra, tăng chiều dài vòng dây l1, bằng  cách cưa rãnh đạt các lớp vòng dây sâu hơn cũng là cách làm tăng độ nhạy cảm của  vòng từ. Toán đồ hình 3.6 (tính toán từ công thức 3.11) thể hiện sự biến đổi độ nhạy  cảm của 3 loại vòng từ (1.8mx1.8m, 1.8mx1.2m, 1.8mx0.6m) (3 lớp). Ta thấy độ nhạy  cảm của vòng từ (1.8mx0.6m) là nhỏ nhất vì nó có chiều dài ngắn nhất.  
+ảm (%)  
+ạy c 
+Độ nh 
+Chiều cao gầm xe (ft) 
+Hình 3.6: Độ nhạy cảm tính toán của 3 loại vòng từ tùy thuộc theo chiều cao gầm xe  
+Khi xét tính thêm độ tự cảm do cáp đầu vào, độ nhạy cảm của vòng từ sẽ giảm  xuống, toán đồ hình 3.7 thể hiện độ nhạy của của 3 vòng từ ở hình 3.6 khi có nối thêm  60m cáp đầu vào trước hộp pull box. Hình này cho thấy, vòng từ 1.8mx0.6m có thể không ‘nhận thấy’ xe gầm cao.  
+Ngưỡng độ nhạy tối thiểu thiết kế phải đủ lớn hơn một giá trị để hộp điều khiển có  thể nhận biết có một sự thay đổi về độ tự cảm của cuộn dây. Giá trị này thông thường  phải lớn hơn 2%. Tiêu chuẩn NEMA (Hiệp hội các nhà sản xuất điện Hoa Kỳ) quy định  ngưỡng độ nhạy cho 3 loại xe thử nghiệm khi 3 loại xe này chạy ngang giữa 1 vòng từ 
+có 3 lớp, kích thước 1.8m x 1.8m, được nối với 30.5m cáp đầu vào (lead-in cable). Các  loại và ngưỡng như sau:  
++ Loại 1: 0.13% (ΔL/L) hay 0.12μH (ΔL) thay đổi (áp dụng đối với xe máy nhỏ)  + Loại 2: 0.32% (ΔL/L) hay 0.3μH (ΔL) thay đổi (áp dụng đối với xe mô tô) 
+7 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
++ Loại 3: 3.2% (ΔL/L) hay 3.0μH (ΔL) thay đổi (áp dụng đối với xe ô tô)  
+Một vòng từ mắc nối tiếp hoặc song song thêm vào một vòng từ sẽ làm giảm độ nhạy tổng tại hộp điều khiển.  
+ảm (%)  
+ạy c 
+Độ nh 
+Chiều cao gầm xe (ft) 
+Hình 3.7: Độ nhạy cảm tính toán của 3 loại vòng từ tùy thuộc theo chiều cao gầm xe có  xét thêm độ tự cảm của 60m cáp đầu vào.  
+3.2.6. Độ nhạy của hệ các vòng từ mắc nối tiếp, song song  
+Người ta mắc nối tiếp, song song các vòng từ để mở rộng vùng phát hiện xe, ví dụ phát hiện xe trên 2, 3 làn của cùng một chiều di chuyển của xe. Nếu các vòng từ mắc  nối tiếp, độ nhạy cảm toàn cục của hệ các vòng từ nối tiếp sẽ là:  
+1 (3.12)  A 
+L S S+ 
+= 
+TS L 
+B 
+trong đó:  
+1 
+L 
+A 
+ SLA: là độ nhạy khi xe vào vào từ A nếu hệ chỉ có 1 vòng từ A:  
+Hình 3.8: Độ tự cảm và độ nhạy của hai vòng dây mắc nối tiếp  
+Nếu các vòng từ mắc song song, độ nhạy cảm toàn cục của hệ các vòng từ song  song sẽ là:  
+8 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+1 (3.13)  A 
+L S S+ 
+= 
+TP L 
+A 
+1 
+L 
+B 
+
+Hình 3.9: Độ tự cảm và độ nhạy của hai vòng dây mắc song song  
+Ví dụ 1:  
+Xác định độ nhạy đo được tại hộp đấu nối pull box và tại hộp điều khiển khi một xe  gầm cao 4ft đi ngang qua vòng từ 1.8mx1.8m 3 lớp hoạt động ở 60 kHZ. Vòng từ và  dây dẫn đầu vào cấu tạo bằng loại dây AWG #14 có độ tự cảm/ft bằng 0.22 μH/ft. Cáp  đầu vào là loại 8720, có độ tự cảm bằng 0.22 μH/ft (xem hình 3.10).  
+Hình 3.10: Cấu tạo đấu nối vòng từ thực tế và dạng mạch tương đương, ví dụ 1  
+Giải đáp 1:  
+Theo hình 3.6, độ nhạy cảm SL trong trường hợp xe cao 4 ft đi qua vòng từ 1.8mx1.8m 3 lớp là 0.1%.  
+Độ tự cảm của dây dẫn đầu vào: LS = 0.22 x 24 = 5.3 μH  
+Độ tự cảm của vòng từ 1.8mx1.8m 3 lớp hoạt động ở 60 kHz tra theo bảng 3.3 LL =  74.25 μH. Do vậy, độ nhạy SP ở hộp đấu nối pull box bằng: 
+9 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+S S 
+L 
+0.1% 
+P 
+= 
+1 
+= 
++ 
+L 
+S 
+5.3 1 + 
+= 
+0.093% 
+L 
+L 
+74.25 
+- Độ tự cảm của dây dẫn đầu vào và cáp đầu vào: LS = 0.22 x (24 + 200) = 49.3 μH  Độ nhạy SP ở hộp điều khiển electronic unit bằng:  
+S S 
+L 
+0.1% 
+P 
+= 
+1 
+= 
++ 
+L 
+S 
+49.3 1 + 
+= 
+0.060% 
+L 
+L 
+Ví dụ 2:  
+74.25 
+Xác định độ nhạy đo được tại hộp điều khiển khi có một vòng từ giống hệt được  mắc nối tiếp vào vòng từ của ví dụ 1 (Xem hình 3.11).  
+Hình 3.11: Cấu tạo đấu nối vòng từ thực tế và dạng mạch tương đương, ví dụ 2  
+Giải đáp 2:  
+Theo hình 3.11, độ nhạy cảm SL trong trường hợp xe cao 4 ft đi qua vòng từ 1.8mx1.8m 3 lớp là 0.1%.  
+Độ tự cảm vòng từ B và dây dẫn và cáp đầu vào là:  
+LS = L2 + L3+ L4+ L5 =74.25 + 0.22x(12 +24 + 200) = 126.17 μH  
+Độ nhạy SP ở hộp điều khiển electronic unit bằng:  
+S S
+L 
+0.1% 
+P 
+= 
+1 
+= 
++ 
+L 
+S 
+126.17 1 + 
+= 
+0.037% 
+L 
+L 
+74.25 
+10 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+3.3 Thiết kế bố trí vòng từ 
+Vòng từ không phải luôn thích hợp trong việc phát hiện xe để kiểm soát đèn tín hiệu.  Thực tế, vòng từ dài sẽ không thích hợp để quan trắc dòng xe bão hòa hay chiều dài chờ xe lớn. Vòng từ có thể được dùng cho quan trắc đường cao tốc và đèn tín hiệu nếu khu  vực từ trường gây ra được phân định rõ để có thể phát hiện xe ở làn xe quan tâm.  
+Quy tắc đại cương chỉ ra rằng chiều cao ảnh hưởng của vùng từ trường lên khỏi mặt  đất là khoảng 2/3 chiều dài của cạnh ngắn hơn của vòng từ. Vì thế, vòng từ kích thước  1.8mx1.8m có chiều cao ảnh hưởng khoảng 1.2m, tương đương như vòng từ kích thước  1.8mx30.5m. Cả hai loại vòng từ kích thước rộng 1.5m và 1.8m đều cho thấy hiệu quả 
+trong việc phát hiện xe gầm cao.  
+Để đo vận tốc, khoảng cách giữa hai vòng từ phải đủ lớn để chênh lệch về thời  lượng mà xe choáng chỗ trong hai vòng từ thì nhỏ đáng kể so với gián cách thời gian  phát hiện giữa 2 vòng từ. Quy tắc đại cương nói rằng khoảng cách nhau thông thường là  khoảng 5m (16ft) (xem hình 3.12). Cách bố trí này có thể được dùng để tham khảo cho  các loại thiết bị dò tìm khác khi chúng được bố trí thành cặp để đo vận tốc. Độ nhạy của  thiết bị điều khiển điện tử gắn vào mỗi vòng từ yêu cầu phải giống nhau để không gây  ra sai số.  
+Hình 3.12: Bố trí 2 vòng từ để đo vận tốc  
+Người ta không mở rộng 1 vòng từ qua nhiều làn xe nếu muốn quan trắc giao thông  nhiều làn xe. Vì nếu làm vậy, hai xe chạy song song trên hai làn sẽ không thể được phát  hiện là hai. Ngoài ra, khả năng phát hiện xe (độ nhạy) của vòng từ có diện tích lớn là  tương đối nhỏ. Thay vào đó, thực tế người ta sẽ bố trí các vòng từ riêng cho từng làn.  Cần phải có 1 khoảng cách ngang tối thiểu là 0.8m giữa 2 vòng từ để đảm bảo vòng từ không bị ảnh hưởng bởi làn xe kế cận. Trong trường hợp làn xe rộng hoặc thường xuyên  có hiện tượng chuyển làn, cần bố trí thêm 1 vòng từ giữa hai làn như hình 3.13 để tăng  độ chính xác trong phát hiện xe.  
+
+Hình 3.13: Bố trí 3 vòng từ cho quan trắc 2 làn xe 
+11 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Những nguyên tắc cơ bản cần quan tâm:  
++ Xe rộng nhất không choáng chỗ cả hai vòng từ kế cận 1 lúc  
++ Xe hẹp nhất không ‘len’ giữa hai vòng từ kế cận.  
++ Hai xe chạy song song nhau phải choáng chỗ 3 vòng từ.  
+Các vòng từ đặt gần nhau nối với các bộ dò khác nhau có thể làm ảnh hưởng sự hoạt  động của nhau. Do vậy, thông thường người ta sẽ set tần số khác nhau cho các vòng từ này. Về cơ bản, hai vòng từ kề liền nhau như đã nói phải lệch nhau ít nhất 5 kHz.  
+Nếu các vòng từ bố trí nối chung vào 1 cảm biến thì nhất thiết phải mắc nối tiếp.  Nếu có 2 vòng từ có khoảng cách gần nhau, cần lưu ý cách nối dây để đạt được hiệu quả như mong muốn:  
+a/ Nếu nối hai vòng dây sao cho cả hai dòng điện chạy cùng chiều (cùng theo 1  chiều đồng hồ) thì sẽ sinh ra một vùng không có từ trường nằm giữa hai sợi dây (Hình  3.14a). Cách nối này có sẽ có lợi trong trường hợp ở giữa hai vòng dây, ta có một cửa  trượt bằng thép. Cửa mở ra khi phát hiện xe ở vòng từ 1 và cửa đóng lại khi xe đó bị 
+phát hiện ở vòng từ 2. Vùng không gian không có từ trường sẽ giúp cửa trượt qua lại mà  không bị xem nhầm như một xe.  
+b/ Nếu nối hai vòng dây sao cho hai dòng điện chạy ngược chiều, tức 2 dòng điện đi  qua 2 đoạn dây nằm giữa sẽ cùng chiều (Hình 3.14b). Cách nối này tăng cường từ trường khu vực giữa hai vòng từ, cũng như hạn chế sự phân tán từ trường ra hai mép  ngoài của chúng. Cách bố trí này nhằm tăng độ mạnh từ trường và độ nhạy của thiết bị cảm biến, hỗ trợ trong việc phát hiện các xe nhỏ.  
+
+ (a) (b)  
+Hình 2.14: Các kiểu nối dây khi hai vòng từ bố trí cạch nhau cùng nối vào 1 cảm biến  
+3.3.1. Các đặc trưng thời gian trong thiết kế điều khiển đèn  
+a/ Thời gian xanh tối thiểu  
+Là thời gian tối thiểu cho phép các xe đậu giữa vạch dừng và vòng từ có thể thoát  khỏi giao lộ khi xanh bật lên. Bảng bên dưới cho chỉ dẫn về thời gian xanh tối thiểu cho  các khoảng cách khác nhau từ vòng từ đến vạch dừng  
+Khoảng cách giữa vạch  dừng và vòng từ
+	Thời gian xanh tối thiểu  (giây) 
+	0-12m 
+	8 
+	12-18m 
+	10 
+	18-25 
+	12 
+	25-30m 
+	14 
+	30-36 
+	16 
+	
+
+
+
+b/ Thời gian vượt qua vạch  
+Là thời gian xe di chuyển chạm vòng từ đến vượt qua vạch dừng. Thời gian này có ý  nghĩa quan trọng nếu vòng từ phát hiện điểm được sử dụng với một khoảng cách tương  đối xa so với vạch dừng. Thời gian vượt qua vạch xác định khoảng cách lớn nhất giữa 2  lần kích hoạt xanh để xanh vẫn còn chứ chưa kịp chuyển qua pha đỏ. 
+12 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+c/ Thời gian xanh tối đa  
+Đó là thời gian giới hạn tối đa mà đèn xanh của một chu kỳ có thể kéo dài.Thời gian  xanh này được tính từ thời điểm có một yêu cầu bật sang xanh ở hướng đang đỏ. Thời  gian xanh tối đa cho hướng đi thẳng phụ thuộc vào lưu lương tương quan giữa các  hướng, tuy nhiên, không nên quá 60 giây, hoặc ít hơn 30 giây. Nếu không có quá nhiều  xe vào nút và thời gian vượt qua vạch set không quá lớn thì thời gian xanh tối đa thường  ít khi đạt đến. Nếu ta có thể định nghĩa 2 thời gian xanh tối đa cho 2 hướng khác nhau,  ta có thể kiểm soát được tín hiệu đèn ở một giao lộ mà một hướng có lưu lượng nhiều  hơn hẳn hướng kia.  
+Hình 3.15 cho ta quan hệ giữa các đặc trưng thời gian.  
+T/g xanh tối thiểu T/g xanh kéo dài  
+T/g vượt qua vạch  
+Yêu cầu bật xanh  
+ở hướng đang đỏ Các yêu cầu  
+duy trì xanh  
+T/g xanh tối đa  
+Phần chưa hết của t/g vượt qua vạch  
+Hình 3.15:Quan hệ giữa các đặc trưng thời gian trong điều khiển đèn  
+Nguyên tắc kích hoạt xanh trong điều khiển tín hiệu đèn động (Actuated Control):  Nếu trước cuối thời gian xanh tối thiểu, không có xe nào kích hoạt yêu cầu duy trì  xanh (đi qua vòng từ đặt trước vạch dừng) thì xanh sẽ chuyển sang đỏ. Nếu trước khi  xanh chuyển sang đỏ, có xe yêu cầu duy trì xanh thì xanh sẽ tiếp tục một khoảng thời  gian bằng thời gian vượt qua vạch, quá trình này tiếp tục cho đến khi không còn xe yêu  cầu hoặc đạt đến thời gian xanh tối đa.  
+3.3.2. Thiết kế vòng từ điều khiển đèn khi tốc độ xe không cao  
+(Áp dụng khi tốc độ xe khi vào nút nhỏ hơn 50 km/h)  
+a/ Kiểu vòng từ phát hiện điểm có lưu nhớ 
+Vòng từ phát hiện điểm là loại vòng từ có diện tích nhỏ (khoảng 1.8m x1.8m).  Người ta sẽ set trước thời gian xanh tối thiểu đủ để các xe đậu giữa vòng từ và vạch  dừng có thể được giải phóng hết. Thời gian xanh tối thiểu này là cơ sở để xác định vị trí  vòng từ. Bên cạnh đó, thời gian vượt qua vạch (thời gian di chuyển giữa vạch dừng)  được set trước bằng với gián cách thời gian giữa hai xe cho phép để xe sau kịp kích hoạt  yêu cầu xanh (xem hình 3.16)  
+vòng từvạch  
+T/g vượt qua vạch = gián  
+cách tg 2 xe 
+Hình 3.16: Set thời gian vượt qua vạch.  
+dừng
+13 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Gián cách thời gian này thường cho phép vào khoảng 3-4 giây. Bảng bên dưới  khuyến cáo quan hệ giữa vận tốc xe vào nút, vị trí vòng từ sau vạch dừng, thời gian  xanh tối thiểu định trước và thời gian vượt qua vạch.  
+Vận tốc xe vào nút  (km/h) 
+	Vị trí vòng từ sau  vạch dừng (m) 
+	T/g xanh tối thiểu  (giây) 
+	Thời gian vượt qua  vạch (giây 
+	24 
+	12 
+	9 
+	3 
+	32 
+	18 
+	11 
+	3 
+	40 
+	24 
+	12 
+	3 
+	48 
+	30 
+	13 
+	3.5 
+	56 
+	41 
+	14 
+	3.5 
+	
+
+
+
+Khi có một xe qua vòng từ để nhập vào dòng chờ đèn xanh, bộ nhớ của bộ điều  khiển đèn lưu dồn thêm 1 thông tin có 1 xe đang chờ cho đến khi đèn xanh bật lên thì  thông tin này mới bị xóa. Thời gian này xác định được số xe chờ giữa vòng từ và vạch  dừng. Số xe chờ này được tính bằng khoảng cách từ vòng từ đến vạch dừng chia cho  7.6m (bằng chiều dài xe + khoảng cách trung bình giữa 2 xe)  
+Nếu chiều dài số xe chờ đèn ngắn hơn khoảng cách vòng từ đến vạch dừng, thời  gian xanh tối thiểu sẽ giảm tương ứng đủ để số xe này giải phóng sau khi xanh bật lên.  Sau thời gian đèn đỏ này, nếu có xe vào vòng từ thì xanh sẽ được yêu cầu kéo dài thêm,  nhưng không vượt quá thời gian xanh tối thiểu đã được set trước. Như vậy, kiểu vòng từ 
+phát hiện điểm có lưu nhớ giúp xác định được thời gian xanh tối thiếu. Tuy nhiên, kiểu  bố trí thiết kế vòng từ này có nhược điểm sẽ bị nhầm lẫn nếu đếm một xe rẽ phải khi  đèn đỏ (xe không chờ xanh), dẫn đến tăng thời gian xanh không cần thiết.  
+Thời gian vượt qua vạch có thể lấy bằng gián cách thời gian giữa hai xe cho phép để xe sau kịp kích hoạt yêu cầu xanh (giá trị định sẵn, ví dụ 3-4s) hoặc cũng có thể ước  lượng từ thực tế quan trắc bằng khoảng cách vòng từ-vạch dừng chia cho vận tốc mà  15% vận tốc xe trên đường nhỏ hơn nó. Thông thường, khi số lượng xe chờ đèn xanh ở hướng đối lập ít, người ta sẽ dùng giá trị định sẵn, nhưng khi có nhiều xe yêu cầu bật  xanh ở hướng đối lập, người ta sẽ dùng giá trị ước lượng hoặc giá trị nhỏ nhất có thể trong việc kéo dài xanh cho hướng này để nhanh chóng bật xanh cho hướng đối lập.  
+b/ Kiểu vòng từ phát hiện vùng rộng không lưu nhớ 
+Lòng từ loại này có chiều dài khoảng 15m đến 30m (rộng 1.8m), cách bố trí như hình 3.16. Đèn tín hiệu sẽ được gửi tín hiệu điều khiển khi vòng từ bị choáng chỗ. Khi  có xe đang chờ trong vòng từ chuyển tín hiệu đến bộ điều khiển đèn, tín hiệu này sẽ không còn ngay khi xe ra khỏi vòng từ, do vậy, bộ điều khiển đèn không lưu nhớ. Kiểu  vòng từ này khắc phục nhược điểm của kiểu vòng từ bên trên, không gây lãng phí thời  gian xanh. Nhược điểm của nó là tốn kém chi phí lắp đặt, sửa chữa thay thế hơn so với  kiểu vòng từ trên.  
+Kiểu bố trí này đặt biệt phát huy hiệu quả khi ta muốn tạo thuận tiện cho dòng xe  chờ rẽ trái. Người ta bố trí thêm vòng từ ở khu vực xe chờ rẽ trái (hình 3.17). Đèn rẽ trái  được kích hoạt bật (tắt xanh đi thẳng) khi có xe chờ rẽ trái hiện diện trên vòng từ. Khi  xe rẽ trái cuối cùng rời khỏi vòng từ qua đường, đèn xanh rẽ trái sẽ bị kích hoạt tắt.  
+Người ta cũng có thể set sao cho vòng từ chỉ chuyển tín hiệu đến bộ điều khiển chỉ khi xe rẽ trái đậu chờ trên vòng từ quá một thời gian nhất định. Trường hợp dòng xe đi  thẳng không nhiều, xe rẽ trái có thể tranh thủ di chuyển ngang qua vòng từ để qua  đường thì không cần kích hoạt bật đèn xanh rẽ trái. Cách set này cũng hữu ích trong  trường hợp xe muốn rẽ phải có thể rẽ được khi đèn đỏ mà không cần chờ đèn xanh. 
+14 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Khu vực vòng  
+từ phát hiện  
+xe rẽ trái 
+Đèn tín hiệu 
+Vòng từ
+ Hình 3.17: Bố trí vòng từ phát hiện vùng rộng không lưu nhớ 
+Kiểu bố trí vòng từ này cũng có thể điều khiển đèn cho dòng xe đi thẳng. Trong  trường hợp này thời gian xanh tối thiểu được set rất ngắn, gần bằng 0. Vì khoảng cách  giữa vòng từ kiểu này đến vạch dừng ngắn, nên thời gian qua vạch thời cũng chỉ khoảng  1 đến 1,5 giây.  
+Thời gian để xe qua được giao lộ được tính từ lúc phát hiện xe đến lúc vòng từ hết  nhận biết sự hiện diện xe trong vòng từ. Trong khi vòng từ còn đang phát hiện xe nằm  trong vòng từ, đèn tín hiệu sẽ duy trì xanh. Sau khi xe ra khỏi vòng từ, thời gian qua  vạch (thời gian kéo dài) được tính. Nếu không có xe mới vào vòng tử trong thời gian  kéo dài, đèn vàng sẽ bật lên. Chiều dài vòng từ được tính toán bởi công thức sau:  
+L = Va .([gap] – thời gian qua vạch) / 3.6 – Chiều dài xe trung bình (m)  Trong đó: Va là vận tốc dòng xe qua nút (km/h)  
+[gap]: Gián cách 2 xe cho phép kích hoạt yêu cầu xanh (~ 3-4 giây)  
+3.3.3. Thiết kế vòng từ điều khiển đèn khi tốc độ xe cao  
+(Áp dụng khi tốc độ xe khi vào nút lớn hơn 50 km/h)  
+Khi xe vào nút đạt tốc độ cao, tài xe gặp phải vấn đề khó khăn trong quyết định  dừng hay nhấn ga khi đèn vàng bật lên. Vùng giới hạn bởi vị trí mà 90% tài xế quyết  định dừng và 90% tài xế quyết định nhấn ga chạy luôn gọi là vùng lưỡng lự (dilemma  zone) (Hình 3.18). Tài xe vào vùng này sẽ gặp nguy hiểm vì dễ bị xung đột (húc đuôi  nếu dừng lại hoặc bị đâm ngang nếu vượt nút).  
+15 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Hình 3.18: Vùng lưỡng lự (dilemma zone)  
+Để tránh nguy hiểm trường hợp khi đèn vàng bật lên trong vùng lưỡng lự khi thời  gian xanh đã đạt đến thời gian xanh tối đa, một số giải pháp về điều khiển đèn tín hiệu  có thể được áp dụng như sau.  
+a/ Đường cao tốc ngoài đô thị 
+Khi tín hiệu đèn giao thông ở đường cao tốc ngoài đô thị không thể thấy được từ xa  do tầm nhìn kém, người ta sử dụng bảng điện “CHUẨN BỊ DỪNG”. Cách làm này yêu  cầu vòng từ phải đặt xa giao lộ hơn so với vùng lưỡng lự, Vòng từ sẽ giúp bộ điều khiển  có được thông tin về gián cách trung bình giữa các xe. Khi xe cuối cùng được tính toán  có thể an toàn vượt qua vòng từ, bộ điều khiển sẽ tính toán bật thông báo “CHUẨN BỊ 
+DỪNG” cho xe kế tiếp biết để giảm tốc.  
+b/ Hệ thống kéo dài thời gian xanh  
+Các vòng từ được set ở chế độ presence mode. Các xe sẽ phải được phát hiện trước  khi vào vùng lưỡng lự. Hai vòng từ được bố trí sát vùng lưỡng lự như thấy trên hình  3.19.  
+
+Hình 3.19: Hệ thống kéo dài thời gian xanh sử dụng hai vòng từ 
+Khoảng cách D chính bằng khoảng cách hãm phanh:  
+. 2m 
+V t V D 
+= + (3.14)  ( ) 3.6 254 
+ϕd 
+trong đó:  
+ V: Vận tốc mà 85% vận tốc xe trên đường nhỏ hơn nó (km/h)   t: thời gian phản ứng (giây) 
+16 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+ϕd: hệ số bám theo phương dọc  
+Khoảng cách D2 là khoảng cách xe có thể vượt qua nút an toàn:  
+. 2 
+V t V D3.6 26. 
+2 = + (3.15)  a 
+Với vị trí vòng từ như trên, một xe vượt qua vòng từ S1 sẽ kích hoạt đồng hồ đếm  thời gian, cho phép kéo dài thời gian xanh (=T1) cho xe chạy đến vị trí vòng từ S2. Nếu  xe chạy đến được vòng từ S2 trong thời gian T1, thì xe có thể an toàn vượt qua giao lộ.  Tuy nhiên, với cách bố trí như thế này nếu vận tốc xe nhỏ hơn vận tốc 85% thì không  đảm bảo xe có thể đến kịp S2 để vượt qua nút. Điều đó có nghĩa là xe chưa đến S2 thì  đèn vàng đã bật lên. Trong trường hợp này, xe phải hãm phanh.  
+c/ Hệ thống kéo dài thời gian gọi xanh  
+Cách làm này sử dụng một vòng từ dài 21m đặt ngay trước vạch dừng và được set ở chế độ presence. Vòng từ nhỏ khác được đặt cách vòng từ dài một khoảng cách cỡ 75- 150m về phía thượng lưu dòng xe (xem hình 3.20). Khoảng cách D được xác định từ phương trình 3.14 dùng vận tốc mà 85% vận tốc xe trên đường nhỏ hơn nó. D2 bằng  
+21m (70 ft). Do vậy, D1 được tính bằng D – D2. Thời gian T1 được tính bằng D1 chia  cho vận tốc mà chỉ 15% số xe trên đường nhỏ hơn nó.  
+Một xe vượt qua vòng từ S1 sẽ kích hoạt đồng hồ đếm thời gian, cho phép kéo dài  thời gian xanh (=T1) cho xe chạy đến vị trí vòng từ S2. Các xe đã vào vùng vòng từ S2  sẽ được đảm bảo đèn xanh cho đến khi xe ra khỏi vòng từ này.  
+
+Hình 3.20: Hệ thống vòng từ kéo dài thời gian gọi xanh  
+Việc chọn vận tốc 85% lớn trong công thức tính D dẫn đến chiều dài D lớn, kéo  theo chiều dài D1 lớn. Hơn nữa việc chọn vận tốc 15% nhỏ trong công thức tính T1 dẫn  đến T1 cho phép kéo dài càng lớn hơn thực tế xe chạy. Điều đó có nghĩa hệ thống này  được thiết kế sao cho xe chạy sau cùng và xe chạy dưới vận tốc 85% cũng không bị rơi  vào cùng lưỡng lự đèn vàng. Nếu xe sau cùng bị rơi vào vùng lưỡng lự với đèn vàng bật  lên do thời gian xanh đã đạt tối đa, thiết bị có thể làm tăng thời gian vàng để xe này  giảm nguy hiểm.  
+Vai trò thứ hai của vòng từ dài 21m là để đảm bảo các xe chờ đèn xanh không kích  hoạt kéo dài thời gian xanh. Khoảng cách ngắn hơn giữa 2 vòng từ (so với phương án b)  giúp việc điều khiển đèn tín hiệu ít bị sai sót hơn do thời gian xe di chuyển đến vòng từ S2 gần đúng so với tính toán hơn. 
+17 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+3.3.4. Một số tiêu chí khác trong thiết kế chọn vòng từ 
+a/ Dò tìm trong khu vực nhỏ 
+Trong trường hợp này, người ta sử dụng vòng từ có chiều dài nhỏ hơn 6m. Thông  thường, vòng từ có kích thước 1.8 x 1.8m cho làn xe rộng 3.6m hay được dùng. Đối với  làn xe hẹp hơn, người ta khuyến cáo sử dụng vòng từ 1.5 x 1.5m để tránh hiện tượng  phát hiện nhầm xe ở làn kế bên. Tuy nhiên, không nên sử dụng vòng từ có chiều rộng  hẹp hơn vì vùng từ hẹp sinh ra không thể nhạy trong phát hiện xe có gầm cao. Có nhiều  dạng hình học của vòng từ được sử dụng (xem hình 3.21). Mỗi loại có ý đồ riêng để gia  tăng độ nhạy phát hiện trong trường hợp cụ thể, tuy nhiên, sự khác biệt là không rõ nét.  
+Vòng từ dò tìm trong khu vực nhỏ thường làm việc ở chế độ pulse, có ghi nhớ cộng  dồn số lượng xe phát hiện được. Đèn tín hiệu sử dụng chung loại này thường làm việc  theo kiểu kích hoạt để kéo dài thời gian xanh.  
+Hình 3.21: Các hình dạng vòng từ có thể sử dụng  
+b/ Dò tìm trong khu vực rộng  
+Chiều dài dò tìm trường hợp này thường lớn hơn 6m của 1 làn xe. Thông thường,  vòng từ làm việc theo chế độ nhận biết hiện diện (presence mode), nhận biết sự có mặt  của xe khi xe còn choáng chỗ vòng từ. Có thể dùng 1 vòng từ dài hoặc dùng 1 chuỗi các  vòng từ ngắn để dò tìm trong khu vực rộng. Cả hai cách đều tương tự nhau.  
+Vòng từ dài  
+Vòng từ này thường có 1 đến 2 lớp dây. Nếu các vòng từ này được yêu cầu phải  phát hiện nhiều loại xe, nó phải được thiết kế có độ nhạy cao. Điều này dẫn đến hiện  tượng phát hiện nhầm xe ở làn kế bên. Vòng từ hình dạng quadrupole được cho là khắc  phục tương đối tốt nhược điểm này. Tuy nhiên, vòng từ hình dạng này lại phát hiện kém  xe gầm cao vì chiều rộng của mỗi vùng từ hẹp. 
+18 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chiều dài của vòng từ dài ảnh hưởng rất lớn đến sự làm việc của hệ thống đèn tín  hiệu vì thời gian qua vạch là nhỏ hơn nhiều so với thời gian xe choáng chỗ trên vòng từ.  Chiều dài này phải đủ dài để xe kịp hãm phanh nếu đèn vàng đã bật lên trước khi nó vào  vòng từ, nhưng cũng không quá dài để xe có thể vượt qua nút nếu một xe đã vào vòng  từ rồi mà đèn vàng bị cưỡng bực bật lên.  
+Chuỗi vòng từ ngắn  
+Ưu điểm của chuỗi vòng từ ngắn dùng thay thế cho vòng từ dài là chúng ít bị hư hỏng do gãy nứt mặt đường hơn so với vòng từ dài. Nó cũng ít bị hiện tượng phát hiện  nhầm xe ở làn kế bên so với vòng từ dài. Đó là do xe ở làn bên cạnh có thể lọt hoàn toàn  vào chiều dài của vòng từ dài dẫn đến bị nhận biết nhầm; trong khi đối với nhiều vòng  từ ngắn, hiện tượng này được giảm thiểu. Vòng từ nhỏ cũng phát hiện xe nhỏ rất tốt.  Chuỗi các vòng từ ngắn thường có 4 vòng 1.6x1.6m hình vuông hay hình thoi cách  nhau 2.7 đến 3.0m (xem hình 3.22)  
+Hình 3.22: Một số kiểu bố trí chuỗi vòng từ ngắn  
+Vòng từ rộng  
+Những vòng từ này thường có kích thước dài 1.8m và rộng 14m, 1 lớp, phủ ngang 4 làn  xe vào nút (xem hình 3.23). Dạng vòng từ này thưởng dễ hư hỏng do những vết nứt  ngang đường hoặc vết nứt dọc theo các làn. Do vậy, thông thường người ta sẽ bố trí 4  vòng từ kề liền nhau sử dụng chung một hộp điều khiển, có thể mắc nối tiếp vối nhau.  
+
+Hình 3.23: Ví dụ bố trí vòng từ rộng  
+c/ Dò tìm xe nhỏ 
+Để vòng từ có thể phát hiện được xe nhỏ như xe đạp, xe máy, các yếu tố cần lưu ý  bao gồm: hình dạng vòng từ, bề rộng làn, và vị trí đặt vòng từ. 
+19 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Nhiều vòng từ nhỏ kết nối với nhau  
+Kiểu nhiều vòng từ nhỏ kết nối với nhau thường sử dụng trong việc dò tìm xe nhỏ.  Trong cách bố trí này, độ nhạy của bộ vòng từ có thể dễ kiểm soát hơn nếu dùng 1 vòng  từ dài, vì vòng từ dài cần phải được set độ nhạy cao thì mới có thể nhận biết xe nhỏ.  Nhưng độ nhạy cao của vòng từ dài, rộng thường dẫn đến hiện tượng phát hiện nhầm xe  ở làn kế bên. Vòng từ càng lớn thì càng cần nhiều xe bên trong nó để nó có thể nhận ra  có xe.  
+Vòng từ càng rộng thì càng có độ nhạy cảm lớn, tức có khả năng tốt hơn trong  phát hiện các xe có gầm cao, cũng như các xe ở làn lân cận. Các vòng từ nhỏ còn có  thể có độ tự cảm tổng gần đạt mức tối ưu nếu chúng được mắc nối tiếp. Một ưu điểm  nữa là nếu 1 vòng từ bị hỏng thì các vòng từ còn lại vẫn có thể hoạt động được.  
+Bố trí hình dạng kiểu quadrupole  
+Bố trí vòng từ theo hình này cắt 1 vệt giữa làn xe hai bánh, các sợi dây luồn qua khe  theo hình số 8 (xem hình 3.24a). Dòng điện qua 2 dây ở giữa cùng chiều nhau, do đó, từ trường hai vòng dây sẽ hỗ trợ nhau, làm tăng độ mạnh để có thể phát hiện xe nhỏ. Trong  khi đó, việc dòng điện qua 2 dây hai bên ngược chiều với dòng điện qua hai dây giữa sẽ làm hạn chế sự lan tỏa từ trường ra ngoài, giảm thiểu việc phát hiện nhầm xe làn kế bên.  
+Thông thường, người ta sẽ sử dụng 2 lớp dây, nghĩa là 2 dây cho mỗi mép ngoài và  4 dây ở giữa, để tăng hiệu quả trong việc phát hiện xe nhỏ. Vị trí đặt vòng dây cũng  phải tương ứng với vị trí làn, hướng xe chuyển động để có thể phát hiện được xe. Có thể sử dụng 2 vòng quadrupole đặt kề liền nhau như hình 3.24b để mở rộng vùng dò tìm xe  nhỏ.  
+Caltrans đưa ra một giải pháp hình học khác để dò tìm xe đạp tại giao lộ giữa đường  dành riêng cho xe đạp và đường cho xe cơ giới (hình 3.25). Vòng từ này có kích thước  toàn bộ là 1.8mx1.8m. Vòng từ này có 3 lớp được nối vào 1 bộ điều khiển. Hình dạng  khe cắt của loại này tạo nên các góc nhỏ dễ làm hỏng dây; do vậy, cần phải bo tròn góc  của khe để hạn chế ảnh hưởng gấp khúc đứt dây.  
+(a) (b)  
+Hình 3.24: Bố trí vòng từ theo hình quadrupole 
+20 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+
+(a) (b)  
+Hình 3.25: Bố trí dạng hình học vòng từ của Caltrans trong phát hiện xe đạp  
+Tài liệu tham khảo:  
+- US. Department of Transport, Federal Highway Administration (2006). Traffic  Detector Handbook. Third edition, Volume 1. 
+21 
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chương 4: 
+MÔ PHỎNG GIAO THÔNG VÀ TÍN HIỆU  ĐÈN THÔNG MINH  
+4.1. Mô phỏng giao thông  
+4.1.1. Giới thiệu chung  
+Mô phỏng giao thông là bắt chước lại hành vi của một hệ thống giao thông. Có thể nói đó là cách thể hiện bằng thực nghiệm logic toán các hệ thống thực trên phần mềm  máy tính.  
+Hệ thống giao thông là một hệ thống động, với các tương tác cùa nhiều thành phần  đối tượng với nhau. Hành vi của một số ít đối tượng có thể được diễn tả bằng phương  trình toán, nhưng rất khó để có thể nếu hệ thống có nhiều đối tượng. Do vậy, mô hình  mô phỏng giao thông sẽ tích hợp gộp hành vi của từng đối tượng để diễn tả chi tiết ứng  xử của toàn hệ thống.  
+Người sử dụng phần mềm mô phỏng sẽ mô tả một viễn cảnh giao thông (hình học  mạng lưới đường, nhu cầu đi lại của các phương tiện). Phần mềm mô phỏng sẽ cung cấp  kết quả phân tích mạng lưới đó sẽ như thế nào, kết quả đồ họa sẽ làm sáng tỏ thêm cho  người sử dụng tại sao lại có kết quả phân tích như vậy. Mô phỏng giao thông có các vai  trò với thiết kế xây dựng đường, tổ chức các giải pháp ITS, và đối với an toàn giao  thông, cụ thể như sau:  
+1/ Đánh giá các giải pháp xử lý khác nhau:  
+Bằng cách mô phỏng, người kỹ sư có thể kiểm soát được các trạng thái khác nhau  của môi trường thực nghiệm. Các mô hình mô phỏng giao thông dùng để đánh giá các  chiến lược điều khiển tín hiệu giao thông. Nó còn được dùng để tối ưu hóa việc điều  khiển đèn  
+2/ Thử nghiệm thiết kế mới  
+Mô phỏng giao thông có thể được dùng để kiểm tra thiết kế khả năng thông hành  của một tuyến đường, nút giao thông với các thiết kế khác nhau. Nó cũng có thể giúp  hiệu chỉnh các chi tiết của thiết kế để có được thiết kế tối ưu nhất.  
+Ngoài ra đối với ITS, mô phỏng giao thông giúp thử nghiệm việc điều khiển tín hiệu  đèn phản ứng, thử nghiệm hướng dẫn tuyến động.  
+3/ Phân tích an toàn  
+Các mô hình mô phỏng GT tái tạo lại trường hợp tai nạn, giúp người thiết kế hoàn thiện  đường và xe.  
+4/ Kiểm chứng công thức, giả định  
+Những công thức về giao thông có thể chưa chính xác, ta có thể dùng mô phỏng giao  thông để hiệu chỉnh các công thức này trong các điều kiện thực tế. 
+1  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+4.1.2. Các khái niệm trong mô phỏng giao thông  
+Vi mô (micro simulation): Đó là mô tả cả các đối tượng của hệ thống và cách chúng  tương tác với nhau ở mức độ rất chi tiết. Ví dụ: quyết định chuyển làn để vượt xe của  một xe sẽ tùy thuộc vào tương quan giữa nó với xe đi trước (mà được quyết định theo  mô hình Xe Theo Xe) và thao tác chuyển làn này sẽ tác động đến hành vi của các xe kề 
+liền trên làn mà xe đó chuyển đến.  
+Thời gian rời rạc (discrete time): Đó là mô hình thể hiện thực tế, xét trạng thái của hệ thống thay đổi theo các bước thời gian Δt. Trong mỗi khoảng thời gian nhỏ đó, mô hình  sẽ tính toán các hoạt động (vd: vận tốc, gia tốc, vị trí, xu thế chuyển làn...) của các thành  phần của hệ thống. Như vậy, các biến trạng thái của tất cả các thành phần của hệ thống  ở thời điểm t sẽ phụ thuộc vào giá trị của các biến này ở thời điểm t - Δt, cứ như thế tiếp  tục.  
+Ngẫu nhiên (random): Mô hình ngẫu nhiên được xây dựng dựa trên các giả thiết về sự phân bố ngẫu nhiên các đại lượng (vd: phát sinh xe, phân bố gián cách, các giá trị ngưỡng cho mỗi xe).  
+Các mô hình ngẫu nhiên trước tiên đòi hỏi phải phát sinh các số ngẫu nhiên. Phương  pháp phổ biến nhất là phương pháp điều hòa tương tự (linear congruential method).  Phương pháp này dùng một phương trình quy nạp để phát sinh ra chuỗi các số nguyên  Si như sau:  
+Si = (aSi-1 + b) mod c (4.1)  Trong đó  
+Mod c là phần nguyên (du) của aSi-1 + b chia cho c  
+0<a< c, 0 <b <m  
+So là seed bắt đầu cho chuỗi, 0<So<c.  
+Sau đó, số ngẫu nhiên thứ i được tạo ra ngẫu nhiên Ri bằng cách lấy số Si chia cho c.  Đó là một số ngẫu nhiên giữa (0,1). Người ta sẽ xác định các giá trị ngẫu nhiên của đại  lượng cần tìm từ các số ngẫu nhiên giữa (0,1) này.  
+Ví dụ các giá trị ngẫu nhiên có thể được dùng để phát sinh xe như sau:  hi = (H – hmin) [-ln(1-Ri)]+ H - hmin (4.2)  trong đó:  
+ hi: gián cách thời gian (giây) giữa các xe xuất phát liền kề nhau thứ i   H: giá trị trung bình của gián cách thời gian = 3600/lưu lượng xe 1 giờ  hmin: gián cách thời gian tối thiểu (khoảng 1.2 giây/cặp xe)  Ri: Số ngẫu nhiên giữa (0,1) được tạo ra.  
+Giả sử nếu ta muốn phát sinh N xe trong 15 phút (N = V/4), ta cần phải phát sinh N số Ri và hi. Tuy nhiên vì các số hi là ngẫu nhiên, nên để đảm bảo có đúng N xe trong 15  phút, phần mềm sẽ phải tính giá trị thu phóng K rồi nhân K với từng số hi trong chuỗi  để đảm bảo tổng các hi hiệu chỉnh sẽ bằng 15 phút. 
+2  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+K 
+⋅ = N 
+15 60 
+∑
+hi 
+ (4.3)  
+i 
+= 
+1 
+4.1.3. Xây dựng các mô hình mô phỏng GT  
+Việc phát triển các mô hình mô phỏng GT đỏi hỏi các bước sau:  
+1/ Xác định vấn đề và các mục tiêu  
+Nêu mục tiêu xây dựng mô hình và xác định các thông tin trạng thái GT mà mô hình  sẽ cho ta.  
+2/ Định nghĩa hệ thống sẽ nghiên cứu  
+Chia nhỏ hệ thống thành các đối tượng nhỏ hơn.  
+Định nghĩa các tương tác chính giữa các đối tượng.  
+Xác định các thông tin đầu vào cần thiết.  
+Giới hạn khu vực cần mô phỏng.  
+3/ Xây dựng mô hình  
+Xác định mức độ phức tạp cần thiết để đáp ứng được các mục tiêu đã nêu.  Định nghĩa xác định các thông số đầu vào, đầu ra.  
+Xác định dòng dữ liệu của mô hình  
+Xác định các hàm mô hình của từng thành phần.  
+Xác định các yêu cầu về ước lượng các tham số của mô hình, các giá trị, phân bố thống kê  
+Xác định các thuật toán để kiểm soát hoạt động, tương tác giữa các thành phần.  Xây dựng một cấu trúc logic để tích hợp các thành phần, hỗ trợ liên thông dữ liệu  giữa các thành phần.  
+Chọn phần mềm lập trình, giao diện đồ họa, cách bố trí và xây dựng cơ sở dữ liệu,  và viết code.  
+4/ Ước lượng các tham số của mô hình  
+Tập hợp dữ liệu để ước lượng được các tham số của mô hình.  
+Nhập các tham số này vào mô hình.  
+5/ Chạy và kiểm chứng mô hình  
+Cho phần mềm chạy với các dữ liệu đầu vào, kiểm chứng sự tương tác giữa các  thành phần theo ý đồ mô hình ban đầu.  
+Thu thập các thông tin giao thông thực tế. Bằng các phép thống kê, so sánh đối  chiếu và kiểm chứng sự chính xác của thông số đầu ra của mô hình với thực tế.  Việc xây dựng mô hình mô phỏng giao thông đòi hỏi sự tới lui giữa các bước trên. Ví  dụ ở bước 5, khi chạy chương trình, ta thấy phần mềm mô phỏng các thành phần tương  đối tốt, nhưng sự tương tác giữa các thành phần chưa giống kỳ vọng của lý thuyết thì ta  có thể quay lại bước 4 xem xét liệu các tham số đầu vào của mô hình đã được ước  lượng chính xác chưa hoặc quay lại bước 3 xem việc chọn hàm số cho mô hình thể hiện  hành vi của thành phần đã phù hợp chưa hay cần phải sử dụng hàm mô hình khác. 
+3  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Ví dụ về thành phần của mô hình mô phỏng GT:  
+Hai yếu tố chủ yếu của hệ thống giao thông: (1) Xe; (2) Lái xe. Mỗi yếu tố được  định nghĩa bởi các thuộc tính sau:  
+Xe: Chiều dài, rộng; giới hạn tăng tốc, giảm tốc; tốc độ tối đa, loại xe, góc quay xe tối  thiểu.  
+Người lái xe: Mức độ thích giành đường, vượt xe khác; mức độ phản ứng các tác động;  quyết định chọn luồng tuyến...  
+Các thuộc tính này được quyết định bởi người phân tích. Chúng có thể là giá trị (chiều dài xe), hoặc hàm tương quan (gia tốc lớn nhất so với vận tốc hiện tại), hoặc  phân bố (gián cách thời gian chấp nhận). Các thuộc tính này phải được ước lượng dựa  vào dự liệu quan trắc thực tế của đối tượng muốn mô phỏng.  
+Xe – Người lái xe kết hợp tạo thành một thành phần (đối tượng) của mô hình. Các  thuộc tính của thành phần này có thể định nghĩa độc lập hoặc có thể liên quan với nhau  (vd: Quyết định thích tăng tốc của người lái xe tại một vận tốc có thể bị hạn chế bởi sức  kéo của xe). Thành phần (đối tượng) này cũng tương tác với các thành phần như sau của  mô hình:  
+• Hình học tuyến đường  
+• Hình dạng nút giao thông  
+• Các đối tượng xe-người lái xe lân cận  
+• Đèn tín hiệu  
+• Hệ thống biển báo, hướng dẫn luồng tuyến.  
+Việc đối tượng xe- người lái xe tương tác với đèn tín hiệu có thể phụ thuộc vào các  thông số sau: trạng thái hiện tại của đèn, tốc độ xe, khoảng cách từ xe đến vạch dừng,  mức độ thích vượt của người lái xe. Tất cả các đối tượng và sự tương tác qua lại giữa  chúng phải được quyết định bởi người xây dựng mô hình sao cho đáp ứng được mục  tiêu đề ra (vd. giống thực tế nhất).  
+4.1.4. Các mô hình trong mô phỏng hệ thống giao thông 
+4.1.4.1. Mô hình Xe Theo Xe - Car Following Model (di chuyển theo phương dọc)  Đây là mô hình xác định vị trí theo phương dọc đường giữa một cặp xe nối đuôi di  chuyển trên cùng một làn xe. Theo mô hình này, sự tương tác theo dạng phản ứng  (response) lại của người lại xe với tác nhân stimulus từ môi trường xung quanh.  responsen(t) = sensitivityn(t) . stimulusn( t –τn ) (4.4)  Phản ứng ở thời điểm t quan sát có nguồn gốc từ tác nhân stimulus gây ra trước đó 1  khoảng τn là thời gian phản ứng của lái xe n. Đây là thời gian nhận biết và thời gian  phản ứng tay chân. Mức độ phản ứng mạnh hay yếu tùy thuộc vào độ nhạy trước ảnh  hưởng tác nhân của lái xe n. 
+4  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+a/ General Motors Car-Following Model 
+Một số mô hình được phát triển, chủ yếu khác nhau trong xác định đại lượng độ nhạy (sensitive). Mô hình đơn giản nhất là mô hình Xe Theo Xe tuyến tính được  Chandler et al 1958, Herman et al 1959 phát triển. Mô hình này sử dụng đại lượng độ nhạy là hằng số. Mô hình giả định gia tốc (phản ứng) a của xe n tại thời điểm t tỷ lệ thuận với vận tốc tương đối ΔV giữa xe trước nó và nó trong dòng xe ở thời điểm t - τ n:  
+an(t) = α.ΔVnfront(t - τ n) (4.5)  Phương trình này cho thấy là độ nhạy của phản ứng là hằng số α và tác nhân kích  thích stimulus là chênh lệch vận tốc giữa 2 xe. Các thông tin cần thiết cho mỗi đối  tượng lái xe bao gồm gia tốc, vận tốc, khoảng cách và vận tốc tương đối so với xe trước.  Các tác giả Herman và Rothery (1965) giả định rằng khả năng giảm tốc của lái xe là  không giống khả năng tăng tốc, do đó, các tác giả này đề nghị độ nhạy phản ứng khác  nhau cho tăng tốc và giảm tốc. Mô hình mở rộng như sau:  
+accelerationn(t) = α1.ΔVnfront(t - τ n)  
+decelerationn(t) = α2.ΔVnfront(t - τ n) (4.6)  Gazis et al (1959) đã giả định phản ứng của lái xe còn phụ thuộc vào khoảng cách  tương đối giữa các xe. Ông đề nghị mô hình ‘có vẻ phi tuyến’ như sau:  
+front 
+τ 
+( ) ( ) 
+Δ − = (4.7) V t 
+a t 
+n 
+n 
+αΔ − 
+n o X t front 
+τ 
+n 
+( ) n 
+Thực chất mô hình này cố gắng thay đổi tính chất hằng số của độ nhạy phản ứng.  Hệ số α chính bằng:  
+α 
+o 
+αΔ − = (4.8)  
+front 
+X t τ 
+n 
+( )n 
+Nghĩa là độ nhạy phản ứng sẽ càng giảm nếu khoảng cách phản ứng của hai xe càng  lớn  
+Một số mô hình xét thêm ảnh hưởng của vận tốc xe đang xét ở thời điểm đang xét, gia  tốc phản ứng sẽ được giả định tính như sau:  
+k 
+front 
+τ 
+( ) ( ) 
+Δ − = (4.9)  V V t 
+n 
+n 
+n 
+a t 
+αΔ − 
+n o X t front 
+τ 
+n 
+b/ Các mô hình phân vùng 
+( ) n 
+Các mô hình nêu trên tương đối đơn giản vì nó chỉ chủ yếu quan tâm đến phản ứng  tăng giảm tốc. Một số mô hình gần đây phân chia phản ứng “theo xe” của lái xe thành  các vùng khác nhau tùy thuộc vào vận tốc tương đối và gián cách thời gian giữa 2 xe  trước sau. Ví dụ Yang và Koutsopoulos (1996) đưa ra mô hình mô phỏng tên là  MIcroscopic Traffic SIMulator (MITSIM) để mô phỏng một mạng lưới đường có đèn  điều khiển, hệ thống quan trắc. Các tác giả này đề nghị người lái xe sẽ được gán vào  một trong ba vùng: chạy tự do (free flowing), nối đuôi (car following) và ngừng khẩn  cấp (emergency decelerating). Mỗi vùng được định nghĩa như sau: 
+5  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+• Vùng chạy tự do: Nếu gián cách thời gian đủ lớn hơn một giá trị ngưỡng định sẵn, các  xe sẽ không tương tác với xe chạy trước nó. Chúng sẽ tăng tốc với gia tốc tối đa hoặc  giảm tốc với gia tốc giảm tùy theo tương quan giữa vận tốc hiện tại và vận tốc lớn nhất  có thể.  
+• Vùng khẩn cấp: Nếu 1 xe có vận tốc nhỏ hơn 1 giá trị ngưỡng định sẵn, xe sẽ giảm tốc  với 1 gia tốc giảm thích hợp để tránh húc đuôi và gia tăng gián cách thời gian với xe  trước.  
+• Vùng nối đuôi: Nếu 1 xe có gián cách thời gian giữa hai ngưỡng nêu trên, nó sẽ chạy  nối đuôi theo xe trước.  
+Mô hình tinh thần-thể trạng của Leutzbach (psycho-physical model/action point model)  Dựa trên những quan điểm về phân vùng, Leutzbach (1998) đề nghị mô hình gián  cách tinh thần-thể trạng và giới thiệu thuật ngữ “ngưỡng nhận biết” để xác định mối liên  hệ trực tiếp giữa ngưỡng vận tốc tương đối và gián cách không gian giữa 2 xe. Khi gián  cách không gian tương đối lớn, ngưỡng vận tốc tương đối sẽ rất lớn có nghĩa là hai xe  không sợ vượt quá giới hạn về sự chênh lệch vận tốc để phải quyết định tăng tốc hay  giảm tốc. Mỗi xe khi ấy chạy tự do không nối đuôi (xem hình 4.1). Khi một xe chạy  nhanh hơn xe trước, khoảng cách không gian giữa nó và xe trước thu ngắn dần cho đến  khi nó đạt đến ngưỡng giảm tốc nhận biết (điểm A). Vì thế, người lái xe sẽ giảm tốc để duy trì một khoảng cách thích hợp đến xe trước. Tuy nhiên, người lái xe không thể thực hiện chính xác động tác này bởi vì anh ta không thể cảm nhận được sự khác  biệt vận tốc nhỏ, dẫn đến khoảng cách 2 xe tăng trở lại. Một lúc sau, khi người lái xe  nhận ra khoảng cách khá xa, đã vượt quá ngưỡng (điểm B), anh ta tăng tốc trở lại và cố gắng đạt tốc độ như ý. Kết quả là khoảng cách hai xe chỉ dao động quanh 1 điểm cân  bằng.  
+
+Hình 4.1: Hành vi của mô hình tinh thần-thể trạng của Leutzbach  
+Mô hình tinh thần-thể trạng của Wiedemann (1974)  
+Wiedemann đề xuất mô hình này để diễn tả hành vi tinh thần-thể trạng của người lái  xe. Quan niệm cơ bản của mô hình này là tài xế của xe chạy nhanh sẽ bắt đầu giảm tốc  nếu anh ta chạm ngưỡng nhận biết là xe đang cách xe trước quá gần. Bởi vì anh ta 
+6  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+không thể xác định chính xác tốc độ của xe trước, tốc độ của anh ta giảm nhanh xuống  dưới vận tốc xe trước khiến anh ta phải bắt đầu tăng nhẹ vận tốc lên. Điều này dẫn đến  quá trình lặp đi lặp lại việc tăng rồi giảm tốc (occilation) (xem hình 4.2).  Hãm phanh
+Hình 4.2: Hành vi của mô hình tinh thần-thể trạng của Wiedemann (theo VISSIM  Manual)  
+Ý tưởng cơ bản của Wiedemann là người lái xe có thể rơi vào 1 trong 4 trạng thái  sau:  
++ Lái tự do: Không bị ảnh hưởng bởi các xe phía trước có thể quan sát được.  Trong trạng thái này, người lái xe cố gắng đạt và duy trì một vận tốc nhất định mà anh  ấy muốn. Thực tế là khó có thể duy trì vận tốc đều mà vận tốc ở trạng thái này có thể lên xuống do việc điều khiển bướm ga không chuẩn.  
++ Trạng thái tiếp cận: Đó là quá trình điều chỉnh vận tốc của xe cho phù hợp với  vận tốc chạy chậm của xe phía trước. Khi tiếp cận, người lái xe giảm vận tốc từ từ cho  đến khi chênh lệch 2 vận tốc là 0 khi anh ta đạt được khoảng cách an toàn với xe trước.  
++ Nối đuôi: Người lái xe nối đuôi xe trước, hoàn toàn không có chủ đích tăng hoặc  giảm tốc. Anh ta cố gắng giữ khoảng cách an toàn với xe trước. Tuy nhiên do việc điều  khiện không chuẩn bướm xăng và ước lượng kém chính xác sự khác biệt vận tốc nên  vận tốc của xe sẽ dao động đôi chút.  
++ Hãm phanh: Nếu khoảng cách hai xe dưới ngưỡng an toàn, người lái xe sau sẽ phải hãm phanh với gia tốc hãm phanh từ trung bình đến cao. Việc này có thể xảy ra khi  xe trước hãm phanh hoặc có một xe nào chuyển làn.  
+Trong mỗi trạng thái, phản ứng gia tốc sẽ tùy thuộc vào vận tốc, vận tốc tương đối,  khoảng cách và đặc điểm cá nhân của đối tượng xe-người lái xe đó. Người lái xe chuyển  từ trạng thái này sang trái thái kia ngay khi anh ta chạm đến một ngưỡng xác định (được  tính bằng vận tốc tương đối và khoảng cách 2 xe). Vận tốc chênh lệch nhỏ thì chỉ có thể 
+nhận biết được khi khoảng cách nhỏ, trong khi chênh lệch vận tốc lớn khiến xe sau phải  phản ứng nhanh hơn. Khả năng nhận biết sự chênh lệch vận tốc, khả năng ước lượng  khoảng cách, vận tốc và khoảng cách an toàn ưu thích là không như nhau giữa những  người lái xe. Sự kết hợp giữa yếu tố tâm lý và thể trạng của mỗi người sẽ quyết định  
+7  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+khả năng nhận thức của người lái xe, do vậy, mô hình này được gọi là mô hình tinh  thần-thể trạng Xe Theo Xe (psycho-physical car following model). 
+4.1.4.2. Mô hình thay đổi làn (di chuyển theo phương ngang)  
+Mô hình thay đổi làn mô phỏng hành vi chuyển làn của các xe đang di chuyển. Quá  trình này cơ bản gồm 2 bước: Quá trình lựa chọn làn và quá trình chuyển làn. Hai quá  trình này được mô hình hóa bằng mô hình lựa chọn làn. Ngoài ra, khi người lái xe quyết  định chuyển làn, anh ta phải quyết định xem gián cách thời gian xe chạy trước và xe  chạy sau xe mình ở làn bên có đảm bảo hay không. Nếu đảm bảo thì sẽ chuyển ngay,  còn nếu không thì phải chờ.  
+a/ Mô hình lựa chọn làn  
+Nhìn chung, có hai kiểu chuyển làn như sau: bắt buộc và tự do. Bắt buộc là việc  chuyển làn phải diễn ra trước khi đến giao lộ phải chuyển hướng theo lộ trình định sẵn.  Tự do là việc chuyển làn để vượt qua xe chạy chậm hơn phía trước.  
+Fritzsche (1994) và phần mềm mô phỏng giao thông CORSIM (FHWA, 1996) giả định rằng việc lựa chọn làn phụ thuộc vào các ngưỡng tâm lý như tốc độ và gián cách.  Gipps (1986a) đã xây dựng một mô hình chọn lựa làn bằng cách sử dụng một tập hợp  các quyết định (rule based models). Trong mô hình này, người lái xe sẽ chọn làn tùy  theo mức độ ưu tiên của những luật này.  
+Các mô hình tiện ích ngẫu nhiên (Random Utility Model) mô phỏng hành vi lựa  chọn làn đã được phát triển bởi MIT. Họ xem việc chuyển làn như một chuỗi các quá  trỉnh ra quyết định, mà trong đó có quyết định đổi làn, việc chọn làn, và gián cách thời  gian an toàn.  
+
+ (4.10) 
+b/ Mô hình lựa chọn gián cách thời gian  
+Mô hình lựa chọn gián cách thời gian đã được phát triển từ thập niên 60 (Herman  and Weiss,1961; Ahmed, 1999). Mô hình cơ bản lựa chọn gián cách thời gian được xem  như là sự lựa chọn nhị nguyên (chọn hoặc không chọn bằng cách so sánh với giá trị giới  hạn). Herman and Weiss (1961) giả định là tần suất xuất hiện gián cách Δt phân bố theo  hàm số mũ:  
+1 2 3 . 3600 . 3600 . 3600 . . . β β t β M t M t M 
+T P Ae B e C e − Δ − Δ − Δ 
+Δ = + + (4.11)  trong đó:  
+ M: cường độ xe chạy trên dòng chính muốn nhập vào 
+8  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+βi: Các hệ số đặc trưng cho mật độ luồng xe  
+A, B, C: Tỷ lệ các trạng thái dòng xe chạy tự do, chạy không hoàn toàn tự do,  và chạy gò bó  
+Khi đó, xác xuất để chuyển làn chính là xác xuất để xuất hiện trên làn xe muốn chuyển  một gián cách thời gian Δt lớn hơn hoặc bằng gián cách thời gian giới hạn là:  
+t M 
+− Δ . 3600 
+β 1 
+t M 
+− Δ 3600 
+β 
+. 2 
+t M 
+− Δ . 3600 
+β 3 
+e P t T A − Δ 
+( ) . 
+e B 
+e C 
+Δ ≥ = (4.12)  
+cr 
+t M 
+− Δ . 3600 
+β 
++ 
+. 
+t M 
+− Δ . 3600 
+β 
++ 
+. 
+t M . 3600 
+β 
+1 
++ 
+e 
+1 2 
+3 
+1 
++ 
+e 
+1 
++ 
+e 
+4.1.4.3.Kết luận 
+Các mô hình truyền thống Xe Theo Xe và chuyển làn được xây dựng dựa trên giả định dòng xe di chuyển theo làn. Các mô hình này không thể mô tả chính xác được đặc  điểm di chuyển của xe máy. Dường như các xe máy không thể hiện cách di chuyển nối  đuôi tới lui. Các xe dường như không phải cố định theo phương ngang rồi chuyển làn,  mà các xe có thể dao động trái phải. Theo phương ngang, các xe máy thường chọn vị trí  cạnh hông xe trước hơn là chính giữa xe trước. Do vậy, các xe máy không cần thiết phải  giảm tốc hoặc hãm phanh mà chỉ cần lách ngang nếu khoảng cách với xe trước nó giảm  đến ngưỡng phải hành động (action point). Một nghiên cứu ở Đài Loan chỉ ra rằng chỉ 
+khoảng 13% xe máy trên đường có hành vi lái nối đuôi theo xe trước.  Đối với ô tô, chiều rộng của gián cách giữa hai xe thường xấp xỉ bằng bề rộng một  làn để xe chuyển làn, chen nhập hoàn toàn vào làn đó, trong khi xe máy không cần rộng  đến thế vì nó có thể di chuyển bên cạnh các xe khác. Việc chuyển làn bắt buộc hay tự do cũng không phải vấn đề đối với xe máy vì nó có độ linh động cao theo phương  ngang trong dòng xe. Nguyên nhân chính là vị trí theo phương ngang của xe máy dường  như là một hàm liên tục chứ không phải là một hành vi chuyển làn đơn thuần.  
+4.2. ITS cho điều khiển giao thông  
+Điều khiển đèn tín hiệu tại giao lộ đô thị có thể được chia thành các chiến lược cho  các giao lộ đơn lẻ hoặc chiến lược cho các cụm giao lộ.  
++ Chiến lược cho các giao lộ đơn lẻ:  
+- Định sẵn chu kỳ và pha (fixed time)  
+- Dạng kích hoạt theo dòng xe (Actuated control): các thời gian này sẽ thu  ngắn, kéo dài tùy theo sự hiện diện kích hoạt của xe đi vào nút giao thông.  + Chiến lược cho cụm các giao lộ:  
+- Dạng không liên thông 
+- Dạng điều chỉnh (Traffic adjusted control): Hệ thống đèn được định những  phương án điều khiển đèn cố định: Tùy thuộc theo tình hình quan trắc được  về lưu lượng mật độ của hướng giao thông chính, hệ thống đèn sẽ sử dụng 
+9  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+phép so sánh đối chiếu xem nó nên sử dụng phương án điều khiển đèn cố định nào cho phù hợp (xem mô hình hình 4.3).  
+- Dạng phản ứng (Traffic Resposive Control): Hệ thống thường có 1 cảm  biến trên một làn của một đường dẫn. Các thông số chu kỳ đèn, thời gian  xanh, và thời gian offset có thể được kích hoạt thay đổi theo mỗi chu kỳ đèn tùy theo tính toán dựa trên thông tin chung về dòng xe được thu thập  bởi từng cảm biến. SCOOT là một ví dụ cho dạng điều khiển này.  
+- Dạng thích ứng (Traffic Adaptive Systems): Đây là dạng sử dụng hai cảm  biến cho một làn. Dạng điều khiển thích ứng về cơ bản không có khái niệm  chu kỳ đèn, thời gian xanh và thời gian offset mà các giá trị này sẽ được tối  ưu hóa việc điều khiển đèn dựa trên dự báo về dòng xe tương lai sử dụng  dữ liệu dòng xe quan trắc hiện tại.  
+Hình 4.3: Mô hình điều khiển đèn dạng điều chỉnh theo các kế hoạch đèn cố định  
+4.2.1. Tín hiệu đèn đơn lẻ thông minh  
+4.2.1.1. Điều khiển đèn kích hoạt  
+Việc điều khiển đèn kích hoạt sử dụng các cảm biến để cung cấp thông tin cho bộ điều khiển. Các cảm biến thường được đặt ở các vị trí vạch dừng (A), trước vạch dừng  (B), làn chờ rẽ trái (C), vị trí để phát hiện xe ưu tiên (D) hoặc xe buýt (E). Người ta  thường sử dụng vòng từ cho việc phát hiện xe, tuy nhiên, các thiết bị dò tìm khác như VIP, vi sóng radar phát hiện xe hiện diện cũng thích hợp sử dụng.  
+Điều khiển đèn kích hoạt có thể dưới dạng toàn phần hoặc bán phần. Trong dạng  kích hoạt bán phần, đèn trên đường chính sẽ hoạt động theo chế độ không kích hoạt,  nghĩa là nó luôn xanh nếu không có xe nào trên đường phụ kích hoạt xin xanh. Vì vậy, 
+10  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+cảm biến chỉ cần lắp đặt trên đường phụ khi có xe muốn băng ngang đường. Nếu không  có xe muốn băng qua đường trên đường phụ, đèn trên đường chính sẽ bật xanh trở lại.  Do vậy, dạng kích hoạt bán phần chỉ thích hợp khi xe trên đường phụ đến giao lộ một  cách ngẫu nhiên hơn là khi xe trên đường phụ đến giao lộ thành từng nhóm (nghĩa là  các giao lộ trên đường phụ nằm cách xa nhau tương đối), lưu lượng trên đường phụ 
+không đều và chỉ bằng khoảng 20% so với đường chính. 
+Dạng kích hoạt toàn phần sử dụng cảm biến cho tất cả các hướng vào nút và cho tất  cả các pha. Nó được sử dụng phổ biến cho các giao lộ độc lập. Vì chu kỳ thay đổi liên  tục, dạng này có thể áp dụng cho cả giao lộ có lác đác xe và cả giao lộ có phân bố xe  không đều theo thời gian.  
+Hình 4.4 & 4.5 mô tả cách bố trí thiết bị cho một nút giao thông sử dụng dạng kích  hoạt toàn phần với các cảm biến đặt tại thượng lưu dòng xe sử dụng cho các pha chính.  Các cảm biến gần vạch dừng sẽ phát hiện các xe nằm trên vạch đi bộ hoặc trước vạch  dừng. Các cảm biến để phát hiện xe ở thượng lưu hoặc cảm biến để phát hiện xe đi  ngang qua sẽ được đặt tương ứng với vận tốc vào nút ước lượng. Chúng được dùng để 
+yêu cầu bật xanh cho đến khi yêu cầu này được đáp ứng. 
+Hình 4.4: Điều khiển đèn kích hoạt độc lập
+11  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Hình 4.5: Bố trí cảm biến cho nút điều khiển kích hoạt toàn phần  
+4.2.2. Kiểm soát tín hiệu đèn liên hoàn  
+Việc kiểm soát tín hiệu đèn liên hoàn cho phép nhóm các xe có thể qua các nút liên  tục trong một khu vực mà không bị dừng (làn sóng xanh). Dạng điều khiển này tỏ ra  hữu hiệu khi dòng xe di chuyển theo nhóm và thời gian đến nút của chúng có thể dự đoán được. Dạng kiểm soát đáng lưu ý là dạng phản ứng, mà trong đó, việc điều khiển  đèn được điều chỉnh sau mỗi chu kỳ căn cứ vào dòng xe quan trắc được từ các hướng.  Việc kiểm soát đèn tín hiệu liên hoàn có thể được tổ chức trong một mạng lưới các  đường chính/nhánh. Mục đích chính là hỗ trợ dòng xe di chuyển trên một hành lang trục  chính có lưu lượng giao thông lớn, tối đa hóa năng lực thông hành cũng như giảm thiểu  chậm trễ của hành lang này.  
+Kiểm soát tín hiệu đèn liên hoàn là kiểm soát thời điểm bật xanh của các đèn tín  hiệu kề liền nhau. Yêu cầu quan trọng trong kiểm soát đèn tín hiệu liên hòa là các nút  giao phải gần nhau, đủ để tạo ra hiện tượng xe đến nút theo nhóm. Các nút giao  thông cách nhau xa không thích hợp cho việc kiểm soát này vì các xe khi di chuyển xa  sẽ có xu hướng phân tán, làm phá vỡ cấu trúc nhóm. Trong những trường hợp này, nút  giao thông nên được xem là đơn lẻ và kiểu xe đến nút được xem là ngẫu nhiên.  
+Để có thể thực hiện được kiểm soát đèn liên hoàn, tất cả các đèn trong cùng hệ thống này phải có cùng chu kỳ (trong một số trường hợp, nếu 1 nút có lưu lượng lớn  hẳn so với các nút khác thì có thể lấy chu kỳ nó bằng 2 lần chu kỳ các nút khác). Việc  này cho phép điểm bắt đầu xanh lệch nhau, như hình 4.6 mô tả. Các đèn được kết nối 
+12  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+với nhau để được đồng bộ hóa. Một bộ điều khiển tổng sẽ gửi xung tín hiệu đến các đèn  thành viên.  
+SC III g5 (40sec) g6(25sec)  
+SC III g5 g (40sec) 6 (25sec)  
+g3 (45sec) g4 (20sec)  
+SC II SC I
+g3 (45sec) g4 (20sec)  g1 35sec ) g ( 2 g (25sec) 1 (35sec) g2 (30sec)  
+g1 35sec ) g ( 2 (25sec)  
+0 t  
+0  
+Chu kỳ 
+Hình 4.6: Bố trí offset cho 3 đèn tín hiệu điều khiển liên hoàn  
+Thời gian offset lý tưởng cho 1 chiều được xác định đơn giản bằng công thức  Olýtưởng = L / V (4.13)  với L là khoảng cách giữa 2 đèn và V là vận tốc trung bình của xe di chuyển theo  nhóm.  
+Nếu thực hiện kích hoạt xanh đồng thời với điều khiển đèn liên hoàn, thông thường  người ta chỉ sử dụng dạng bán phần chỉ để tăng giảm thời gian xanh trên trục chính còn  thời điểm bắt đầu (offset) thì cố gắng duy trì càng nhiều càng tốt.  
+4.2.3. Biểu đồ không gian - thời gian trong kiểm soát đèn liên hoàn  Để thiết kế thời gian offset, người ta có thể dùng biểu đồ không gian- thời gian (hình  4.7); mặc dù hiện tại, người ta chủ yếu dùng mô phỏng giao thông và tối ưu hóa để xác  định giá trị này theo diễn biến hoạt động của đèn. Ta chỉ cần vẽ thời gian xanh có hiệu  (xanh + vàng), thời gian đỏ có hiệu, quỹ đạo của hai xe đầu cuối thì có thể xác định  được thời điểm bắt đầu xanh (T1, T2, T3) của các đèn điều khiển liên hoàn.  
+
+
+
+
+
+
+
+
+Hình 4.7: Biểu đồ không gian – thời gian trong kiểm soát đèn liên hoàn  
+13  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Khái niệm “bandwidth” là lượng thời gian xanh mà có thể cho phép một nhóm các  xe có thể di chuyển xuyên qua các đèn mà không bị dừng lại. Đó chính là thời gian tính  bằng giây giữa xe đầu tiên và xe cuối cùng trong nhóm xe có thể đi xuyên qua nhóm các  đèn điều khiển liên hoàn. Do vậy, khái niệm bandwidth efficiency dùng để xác định tính  hiệu quả của một điều khiển liên hoàn.  
+BW (4.14)  
+bandwidth efficiency = .100% 
+C 
+Một bandwidth ở khoảng 50% thì có thể được xem là hữu hiệu để thực hiện một  điều khiển liên hoàn.  
+Một khái niệm nữa đó là bandwidth capacity định nghĩa số lượng xe/h có thể đi qua  hệ thống đèn điều khiển liên hoàn mà không bị dừng. Nó được xác định bằng cách trước  tiên tính số lượng xe / làn chạy không dừng trong 1 chu kỳ đèn. Giá trị này được tính  bằng bandwidth chia cho gián cách thời gian qua vạch dừng giữa hai xe trong nhóm xe  (discharge headway hoặc saturation headway).  
+BW N bandwidthcapacity . 
+3600. . = (4.15)  
+C h 
+trong đó:  
+BW: bandwidth (giây)  
+N: Số lượng làn theo hướng quan sát  
+C: chu kỳ đèn (giây)  
+h: gián cách thời gian xe thoát qua nút (giây)  
+Ví dụ: Một tuyến đường có hai làn xe cho mỗi chiều NB và SB. Đèn tín hiệu được liên  hoàn cho hướng NB. Vận tốc trung bình xe di chuyển trên tuyến đường (cả hai hướng)  là khoảng 65 km/h hay 18m/s. Chu kỳ đèn và thời gian xanh cho các đèn được cho ở bảng sau.  
+
+
+
+
+
+
+
+Đèn 
+	Chu kỳ 
+	Thời gian xanh 
+	Offset theo hướng  từ A đến C (NB) 
+	A  
+B  
+C 
+	80  
+80  
+80 
+	35  
+45  
+40 
+	0  
+20  
+15 
+	
+
+
+
+1/ Hãy xác định biểu đồ không-gian thời gian cho hệ thống điều khiển liên hoàn này. 
+14  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+2/ Xác định bandwidth capacity và bandwidth efficiency cho các hướng NB và SB.  
+Giải đáp:  
+Vì vận tốc xe là 60 ft/s (18 m/s), nên ta vẽ quỹ đạo xe bằng 1 nét nghiên 60 ft/s.  Biểu đồ không gian – thời gian cho hệ thống 3 đèn điều khiển liên hoàn được vẽ như bên dưới.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đối với hướng NB, giá trị bandwidth theo hình vẽ được xác định bằng 35 giây (min  thời gian xanh của 3 chu kỳ đèn điều khiển liên hoàn cho hướng đó) như vậy,  bandwidth efficiency tính bằng 35 giây /80 giây (%) = 43.75%.  
+3600. . = = 
+BW N 1575 / 
+3600.35.2 
+Bandwidth capacity = xe h 
+C h 
+. 
+80.2 
+Đối với hướng SB, giá trị bandwidth nhỏ hơn nhiều so với hướng NB, chỉ bằng 6  giây theo hình vẽ. Do vậy, bandwidth efficiency chỉ bẳng 6 giây /80 giây (%) = 7.5%  3600. . = = 
+3600.6.2 
+BW N270 / 
+Bandwidth capacity = xe h 
+. 
+C h 
+80.2 
+Như vậy, việc điều khiển đèn liên hoàn cho đường một chiều rất thuận lợi, trong khi  đối với đường hai chiều. Nếu thực hiện như ví dụ trên, chiều SB sẽ không phát huy hiệu  quả mà đôi khi còn bị giảm số lượng xe đi theo làn sóng xanh. Việc này đặc biệt xấu đi  trong trường hợp 2 chiều có vận tốc dòng xe khác nhau. Do vậy, trong việc xác định  offset cho đường 2 chiều, trước tiên chu kỳ đèn phải thỏa điều kiện bằng tổng giá trị 
+offset lý tưởng tính được của mỗi chiều (hình 4.8).  
+C = tNB + t SB (4.16) 
+15  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+t NB t SB
+Hình 4.8: Quan hệ giữa offset của hai chiều  
+Giá trị offset tính được từ (4.13) cho mỗi chiều phải thỏa điều kiện (4.16). Giá trị offset thực áp dụng phải đảm bảo sao lệch ít nhất so với giá trị tính toán (xét ảnh hưởng  lệch của cả hai chiều). Trong thực tế, một số phần mềm mô phỏng GT có tích hợp công  cụ để có thể tối ưu hóa (tối thiểu hóa) sự lệch này.  
+16  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chương 5: 
+QUẢN LÝ SỰ CỐ GIAO THÔNG  
+5.1. Giới thiệu quản lý tai nạn thông minh  
+Chậm trễ và ùn tắc trong giao thông xảy ra ở nước ta phần lớn là do sự cố giao  thông. Nếu có những xung đột trên đường như lấn, băng đường dẫn đến tông va khiến  dòng xe bị dừng lại thì có lẽ đi lại sẽ thuận tiện hơn. Sự cố giao thông được định nghĩa  là những bất thường làm gián đoạn dòng xe đang ‘trôi’ đều. Chúng có thể là vụ va quệt  xe, hay là một sự kiện mà người ta làm gì đó trên đường thay vì dành cho xe lưu thông..  Trong quản lý sự cố giao thông, dựa vào sự biến động của dòng xe, hệ thống có thể tự động nhận biết, quyết định liệu có một sự cố giao thông đang thực sự xảy ra ra hay đó  chỉ là ùn tắc giao thông do đèn giao thông khi lưu lượng tăng nhanh.  
+Quản lý sự cố giao thông bao gồm các công việc:  
++ Xây dựng phát triển hệ thống nhận biết tai nạn thông minh  
++ Quản lý sự vận hành của việc phát hiện sự cố giao thông  
++ Tổ chức phản ứng, ứng cứu để giảm tối thiểu thiệt hại cho sự đi lại  Khi sự cố giao thông ngày một nhiều, xây dựng hệ thống tự động nhận biết xe trở thành mối quan tâm cho nhiều nhà nghiên cứu và thực nghiệm. Tự động nhận biết sự cố giao thông (Automatic Incident Detection, AID) sử dụng nhiều kỹ thuật cảm biến khác  nhau trong việc phát hiện và cung cấp thông tin liên tục về dòng xe. Tuy nhiên, người ta  chủ yếu sử dụng vòng từ hoặc VIP để nhận biết trạng thái của dòng xe tại một khu vực  quan trắc. Theo đó, về cơ bản có hai hướng kỹ thuật trong AID. Một là dùng kỹ thuật  VIP theo dõi từng xe và phán đoán xem liệu xe đó có đang chạy trong trạng thái xáo  trộn không. Cách thứ hai là phân tích và nhận biết sự cố giao thông dựa trên sự bất bình  thường đột ngột của các thông số dòng xe như vận tốc không gian trung bình,  occupancy, gián cách không gian trung bình, chiều dài dòng chờ...Nội dung trong tài  liệu này trình bày về phương pháp phát hiện giao thông dùng thông tin của vòng từ. Việc giải thoát sự cố giao thông và trả lại dòng xe bình thường cần một số bước. Đó  là phát hiện ra, xác nhận, phản ứng, dọn dẹp và tái lập nguyên trạng. Việc phát hiện và  xác nhận sự cố đòi hỏi phải có kỹ thuật cảm biến và liên lạc tốt để có thể nhanh chóng.  Người ta còn dùng CTV để quan trắc một khu vực rộng. Các giải pháp như tuần tra giao  thông, quan trắc bằng không ảnh, điện thoại khẩn cấp ven đường cũng được dùng để xác nhận tai nạn. Thời gian phản ứng là yếu tố chính góp phần giảm tình trạng ùn ứ. Sau  khi vị trí, loại xe, có hay không vật liệu nguy hại bị đổ ra đường và số thương vong  được xác nhận, hệ thống quản lý tai nạn phải gửi lực lượng ứng cứu sớm nhất để di  chuyển người và phương tiện bị nạn ra khỏi hiện trường. Mặc dù hiệu quả ứng dụng ITS  như AID cũng sẽ giúp gia tăng tốc độ phản ứng, tuy nhiên vai trò tổ chức phối hợp ứng  cứu giữa các đơn vị là hết sức quan trọng. 
+1  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+5.2. Các thuật toán tự động nhận biết sự cố giao thông  
+5.2.1.Cơ sơ lý thuyết của việc nhận biết tai nạn  
+a/ Shockwave trong dòng xe  
+Khi năng lực thông hành qua một vị trí nút chai bị giảm đột ngột (do sự cố, giảm số làn xe...) dòng xe ở phía thượng lưu phải hãm phanh giảm tốc. Vị trí dòng xe bắt đầu bị ứ lại (vị trí mà lưu lượng và mật độ thay đổi đột ngột) ngày càng xa điểm nút chai về phía thượng lưu của dòng xe. Ngược lại, tại vị trí vạch dừng, sau khi xanh bật lên, mật  
+độ dòng xe sau nút giao thông ngày càng dãn ra. Đó gọi là hiện tượng có một  shockwave trong dòng giao thông. Đường đỏ trên hình 5.1 có thể di chuyển 2 chiều, nếu  di chuyển cùng chiều với chiều dòng xe, vw có là dương và ngược lại.  vw
+k1v1k2 
+v2 P Q 
+Hình 5.1: Di chuyển của shockwave do sự thay đổi mật độ dòng xe  
+Vận tốc của shockwave được tính bằng công thức:  
+vw −− = (5.1)  
+q q 
+2 1 
+k k 
+2 1 
+trong đó:  
+ qi, ki: lưu lượng và mật độ của dòng xe trước và sau đường đỏ của hình 5.1  
+b/ Đặc điểm của dòng xe khi có một sự cố giao thông  
+Đặc điểm giao thông khi có sự cố giao thông có thể biểu diễn thành 4 vùng như mô  tả ở hình 5.2. Vùng dòng xe A có khoảng cách xa về phía thượng lưu so với vị trí sự cố,  vì thế nó vẫn duy trì dòng xe với tốc độ và mật độ bình thường. Vùng dòng xe B là vùng  nằm trực tiếp trước chỗ tai nạn. Vùng này có sự tiến triển shockwave về phía thượng  lưu dòng xe. Xe di chuyển với vận tốc chậm hơn và mật độ lớn hơn. Nếu lưu lượng lớn  thì dòng chờ xe sẽ xảy ra. Vùng dòng xe C nằm trực tiếp phía sau tai nạn. Các xe di  chuyển nối đuôi chậm do sự hạn chế tăng tốc gây ra bởi sự cố giao thông như hình 5.3.  Tùy theo mức độ giảm năng lực thông hành, mật độ giao thông trong vùng C có thể thấp hơn bình thường, trong khi vận tốc thì lại có thể cao hơn bình thường. Vùng  dòng xe D khá xa so với vị trí sự cố nên trạng thái dòng xe là gần như bình thường  giống như vùng A.  
+2  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+  
+Hình 5.2: Diễn biến trạng thái dòng xe tại các khu vực lân cận sự cố giao thông  
+Hình 5.3: Đặc điểm giao thông khi có 1 tai nạn giao thông (Nguồn: JHK và đồng sự,  1993)  
+5.2.2. Mô hình dự báo sự cố giao thông  
+a/ Mô hình partial least squares regression  
+Đây là kỹ thuật phân tích dữ liệu để xây dựng mối liên hệ các biến phản ứng Y với  các biến giải thích X. Phương pháp có mục đích xác định những yếu tố ẩn mà cấu thành  biến X để có thể giải thích tốt nhất biến phụ thuộc Y. Phương pháp này đơn giản, rõ  ràng nên dễ giải thích quan hệ nhân quả X-Y.  
+X p t p t p t E 
+= + + + + 
+... 
+1 1 2 2 (5.2)  
+h h h 
+y q t q t q t f 
+= + + + + 
+trong đó:  
+1 1 2 2 
+... 
+h h h 
+h là số lượng nhân tố chính mà X có thể được phân tích thành  
+pi là loading values của các biến X  
+ti: biến ẩn, thể hiện quan hệ trung gian ẩn giữa X và y  
+qh là loading values của y  
+X là ma trận chứa thông số của n trường hợp quan trắc, chẳng hạn occupancy, lưu 
+3  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+lượng, tốc độ của dòng xe ở thượng và hạ lưu. Y là vector ghi nhận lại ở từng trường  hợp quan trắc của X, có (1) hay không có (-1) sự cố tai nạn (xem bên dưới).  
+Mô hình sẽ dùng dữ liệu quá khứ để ước lượng xem X và y có thể liên quan với  nhau qua một số h ẩn trung gian (dùng mô hình không gian h chiều và bộ mẫu quan trắc  diễn giải X và y theo t để có được phương sai là cực tiểu nhất). Việc đó có nghĩa là ta  ước lượng được các giá trị qi và pi. Từ đó, có thể tính được trực tiếp y quan hệ với X  thông qua một số biến thành phần của X. Chẳng hạn, y = 0.35 + 0.01x1 - 0.02x2 - 0.01x5 + 0.01x6 
+Khi ta thế bộ X quan trắc được thực tế, ta sẽ tìm được giá trị y. Việc so sánh giá trị y  này với giá trị y ngưỡng sẽ đưa ra phán đoán có hay không một sự cố giao thông.  
+b/ Mô hình Neural Network (NN)  
+NN là hệ thống mô phỏng sinh học bao gồm một mạng lưới toán học các neuron  thần kinh được tổ chức theo lớp. Bằng cách điều chỉnh trọng số của các liên kết mạng  lưới neuron hoặc thay đổi mối liên kết giữa các neuron, mạng NN có thể được “trained”  để có thể xấp xỉ hóa phản ứng của một mô hình phi tuyến phức tạp ở mức độ chính xác  cao. Mạng lưới mô hình có thể được trained bằng cách cung cấp cho mô hình một tập  mẫu các giá trị quan trắc cho đầu vào và đầu ra. Người ta dùng một thuật toán learning  để điều chỉnh các trọng số của mạng lưới làm sao để mô hình mạng lưới có thể cho ra  kết quả dự đoán chính xác nhất. Quá trình này được gọi là giám sát “việc học” của  mạng lưới. Sau khi đã được “trained”, mô hình mạng lưới sẽ được dùng để dự đoán  những trường hợp mới.  
+Loại kiến trúc mạng lưới NN thường dùng trong AID là Multilayer Perceptron  Neural Network (MLP). Như hình 5.4, MLP cơ bản có ba lớp: (1) lớp input; (2) các lớp  hidden; (3) lớp output. Lớp input lấy dữ liệu từ vòng từ, các lớp trung gian xử lý dữ liệu  và lớp output cho tín hiệu dự báo về sự cố giao thông. Việc training giúp mô hình mạng  lưới điều chỉnh các trọng số để có thể phân biệt được trạng thái giao thông không có sự cố và trạng thái đã hoặc sắp xảy ra sự cố giao thông. 
+4  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Input  
+Neurons
+Hidden  Neurons 
+Output  Neurons 
+Hình 5.4: Một mạng Multilayer perceptron Neural Network  
+Ưu điểm quan trọng nhất trong ứng dựng mô hình NN là nó có thể cho kết quả chính xác hơn các mô hình khác. Nó còn có thể thích nghi nhanh chóng với những thay  đổi đặc điểm của địa điểm quan trắc giao thông. Nhược điểm chính của nó là đòi hỏi  một dữ liệu lớn trong quá khứ và tốn kém thời gian để được “trained”.  
+5.2.3. Thuật toán nhận biết sự cố giao thông  
+Thuật toán AID cơ bản phân thành 4 nhóm dựa theo nguyên lý làm việc của thuật  toán: (1) Thuật toán so sánh nhận biết; (2) Thuật toán lý thuyết tai nạn; (3) thuật toán  dựa vào thống kê; (4) thuật toán dựa theo trí tuệ nhân tạo.  
+a/ Thuật toán so sánh nhận biết  
+Đây là thuật toán phổ biến nhất. Thuật toán dựa trên tiền đề là sự cố giao thông xảy  ra sẽ làm tăng mật độ ở thượng lưu dòng xe đồng thời làm giảm mật độ ở hạ lưu dòng  xe. Thuật toán cố gắng phát hiện sự khác biệt giữa “bình thường” và “bất bình thường”  của dòng xe bằng cách liên tục so sánh các giá trị mà nó quan trắc bao gồm lưu lượng,  mật độ và tốc độ ở các trạm với các giá trị ngưỡng. Bước khó nhất trong thuật toán này  đó là xác định (ước lượng) giá trị ngưỡng vì nó khác nhau cho các địa điểm khác nhau.  
+Như vậy, các yếu tố xem xét cho một thuật toán so sánh nhận biết sự cố giao thông:  + Loại cảm biến: Đơn hay kép  
++ Đại lượng kiểm tra: Tốc độ, Occupancy (k), hay lưu lượng  
++ Các giá trị ngưỡng tiêu chuẩn, ví dụ mức độ thay đổi các đại lượng kiểm tra  + Mức độ liên tục, ie. Δt giữa hai lần thu thập dữ liệu để cho ra phán đoán là  ngắn hay dài  
+Thuật toán California thực hiện 3 bước so sánh liên tiếp ba giá trị quan trắc với ba  giá trị ngưỡng để ra quyết định phán đoán. Chúng bao gồm (Occup – Occdown) vs T1,  (Occup – Occdown)/ Occup vs T2, (Occup – Occdown)/ Occdown vs T3. Nếu cả 3 đều lớn hơn  ngưỡng thì tai nạn được xác nhận. Hình 5.5 cho ví dụ thuật toán so sánh nhận biết.  
+5  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+
+Hình 5.5: Thuật toán so sánh đơn giản nhận biết sự cố giao thông  
+Hình 5.6: Thuật toán lý thuyết tai nạn trong nhận biết sự cố giao thông  b/ Thuật toán lý thuyết tai nạn 
+6  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Thuật toán này cố gắng phát hiện sự thay đổi đột ngột một đại lượng quan trắc trong  khi các đại lượng khác vẫn thay đổi đều từ từ. Trong AID, nó quan trắc 3 biến cơ bản  của dòng xe, tốc độ, lưu lượng và occupancy (~ mật độ). Khi thuật toán phát hiện một  sự giảm tốc rõ rệt mà không có sự thay đổi đột ngột tương ứng của occupancy và lưu  lượng, thì xác suất cao là đã có một sự cố giao thông. Bởi vì tai nạn giao thông thường  sinh ra một dòng chờ xe tức thì. Thuật toán này ưu điểm hơn thuật toán so sánh nhận  biết ở chỗ nó quan trắc nhiều đại lượng và so sánh giá trị hiện tại với giá trị trạng thái  trước đó. Hình 5.6 cho ví dụ về một thuật toán lý thuyết tai nạn.  
+c/ Thuật toán dựa vào lý thuyết thống kê  
+Ý tưởng của thuật toán là việc sử dụng toán thống kê và các phương pháp chuỗi thời  gian để dự báo trạng thái sắp tới của dòng xe. Bằng cách so sánh dữ liệu giao thông thực  hiện tại với dữ liệu dự báo, người ta có thể xem các thay đổi khác dự báo được là tai nạn.  Ví dụ như thuật toán ARIMA dùng kỹ thuật phân tích chuỗi thời gian để dự báo ngắn về trạng thái dòng xe dựa trên dữ liệu quan trắc được từ 3 khoảng thời gian trước khoảng  thời gian hiện tại đang xét. Nếu một giá trị quan sát nằm ngoài vùng tin cậy 95% thì có  thể một sự cố giao thông đã xảy ra.  
+5.3. Các tính toán liên quan đến hiệu quả của AID  
+Các chỉ số cơ bản đánh giá một hệ thống AID bao gồm mức độ đoán đúng  (Detection Rate, DR), mức độ báo sai (False Alarm Rate, FAR), Thời gian nhận biết  (Mean Time To Detection, MTTD).  
+Mức độ đoán đúng đánh giá tính hiệu quả của thuật toán AID, DR tính bằng tỷ lệ phần trăm số lượng tai nạn phát hiện được và số lượng tai nạn thực sự xảy ra.  Mức độ báo sai FAR tính bằng tỷ số giữa số lần báo sai trên tổng số lần quan sát. Số lần quan sát được tính bằng thời gian quan sát chia cho thời gian giữa hai lần quyết định  (Δt).  
+Thời gian nhận biết TTD (phút) là khác biệt giữa thời điểm thực sự xảy ra tai nạn và  thời điểm thiết bị thông báo xác nhận có sự cố giao thông.  
+Ba đại lượng này có liên hệ mật thiết với nhau. Chẳng hạn, gia tăng giá trị DR dẫn  đến sự gia tăng FAR tương ứng, nếu TTD có thể cho phép lớn thì giá trị DR và FAR sẽ được cải thiện.  
+Có thể dùng chỉ số Performance Index (PI) để so sánh khả năng xử lý của các thuật  toán AID khác nhau. Nó còn được dùng để hiệu chỉnh giá trị ngưỡng của thuật toán tại  một vị trí quan trắc. Công thức tính giá trị PI như sau:  
+m 
+FAR MTTD DR PI ⋅ ⋅ ⎥⎦⎤ ⎢⎣⎡ − = 100 
+(100 ) (5.3) n p 
+7  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Các giá trị m, n, p được chọn dựa trên tính quan trọng của mỗi chỉ số cơ bản trên.  Giá trị PI càng thấp thì khả năng xử lý của thuật toán đó tốt hơn.  
++ Ví dụ về ước tính lợi ích của việc triển khai hệ thống quản lý sự cố giao thông  Một đường cao tốc 6 làn xe (3 làn mỗi chiều) vận chuyển khoảng 4200 xe/h trong  giờ cao điểm cho hướng quan trọng. Năng lực thông hành 1 làn là 2000 xe/h. Một tai  nạn xảy ra trong 60 phút sẽ làm cản trở 50% năng lực thông hành của tuyến đường này.  Xác định thời gian tiết kiệm được cho người sử dụng đường nếu một hệ thống quản lý  sự cố giao thông được lắp đặt có thể phản ứng để giảm thời gian cản trở còn chỉ 30  phút.  
+Giải đáp:  
+C 
+y 
+ũ 
+SL xe tích l 
+Y2 = 4000 
+Y1 = 3000 
+A 
+Đến 4200  xe/h 
+K/hành  
+3000 xe/h 
+K/hành  6000 xe/h 
+B 
+F
+D E 
+60ph X ph  
+Thời gian 
+a/ Trước tiên xét trường hợp khi chưa lắp đặt hệ thống.  
+Hình trên thể hiện xe đến với tốc độ 4200 xe/h; Trong thời gian xảy ra tai nạn mức  độ giải phóng xe là 3000 xe/h, sau 60 phút xử lý ứng cứu sự cố giao thông, mức độ giải  phóng xe trở lại bình thường 6000 xe/h (3 làn mỗi làn 2000 xe/h). Điểm C là điểm kết  thúc ùn tắc. Để xác định tổng số xe tích lũy chịu ùn tắc, trước tiên ta cần tìm ra vị trí  điểm C. Theo hình trên:  
+Y1 = 3000 xe/h x 60 phút = 3000 xe  
+Ta có Y1 + 6000.X = 4200.(1+X)  
+Suy ra X = 0.667 giờ. Như vậy, Y2 = 6000 x 0.667 = 4000 xe/h.  
+Tổng thời gian dừng chờ do ảnh hưởng bởi ùn tắc được tính bằng giới hạn giữa  đường xe đến và đường xe khởi hành, đó chính bằng diện tích tam giác ABC.  Thời gian dừng chờ = Diện tích ΔABC = DtΔAEC – Dt ΔABD – Dt ΔBDEF –  DtΔBCF = 1000 xe.h  
+b/ Tiếp theo ta xem xét trường hợp khi việc xử lý sự cố giao thông chỉ tốn 30 phút. Tiến  hành tương tự, ta có X = 0.333h. (Xem hình bên dưới)  
+Như vậy, Y1 = 1500 xe, và Y2 = 2000 xe.  
+Tương tự tính diện tích vùng giữa hai đường đến và xuất phát ta được thời gian  dừng chờ bằng 250 xe.h.  
+Như vậy, ta có thể giảm được 75% thời gian dừng chờ nếu lắp đặt hệ thống quản lý  
+8  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+sự cố giao thông.  
+y 
+ũ 
+SL xe tích l 
+Đến 4200  xe/h 
+K/hành  
+3000 xe/h 
+K/hành  6000 xe/h 
+Y2 = 2000 Y1 = 1500
+Tài liệu tham khảo:  
+30ph X ph  
+Thời gian 
+- US. Department of Transport, Federal Highway Administration (2006). Traffic  Detector Handbook. Third edition, Volume 1.  
+- Garber, N. J. & Hoel, L. A. (2002) Traffic & Highway Engineering, 3rd Edition,  Thomson & Nelson.  
+- Hoel, L. A., Garber, N. J. & Sadek, A. W.(2008) Transportation Infrastructure  Engineering, Thomson & Nelson.  
+9  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chương 6: 
+ỨNG DỤNG ITS CHO ƯU TIÊN XE BUÝT  
+6.1. ITS cho ưu tiên giao thông buýt  
+ITS trong giao thông công cộng thực chất là ứng dụng kỹ thuật phát hiện xe buýt lưu  thông trên đường và điều khiển đèn thông minh hỗ trợ xe buýt lưu thông qua giao lộ ưu  tiên. Hệ thống xe buýt được ưu tiên sẽ khuyến khích người dân sử dụng xe buýt, vì nó  không chỉ giúp giảm thời gian đi lại bằng xe buýt mà còn tăng độ tin cậy về thời gian đi  đến của xe buýt. 
+Việc ưu tiên cho xe buýt có thể thực hiện dưới hai dạng chủ động và thụ động. Đối  với dạng thụ động, thời gian xanh ở hướng có xe buýt sẽ tăng thêm tùy theo số lượng xe  buýt so với so lượng các phương tiện khác. Dạng này đặc biệt thích hợp cho những giao  lộ mà bus chỉ đến từ một hướng. Khi đó, thời gian xanh nhiều hơn hỗ trợ cho xe buýt có  nhiều cơ hội qua qua giao lộ. Tuy nhiên, ở giao lộ mà có xe buýt đến từ tất cả các hướng,  phương pháp này sẽ không hiệu quả. Nội dung tiếp theo trong mục này sẽ trình bày chi  tiết hơn về dạng chủ động.  
+Dạng định vị dùng vòng từ 
+Trong dạng chủ động, phương pháp dò tìm xe có tính chọn lọc (selective vehicle  detection, SVD) được sử dụng để phát hiện ra xe buýt đang đến giao lộ nhờ vòng từ đặt  cách đó khoảng 60-100m. Thiết bị bao gồm một vòng từ chôn dưới lòng đường và một  bộ điện tử kỹ thuật số đặc biệt. Bộ điện tử kỹ thuật số này sẽ gửi một tín hiệu kích thích  tần số cao đến vòng từ và nhận lại một tín hiệu sóng riêng, tương ứng với loại xe mà nó  dò tìm, ví dụ như hình 6.1. Tín hiệu này sẽ được một bộ vi xử lý so sánh đặc điểm của  nó với các dạng sóng tương tự của xe buýt đã được lưu trữ sẵn. Nếu việc xử lý xác nhận  đó là xe buýt, nó sẽ gửi yêu cầu đèn điều khiển ưu tiên. 
+
+Hình 6.1: Tín hiệu sóng riêng từ vòng từ cho các loại xe 
+Vòng từ này phải đặt sau trạm dừng xe buýt. Do vậy, việc thiết kế vị trí lắp đặt  vòng từ thường phải cân đối với việc đặt trạm xe buýt nơi có đông hành khách lên  xuống. Những giải pháp điều khiển đèn ưu tiên cho xe buýt như SCOOT cũng cân nhắc  giữa nhu cầu của xe buýt và các loại phương tiện giao thông khác nhằm làm giảm tối  thiểu thời gian trễ của cả hành khách xe buýt và xe cá nhân. 
+1  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Dạng dùng sóng radio  
+Một dạng dò tìm khác đó là sử dụng các trạm radio. Mỗi xe buýt được trang bị một  thiết bị phát sóng radio và mỗi đèn điều khiển có một bộ thu sóng. Vì các đầu phát đến  từ các hướng khác nhau, nên hệ thống phải có chuẩn thu nhận để có thể phân biệt được  hướng đến của buýt cũng như vùng phát hiện phải tương đối hẹp để tránh phát hiện  nhầm buýt của nút lân cận.  
+Dạng định vị xe tự động (Automatic Vehicle Location, AVL) dùng GPS  Hệ thống AVL được thiết kế cho phép theo dõi vị trí các xe buýt theo thời gian thực.  Hệ thống này đo vị trí thực của mỗi xe và truyền về trung tâm quản lý giao thông.  Thông tin này có thể được dùng để gia tăng hiệu quả trong việc điều xe khai thác tuyến;  xác định thông tin xe đến bến; xử lý nhanh những tình huống chậm, tắc tuyến; và gia  tăng độ an toàn cho lái xe và hành khách.  
+Hệ thống dùng GPS là hệ thống phổ biến hiện nay. Cấu trúc của hệ thống ưu tiên xe  buýt hiện tại sử dụng GPS là khá tương tự với nhau. Chúng sử dụng trạm GPS vi sai (differential GPS) để gia tăng độ chính xác trong định vị. Xe buýt được lắp đặt bộ xử lý  máy tính, bộ hiển thị và đầu thu GPS trên xe để lưu dấu vị trí của nó. Trước hành trình,  các lái xe sẽ nhập chi tiết và xác nhận thông tin về tuyến và chuyến xe của mình. Khi xe  di chuyển trên đường, các trạm (GPS differential base station) thu nhận thông tin về sự 
+xuất hiện của xe buýt, chuyển các thông tin ngược lại cho đầu thu GPS để sửa lỗi, định  vị chính xác hơn, đồng thời cũng hiển thị trên bộ hiển thị cho lái xe buýt biết mức độ trễ của chuyến mình đang chạy so với biểu đồ thời gian định sẵn. Lái xe buýt sẽ căn cứ vào  đó để gửi một tín hiệu yêu cầu ưu tiên (kèm mức độ ưu tiên) bằng sóng radio năng  lượng thấp đến hệ thống điều khiển tín hiệu trung tâm, khi xe đi đến một vị trí nhất định  có thể giao tiếp được. Hệ thống này sẽ phân tích tất cả các yêu cầu xin ưu tiên từ các  hướng để quyết định gửi mệnh lệnh đến đèn điều khiển. Hệ thống này cũng sẽ nhận các  kế hoạch thời gian chạy xe đồng thời gửi các báo cáo về trung tâm quản lý giao thông  công cộng mỗi 10 đến 20 giây.  
+GPS  
+differential  
+station 
+AVL 
+Differential  correction  
+value &  
+Priority  
+Request  
+Level 
+Global Positioning  
+Satellites 
+Signal status; Priority request (optional), etc. 
+UTC 
+Signal  
+timings;  
+Local  
+extension  
+permit  
+(optional). 
+Location 
+GPS receiver 
+Priority request 
+Traffic 
+Signal 
+Controller 
+Hình 6.2: Hệ thống định vị xe tự động AVL dùng kỹ thuật GPS
+2  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Hình 6.2 trình bày sự kết hợp làm việc của hệ thống định vị dùng GPS và hệ thống  điều khiển đèn như đã mô tả ở trên. Để thuận tiện, người ta cũng có thể kết hợp trạm  GPS differential base station thành một với hệ thống điều khiển điều khiển tín hiệu  trung tâm. Có một lưu ý là hiện nay phần lớn các trường hợp ưu tiên dạng này chỉ là để 
+hỗ trợ các xe buýt đang bị chậm so với biểu đồ thời gian định trước. 
+6.2. Các kiểu ưu tiên đèn tín hiệu cho xe buýt  
+Việc ưu tiên đèn tín hiệu cho xe buýt được thực hiện bằng cách chuyển trạng thái tín  hiệu ở một giao lộ đễ hỗ trợ cho việc lưu thông của xe buýt. Về cơ bản có hai kiểu ưu  tiên, ưu tiên pre-empt dạng lệnh gọi (recalls) và ưu tiên priority dạng gia hạn  (extensions).  
+Ưu tiên kiểu lệnh gọi hỗ trợ xe buýt bằng cách nhan chóng rút ngắn pha xanh của  hướng giao cắt để nhanh chóng bật xanh cho hướng xe buýt đang vào nút. Sau khi xe  buýt đã qua nút một thời gian, hệ thống đèn tín hiệu tại nút quay trở lại trạng thái cũ.  Dạng này cũng có thể áp dụng để ưu tiên khi đường sắt giao cắt với đường bộ. Trong  khi đó, ưu tiên kiểu gia hạn duy trì thời gian xanh lâu hơn cho đến khi xe buýt qua khỏi  vạch dừng. So với kiểu lệnh gọi, kiểu gia hạn thích hợp hơn trong trường hợp cho giao  lộ đông đúc, với khoảng phát hiện xe buýt là gần so với vạch dừng. Hình 6.3 trình bày  cách tổ chức ưu tiên kiểu lệnh gọi và gia hạn cho xe buýt đi từ một nhánh vào một giao  lộ có 3 nhánh.  
+C 
+C 
+Buýt chỉ đến từ 
+Buýt chỉ đến từ 
+nhánh A 
+A 
+A 
+B 
+B 
+Bình thường 
+Bình thường 
+nhánh A 
+
+
+
+Đèn xanh 
+Đèn xanh mhánh A 
+mhánh A Đèn xanh 
+Đèn xanh nhánh B 
+nhánh B Đèn xanh 
+Đèn xanh nhánh C 
+nhánh C 
+Ưu tiên Gia hạn 
+Ưu tiên Gia hạn 
+Ưu tiên Lệnh gọi 
+Ưu tiên Lệnh gọi 
+Thời điểm phát hiện buýt trên nhánh A 
+Thời điểm phát hiện buýt trên nhánh A 
+Thời điểm buýt qua nút từ nhánh A 
+Thời điểm buýt qua nút từ nhánh A 
+Hình 6.3: Các kiểu ưu tiên tín hiệu cho xe buýt  
+6.3. Các vấn đề ưu tiên khác  
+Điều khiển đèn tín hiệu khi bố trí làn ưu tiên cho xe buýt  
+Các khoảng set back, length, set forward như trên hình 6.4 cần phải bố trí (sơn làn)  thích hợp để không ảnh hưởng đến năng lực thông xe vào nút. Khi bố trí làn xe buýt ưu  tiên, xe rẽ phải (trái) có thể dài hơn chiều dài đoạn set back. Điều này dẫn đến xe đi 
+3  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+thẳng không thể di chuyển vào đoạn set back, và làm giảm lượng xe xếp hàng chờ sau  vạch dừng của làn ưu tiên xe buýt. Giải pháp là dừng sớm hướng đi thẳng đối diện để cho phép dòng rẽ phải (trái) tháo ra sớm hơn hoặc tháo trước dòng rẽ phải (trái) rồi mới  cho xe đối diện đi thẳng.  
+
+Hình 6.4: Làn xe buýt ưu tiên (Lưu ý giao thông bên trái)  
+Đèn tín hiệu phụ pre-signal cho xe buýt  
+Để hỗ trợ xe buýt nhiều hơn, đặc biệt khi muốn ưu tiên cho xe buýt rẽ trái. Trong  trường hợp này, người ta có thể bố trí thêm một đèn tín hiệu phụ trước đèn tín hiệu  chính. Đèn tín hiệu phụ này (chỉ áp dụng cho các xe khác) có thời gian đỏ một khoảng  ngắn vào đầu thời kỳ đỏ của đèn chính. Khoảng thời gian này, khi các xe khác phải  dừng ở vạch dừng phụ trước vạch dừng chính, xe buýt được phép di chuyển tiến lên  phía trước dừng sát vạch dừng chính, trên làn rẽ trái hoặc làn xe đi thẳng. Chỉ sau khi  đèn phụ bật xanh (đèn chính vẫn đỏ), các xe mới được tiến về phía vạch dừng chính.  Việc thiết kế bố trí đèn tín hiệu phụ đòi hỏi vùng vào nút của các xe khác phải đủ rộng,  và thêm không gian đ ể b ố trí mộ t đ ả o nh ỏ d ự ng tr ụ đ èn ph ụ .  
+Tài liệu tham khảo:  
+- Ebooks...  
+- US. Department of Transport, Federal Highway Administration (2006). Traffic  Detector Handbook. Third edition, Volume 1.  
+- Hoel, L. A., Garber, N. J. & Sadek, A. W.(2008) Transportation Infrastructure  Engineering, Thomson & Nelson. 
+4  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Chương 7:  
+XỬ LÝ ẢNH VIDEO TRONG QUAN TRẮC  GIAO THÔNG (VIDEO IMAGE PROCESSING) 
+7.1. Biên và các kỹ thuật dò biên của ảnh  
+7.1.1. Khái niệm về biên ảnh 
+Biên ảnh là một vấn đề chủ yếu trong phân tích ảnh vì các kỹ thuật phân đoạn ảnh  chủ yếu dựa vào biên. Một điểm ảnh có thể coi là điểm biên nếu ở đó có sự thay đổi đột  ngột về độ xám hay độ sáng (gray value). Tập hợp các điểm biên tạo thành biên hay  đường bao ảnh của ảnh (boundary). Biên trong hình ảnh là khu vực dải các điểm có độ 
+sáng/xám tương phản mạnh (có bước nhảy về độ sáng) với các điểm sáng lân cận. Việc  tìm biên cho phép giảm một lượng lớn dữ liệu, chỉ giữ lại những dữ liệu cần thiết nhất  cho việc xử lý một ảnh. Riêng trong quan trắc giao thông, việc phát hiện ra biên ảnh của  phương tiện trong khung hình ghi nhận từ camera cho phép ta ước lượng mật độ dòng  xe khi đánh giá tỷ số giữa số điểm ảnh là biên so với tổng số điểm ảnh trong vùng giới  hạn bởi biên lề đường.  
+Nhìn chung về mặt toán học người ta coi điểm biên của ảnh là điểm có sự biến đổi  đột ngột về độ xám. Như vậy phát hiện biên một cách lý tưởng là xác định được tất cả các đường bao trong các đối tượng. Định nghĩa toán học của biên ở trên là cơ sở cho các  kỹ thuật phát hiện biên. Điều quan trọng là sự biến thiên mức xám giữa các ảnh trong  một vùng thường là nhỏ, trong khi đó biến thiên mức xám của điểm vùng giáp ranh (khi  qua biên) lại khá lớn. Hình 7.1 cho thấy các kiểu đường biên của ảnh thông qua chuyển  biến độ xám.  
+Hình 7.1: Các kiểu biến thiên độ xám ảnh thể hiện biên  
+Việc dò tìm biên trong ảnh về cơ bản có hai nhóm phương pháp: Laplace và  Gradient. Phương pháp Gradient dò tìm giá trị cực trị của đạo hàm bậc nhất của hàm  diễn biến cường độ sáng của ảnh, trong khi phương pháp Laplace tìm kiếm nghiệm của  đạo hàm bậc hai của hàm diễn biến cường độ sáng của ảnh theo vị trí.
+1  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+7.1.2. Kỹ thuật dò tìm biên trong ảnh dùng phương pháp độ dốc (gradient)  Phương pháp Gradient xác định độ dốc hai chiều tại một vị trí của một hình 2D dạng  grayscale. Thuật toán này sử dụng một ma trận mặt nạ nhân chập kích thước khoảng  3x3. Một ma trận dùng để ước lượng gradient ảnh theo chiều ngang, ma trận còn lại ước  lượng theo chiều dọc. Mặt nạ ma trận có kích thước nhỏ hơn nhiều so với kích thước  ảnh. Hai ma trận tương tác với ma trận điểm ảnh bằng phép nhân chập (convolution).  Theo đó mỗi ma trận sẽ trượt ngang dọc theo ảnh ảnh theo hai phương và lần lượt tính  gradient theo từng phương của các điểm tâm trong một lân cận các điểm ảnh.  Điển hình của phương pháp Gradient sử dụng toán tử Prewitt và Sobel có các mặt nạ ma trận như hình 7.2.  
+
+
+-1 
+	0 
+	1
+	-1 
+	0 
+	1
+	
+
+
+
+-1 0 1 
+-1 
+	-1 
+	-1
+	0 
+	0 
+	0
+	
+
+
+
+1 1 1 
+Ngang (hướng x) Dọc (hướng y)  a) Mặt nạ Prewitt (1970)  
+
+
+-1 
+	0 
+	1
+	-2 
+	0 
+	2
+	
+
+
+
+-1 0 1 
+-1 
+	2 
+	-1
+	0 
+	0 
+	0
+	
+
+
+
+1 2 1 
+Ngang (hướng x) Dọc (hướng y)  
+b) Mặt nạ Sobel (1973)  
+Hình 7.2: Các mặt nạ Sobel và Prewitt  
+Giả sử Gx và Gy là 2 ma trận điểm ảnh thu được sau khi nhân chập với 2 mặt nạ theo hai hướng tương ứng. Ma trận điểm ảnh G được tính xấp xỉ theo công thức sau:  
+G=|Gx| + |Gy|  
+③ Thuật toán dò biên theo phương pháp Gradient có thể tóm tắt như sau:  Đầu vào: Ma trận ảnh cần tìm biên, Hai mặt nạ ma trận I1 và I2  
+Đầu ra: Một ma trận ảnh (chứa các đường biên được tìm thấy).  
+Giải thuật của phương pháp Gradient như sau: 
+2  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+ For (mỗi điểm ảnh của ảnh)  
+If (Nếu điểm ảnh nẳm trên đường viền ảnh)  
+Gán giá trị các điểm ảnh trên đường viền ảnh =0 (hoặc bằng màu  
+nền ảnh).  
+ else  
+{ - Tính xấp xỉ Gradient theo chiều x (Gx): nhân chập với  
+mặt nạ I1  
+-Tính xấp xỉ Gradient theo chiều y (Gy): nhân chập với  
+mặt nạ I2  
+-Tính giá trị gradient điểm ảnh theo công thức xấp xỉ G:  
+ G=|Gx|+ |Gy|  
+- Nếu giá trị gradient điểm ảnh G lớn hơn chỉ số màu  
+ngưỡng được chỉ định, G ≥ T, thì gán giá trị ảnh là giá trị 
+màu lớn nhất, bằng 255. Khi đó, ta nói rằng vị trí đó là  
+điểm ảnh biên.  
+} }  
+Phần bên dưới trình bày phép nhân chập của ma trận ảnh vào với một mặt nạ, kết  quả là giá trị điểm ảnh chính giữa của vị trí nhân chập.  
+Ma trận ảnh vào Mặt nạ 
+
+
+a11 
+	a12 
+	a13 
+	.... 
+	a1n
+	a21 
+	a22 
+	a23 
+	.... 
+	a2n
+	a31 
+	a32 
+	a33 
+	.... 
+	a3n
+	.. 
+	
+
+	
+
+	
+
+	.. 
+	.. 
+	
+
+	
+
+	
+
+	.. 
+	
+
+
+
+m11
+	 m12
+	 m13 
+	m21
+	 m22
+	 m23 
+	m31
+	 m32
+	 m33 
+	
+
+
+
+Ma trận ảnh ra sau khi nhân chập 
+b11
+	 b12
+	 b13
+	 .... 
+	b1n
+	b21
+	 b22
+	 b23
+	 .... 
+	b2n
+	b31
+	 b32
+	 b33
+	 .... 
+	b3n
+	.. 
+	
+
+	
+
+	
+
+	.. 
+	.. 
+	
+
+	
+
+	
+
+	.. 
+	
+
+
+
+3  
+Hệ thống Giao thông Thông minh – TS. Văn Hồng Tấn  
+Trong đó:  
+b22=(a11*m11)+ (a12*m12)+ (a12*m13)+ (a21*m21) + (a22*m22) + (a23*m23) +  (a31*m31)+ (a32*m32)+ (a33*m33) .  
+Các giá trị nằm trên đường viền được gán =0 (hay giá trị màu nền).  (b11,b12,...b1n,b11....bn1,b1n...bnn, bn1...bnn)  
+Đây là công thức tính Gx và Gy  
+Để tính giá trị điểm ảnh đầu ra, sử dụng công thức: G=|Gx|+ |Gy|  
+7.1.3. Kỹ thuật dò biên của ảnh theo phương pháp Laplace  
+Để khắc phục hạn chế và nhược điểm của phương pháp Gradient, trong đó sử dụng  đạo hàm riêng bậc nhất người ta nghĩ đến việc sử dụng đạo hàm riêng bậc hai hay toán  tử Laplace. Phương pháp dò biên theo toán tử Laplace hiệu quả hơn phương pháp  Gradient trong trường hợp mức xám biến đổi chậm, miền chuyển đổi mức xám có độ 
+trải rộng.  
+Toán tử Laplace dùng một số kiểu mặt nạ khác nhau nhằm tính gần đúng đạo hàm  riêng bậc hai. Các dạng mặt nạ theo toán tử Laplace bậc 3x3 có thể như bên dưới.  Không giống toán tử Sobel sử dụng hai mặt nạ ma trận 3x3 để tính gradient theo hai  phương, toán từ Laplace chỉ sử dụng một mặt nạ cho đạo hàm bậc hai theo cả hai  phương x và y. Tuy nhiên, đây chỉ là phép xấp xỉ đạo hàm bậc hai, nên phương pháp  này cũng dễ bị sai lệch do noise. 
+③ Thuật toán dò biên theo phương pháp Gradient sử dụng mặt nạ H2 như sau:  Đầu vào: Ma trận ảnh cần tìm biên, Ma trận mặt nạ H2  
+Đầu ra: Một ma trận ảnh G sau khi nhân chập ma trận điểm ảnh (của ảnh cần tìm  biên) với mặt nạ H2 (chứa các đường biên được tìm thấy).  
+Giải thuật  
+ For (mỗi điểm ảnh của ảnh)  
+If (Nếu điểm ảnh nẳm trên đường viền ảnh)  
+Gán giá trị các điểm ảnh trên đường viền ảnh =0 (hoặc bằng màu  
+nền ảnh).  
+ else 
+4

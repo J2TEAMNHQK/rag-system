@@ -1,0 +1,7 @@
+langchain
+langchain-community
+sentence-transformers
+rank-bm25
+transformers
+torch
+gradio

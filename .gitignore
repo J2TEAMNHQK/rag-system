@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+rag_env/
+venv/
+env/
+ENV/
+
+# Vector Database
+chroma_db/
+*.db
+*.sqlite
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Models (downloaded models can be large)
+models/
+*.bin
+*.safetensors
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Cache
+.cache/
+*.cache
+
+# Environment variables
+.env
+.env.local
