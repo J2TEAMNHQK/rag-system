@@ -404,14 +404,14 @@ MIT License - Bạn có thể:
 
 ## 🔖 Changelog
 
-### 📅 Version 1.0.0 (2025-01-17)
+### 📅 Version 1.0.0 (2025-08-17)
 - 🎉 Ra mắt phiên bản đầu tiên
 - ✨ Tính năng tìm kiếm cơ bản
 - 🎨 Giao diện Gradio đẹp mắt
 - 📚 Hỗ trợ multiple documents
 
 ### 🚀 Tính năng sắp tới:
-- 🔊 Hỗ trợ file audio/video
+- 🔊 Hỗ trợ giọng nói
 - 📊 Dashboard analytics
 - 🌐 Multilingual support
 - 📱 Mobile app
