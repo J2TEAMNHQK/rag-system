@@ -392,7 +392,7 @@ MIT License - Bạn có thể:
 *Đội ngũ phát triển đam mê công nghệ AI và Machine Learning*
 
 [![GitHub](https://img.shields.io/badge/GitHub-J2TEAMNHQK-181717?style=for-the-badge&logo=github)](https://github.com/J2TEAMNHQK)
-[![Website](https://img.shields.io/badge/Website-j2team.dev-blue?style=for-the-badge&logo=google-chrome)](https://j2team.dev)
+[![Website](https://img.shields.io/badge/Website-j2team.dev-blue?style=for-the-badge&logo=google-chrome)].
 
 **Cảm ơn bạn đã sử dụng RAG System! ❤️**
 
