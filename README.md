@@ -1,4 +1,4 @@
-# 🤖 RAG System - Hệ thống Tìm kiếm Tài liệu Thông minh
+# 🤖 DEMO RAG System - Hệ thống Tìm kiếm Tài liệu Thông minh
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![Gradio](https://img.shields.io/badge/gradio-5.42.0-orange.svg)
 ![LangChain](https://img.shields.io/badge/langchain-0.3.27-purple.svg)
 
-### 🌟 Hệ thống RAG (Retrieval-Augmented Generation) với giao diện web đẹp mắt
+### 🌟 Hệ thống RAG (Retrieval-Augmented Generation) 
 
 *Tìm kiếm và trả lời câu hỏi từ tài liệu của bạn một cách thông minh và nhanh chóng!*
 
